@@ -199,7 +199,7 @@ permalink: /members/
       <!-- 学生3 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/majun.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">马俊<span class="student-year"> · 2024</span></div>
