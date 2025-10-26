@@ -20,7 +20,7 @@ permalink: /members/
 
     <div class="faculty-row">
       <div class="faculty-photo">
-        <img src="{{ '/assets/img/members/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
+        <img src="{{ '/assets/img/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
       </div>
       <div class="faculty-info">
         <div class="faculty-name">陈晋鹏</div>
