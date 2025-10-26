@@ -20,7 +20,7 @@ title: 首页
       包括WWW, IJCAI等，曾担任国际重要学术期刊、会议审稿人，包括TOIS, TKDE, TNNLS, DKE, KDD, MM, CIKM, DASFAA, GIS等。
     </p>
 
-    <p class="home-cta-title">欢迎加入ACDC大家庭水水水水水水水</p>
+    <p class="home-cta-title">欢迎加入ACDC大家庭</p>
 
     <p>
       目前团队研究方向聚焦推荐系统/模型轻量化/自动驾驶，欢迎相关研究方向同行者加入，
