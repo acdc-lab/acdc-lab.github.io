@@ -1,0 +1,652 @@
+/* --- 页面整体布局：保证页脚在最底 --- */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+               Arial, "Noto Sans", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f8f7; /* 浅灰绿色底 */
+}
+
+/* 统一容器宽度 */
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- 顶部导航，两层结构 --- */
+.site-header {
+  position: fixed;      /* 吸顶 */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* 不要给整体背景色，这样上、下两层可以有不同颜色 */
+  font-size: 15px;
+  line-height: 1.4;
+  border-bottom: 1px solid #d9dfdd;
+}
+
+/* 第一层：LOGO行，白底 */
+.header-top {
+  background-color: #ffffff;
+}
+.header-top-inner {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+/* LOGO 样式（用图片 or 文字） */
+.site-logo {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #003366;
+}
+.logo-img {
+  height: 60px;
+  width: auto;
+}
+.logo-text {
+  color: #003366;
+  letter-spacing: 0.5px;
+}
+
+/* 第二层：菜单行，浅灰底，居中排列 */
+.header-nav {
+  background-color: #f5f8f7;
+  border-top: 1px solid #e0e5e3;
+  border-bottom: 1px solid #d9dfdd;
+}
+
+/* 第二层：菜单行，浅灰底，居中排列 */
+.header-nav {
+  background-color: #f5f8f7;
+  border-top: 1px solid #e0e5e3;
+  border-bottom: 1px solid #d9dfdd;
+  /* 让下方正文离开导航有阴影感的话也可以加一层浅阴影：
+     box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  */
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50px;
+
+  /* 间距由 li 上的 padding 控制，不再用 gap */
+}
+
+/* 单个菜单项容器 */
+.nav-list li {
+  position: relative;          /* 让上方高亮线可以用绝对定位 */
+  padding: 0 44px;             /* <<< 调大左右间距，之前是 gap:24px，现在每项左右24px */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 链接本体 */
+.nav-list li a {
+  color: #6d7780;              /* 深灰而不是纯黑 */
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 8px;            /* 给顶部高亮线留一点空气 */
+  transition: color 0.18s ease;
+}
+
+/* 悬浮/聚焦时，字颜色稍微变蓝灰一点点（可按喜好调） */
+.nav-list li:hover a,
+.nav-list li a:focus {
+  color: #006d7a;              /* 深青蓝感，和上方那条绿线协调 */
+  text-decoration: none;
+}
+
+/* 顶部高亮线：默认透明，hover时出现 */
+.nav-list li::before {
+  content: "";
+  position: absolute;
+  top: 8px;                     /* 这决定线条离文字多近，可微调 */
+  left: 12px;
+  right: 12px;
+  height: 3px;
+  background-color: #20b2aa;   /* 青绿色/水绿色，可以换成你喜欢的色号 */
+  border-radius: 2px;
+  opacity: 0;
+  transform: translateY(-4px); /* 默认稍微上移+隐藏 */
+  transition: all 0.18s ease;
+}
+
+/* hover时显示这条线并下移到位 */
+.nav-list li:hover::before,
+.nav-list li:focus-within::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 搜索图标那一项可以稍微窄一点（可选） */
+.nav-list li.nav-search {
+  padding: 0 16px;
+}
+.nav-list li.nav-search a {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* --- 主体内容区域 --- */
+/* 由于header是fixed，正文需要上内边距把内容往下推开 */
+.page-content {
+  flex: 1;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 160px 16px 40px; /* 顶部预留: LOGO行(64) + 菜单行(48) + 一点空隙 */
+  text-align: center; /* 我们要把正文栏目放在中间 */
+}
+
+/* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
+.home-header-block {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #2f2f2f;
+}
+.home-header-block .en-title {
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.home-header-block .cn-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2f2f2f;
+  margin: 8px 0;
+}
+.home-header-block .divider {
+  color: #2f2f2f;
+  font-size: 20px;
+  line-height: 2;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* 居中正文列 */
+.home-body-centered {
+  display: flex;
+  justify-content: center;
+}
+.home-text-centered {
+  max-width: 1060px;
+  text-align: left; /* 左对齐文字，更好读 */
+  font-size: 20px;
+  color: #444;
+}
+.home-text-centered p {
+  margin-bottom: 1em;
+  text-indent: 0;
+}
+.home-text-centered p strong {
+  color: #007acc;
+  font-weight: 600;
+}
+
+/* “欢迎加入VisDrone大家庭”蓝色小标题 */
+.home-cta-title {
+  color: #007acc;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 32px 0 16px;
+}
+
+/* --- 页脚固定在最底 --- */
+.site-footer {
+  background-color: #eef2f1;
+  border-top: 1px solid #d9dfdd;
+  font-size: 14px;
+  color: #666;
+}
+.footer-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+/* ====== 研究方向区域 ====== */
+.research-section {
+  background-color: #f5f8f7;
+  padding: 60px 16px 80px;
+  text-align: center;
+  color: #1a1a1a;
+  max-width: 1800px;
+  margin: 0 auto;
+  /* 保持和主内容一样的宽度风格 */
+}
+
+/* 标题块 */
+.research-header {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: inherit;
+}
+
+.research-header-en {
+  font-size: 20px;          /* 比正文略小，但是英文字母全大写 */
+  font-weight: 600;
+  color: #424b52;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.research-header-cn {
+  font-size: 36px;          /* 与"团队简介"标题同一个层级感 */
+  font-weight: 600;
+  color: #1f252b;
+  margin-bottom: 12px;
+}
+
+/* “···——” 这行装饰 */
+.research-header-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.research-header-divider .dot {
+  font-size: 20px;
+  line-height: 1;
+  color: #1f252b;
+}
+
+.research-header-divider .line {
+  width: 140px;
+  height: 4px;
+  background-color: #1f252b;
+  border-radius: 2px;
+}
+
+/* 卡片外层布局：三列 */
+.research-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px 40px;             /* 行距24，列距40，接近你截图的分布 */
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* 单个研究方向卡片 */
+.research-card {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* 图片容器+样式（浅灰背景+细边+轻shadow，类似你图3右卡） */
+.research-img-wrapper {
+  width: 100%;
+  height: 240px; /* 关键：统一视觉高度，按你截图的比例大概 220~260 都可以 */
+  background-color: #ffffff;
+  border: 1px solid #d9dfdd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.research-img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* 保持比例，不会被拉伸变形 */
+  display: block;
+}
+
+/* 卡片标题（大模型 / 多模态学习 / 多智能体学习） */
+.research-card-title {
+  font-size: 30px;            /* 根据你现在1.5倍字号方案，22px正文 → 30px这里是主标题级 */
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 24px;
+  line-height: 1.3;
+}
+
+/* Learn More 按钮 */
+.research-btn {
+  display: inline-block;
+  background-color: #1e2a32;   /* 深灰接近海军蓝的按钮底 */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;             /* 按钮文字略小，像截图那样是英文大写 */
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+  transition: background-color 0.15s ease;
+}
+
+.research-btn:hover,
+.research-btn:focus {
+  background-color: #33424f;   /* hover稍微浅一点，给手感 */
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/*member style*/
+
+/* =========================
+   成员页整体
+   ========================= */
+.people-section {
+  background-color: #f5f8f7;
+  padding: 60px 16px 80px;
+  color: #1a1a1a;
+  max-width: 1800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.people-block {
+  margin-bottom: 64px;
+}
+
+.people-block-head {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.people-block-head-en {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5a6168;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.people-block-head-cn {
+  font-size: 32px;
+  font-weight: 600;
+  color: #1f252b;
+  margin-bottom: 8px;
+}
+
+.people-block-head-divider {
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+}
+
+.people-block-head-divider .dots {
+  font-size: 20px;
+  line-height: 1;
+  color: #1f252b;
+  margin-bottom: 4px;
+  letter-spacing: 0.2em;
+}
+
+.people-block-head-divider .line {
+  width: 140px;
+  height: 4px;
+  background-color: #1f252b;
+  border-radius: 2px;
+}
+
+/* =========================
+   FACULTY 区块（单列：大图+介绍）
+   ========================= */
+.faculty-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
+  align-items: flex-start;
+}
+
+.faculty-photo {
+  width: 220px;
+  flex-shrink: 0;
+}
+.faculty-photo img {
+  width: 220px;
+  height: auto;
+  display: block;
+  border: 1px solid #d9dfdd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+}
+
+.faculty-info {
+  flex: 1;
+  min-width: 240px;
+  max-width: 600px;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.faculty-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.faculty-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.faculty-desc {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.faculty-links .faculty-homepage {
+  font-size: 15px;
+  color: #007acc;
+  text-decoration: none;
+}
+.faculty-links .faculty-homepage:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   PHD STUDENT 网格
+   ========================= */
+.student-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  /* 这行定义列数：按截图大约一行4列，如果屏幕不够宽会自动缩成3/2列 */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  column-gap: 24px;
+  row-gap: 40px;
+  align-items: start;
+}
+
+.student-card {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.student-photo img {
+  width: 220px;
+  height: auto;
+  border: 1px solid #d9dfdd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.student-meta {
+  max-width: 220px;
+}
+
+.student-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+.student-year {
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+}
+
+.student-contact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.student-mail-icon {
+  font-size: 20px;
+  line-height: 1;
+  color: #f4a540; /* 接近截图里那种橙色信封 */
+}
+
+.student-home a.homepage-link {
+  font-size: 15px;
+  color: #007acc;
+  text-decoration: none;
+}
+.student-home a.homepage-link:hover {
+  text-decoration: underline;
+}
+
+.student-desc {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+
+/* =========================
+   ALUMNI / 毕业生
+   ========================= */
+.alumni-grid {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+
+  /* 一行多列：和截图类似是5列-左右留空，我们用最小宽度260px自动排 */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  column-gap: 24px;
+  row-gap: 48px;
+  align-items: start;
+}
+
+.alumni-card {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+  max-width: 260px; /* 让文本不会拉得特别宽 */
+}
+
+.alumni-photo img {
+  width: 260px;
+  height: auto;
+  border: 1px solid #d9dfdd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  background-color: #fff;
+  display: block;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.alumni-meta {
+  max-width: 260px;
+}
+
+.alumni-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.alumni-year {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.alumni-contact-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.alumni-mail-icon {
+  font-size: 28px;
+  line-height: 1;
+  color: #f4a540; /* 橙色信封 */
+}
+
+.alumni-dest {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+
+
