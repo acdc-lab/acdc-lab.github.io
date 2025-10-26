@@ -441,7 +441,7 @@ permalink: /members/
         </div>
       </div>
 
-      <!-- 继续复制 alumni-card 添加更多毕业生 -->
+      <!-- 继续复制 alumni-card添加更多毕业生 -->
     </div>
 
   </div>
