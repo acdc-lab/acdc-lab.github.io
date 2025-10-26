@@ -20,7 +20,7 @@ permalink: /members/
 
     <div class="faculty-row">
       <div class="faculty-photo">
-        <img src="{{ '/assets/img/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
+        <img src="{{ '/assets/img/members/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
       </div>
       <div class="faculty-info">
         <div class="faculty-name">陈晋鹏</div>
@@ -54,7 +54,7 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
+          <img src="{{ '/assets/img/members/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
         </div>
         <div class="student-meta">
           <div class="student-name">学生1<span class="student-year"> · 2019</span></div>
@@ -75,7 +75,7 @@ permalink: /members/
       <!-- 学生2 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
+          <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
           <div class="student-name">学生2<span class="student-year"> · 2024</span></div>
@@ -96,7 +96,7 @@ permalink: /members/
       <!-- 学生4 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/members/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">学生4<span class="student-year"> · 2025</span></div>
@@ -117,7 +117,7 @@ permalink: /members/
       <!-- 学生3 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/zhouruichen.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/zhouruichen.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">周瑞臣<span class="student-year"> · 2025</span></div>
@@ -157,7 +157,7 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
+          <img src="{{ '/assets/img/members/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
         </div>
         <div class="student-meta">
           <div class="student-name">学生1<span class="student-year"> · 2023</span></div>
@@ -178,7 +178,7 @@ permalink: /members/
       <!-- 学生2 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
+          <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
           <div class="student-name">学生2<span class="student-year"> · 2023</span></div>
@@ -199,7 +199,7 @@ permalink: /members/
       <!-- 学生3 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">马俊<span class="student-year"> · 2024</span></div>
@@ -220,7 +220,7 @@ permalink: /members/
       <!-- 学生4 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/yangzhenye.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/members/yangzhenye.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">杨臻烨<span class="student-year"> · 2024</span></div>
@@ -241,7 +241,7 @@ permalink: /members/
             <!-- 学生5 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">范静<span class="student-year"> · 2025</span></div>
@@ -262,7 +262,7 @@ permalink: /members/
       <!-- 学生6 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/tujiarui.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/members/tujiarui.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">涂家睿<span class="student-year"> · 2025</span></div>
@@ -283,7 +283,7 @@ permalink: /members/
             <!-- 学生7 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/wenzhiyong.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/wenzhiyong.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">文志勇<span class="student-year"> · 2025</span></div>
@@ -304,7 +304,7 @@ permalink: /members/
             <!-- 学生8 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/fuwenbo.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/fuwenbo.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">付文博<span class="student-year"> · 2025</span></div>
@@ -344,7 +344,7 @@ permalink: /members/
       <!-- 校友1 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/alumni_placeholder_1.jpg' | relative_url }}" alt="姓名A">
+          <img src="{{ '/assets/img/members/alumni_placeholder_1.jpg' | relative_url }}" alt="姓名A">
         </div>
 
         <div class="alumni-meta">
@@ -364,7 +364,7 @@ permalink: /members/
       <!-- 校友2 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/alumni_placeholder_2.jpg' | relative_url }}" alt="姓名B">
+          <img src="{{ '/assets/img/members/alumni_placeholder_2.jpg' | relative_url }}" alt="姓名B">
         </div>
 
         <div class="alumni-meta">
@@ -384,7 +384,7 @@ permalink: /members/
       <!-- 校友3 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/alumni_placeholder_3.jpg' | relative_url }}" alt="姓名C">
+          <img src="{{ '/assets/img/members/alumni_placeholder_3.jpg' | relative_url }}" alt="姓名C">
         </div>
 
         <div class="alumni-meta">
@@ -404,7 +404,7 @@ permalink: /members/
       <!-- 校友4 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/alumni_placeholder_4.jpg' | relative_url }}" alt="姓名D">
+          <img src="{{ '/assets/img/members/alumni_placeholder_4.jpg' | relative_url }}" alt="姓名D">
         </div>
 
         <div class="alumni-meta">
@@ -424,7 +424,7 @@ permalink: /members/
       <!-- 校友5 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/alumni_placeholder_5.jpg' | relative_url }}" alt="姓名E">
+          <img src="{{ '/assets/img/members/alumni_placeholder_5.jpg' | relative_url }}" alt="姓名E">
         </div>
 
         <div class="alumni-meta">
