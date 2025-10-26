@@ -93,27 +93,6 @@ permalink: /members/
         </div>
       </div>
 
-      <!-- 学生3 -->
-      <div class="student-card">
-        <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
-        </div>
-        <div class="student-meta">
-          <div class="student-name">学生3<span class="student-year"> · 2025</span></div>
-
-          <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
-
-          <div class="student-desc">
-            研究方向：多智能体协作 / 自主系统
-          </div>
-        </div>
-      </div>
-
       <!-- 学生4 -->
       <div class="student-card">
         <div class="student-photo">
@@ -131,6 +110,27 @@ permalink: /members/
 
           <div class="student-desc">
             研究方向：大模型 / AIGC for Robotics
+          </div>
+        </div>
+      </div>
+
+      <!-- 学生3 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/zhouruichen.jpg' | relative_url }}" alt="学生3">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">周瑞臣<span class="student-year"> · 2025</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-mail-icon">✉</div>
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：推荐系统 / 模型压缩
           </div>
         </div>
       </div>
@@ -220,7 +220,7 @@ permalink: /members/
       <!-- 学生4 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/yangzhenye.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">杨臻烨<span class="student-year"> · 2024</span></div>
@@ -228,7 +228,7 @@ permalink: /members/
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
             <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
+              <a href="https://acdc-lab.github.io/Alex-bupt/" class="homepage-link">Homepage</a>
             </div>
           </div>
 
@@ -244,7 +244,7 @@ permalink: /members/
           <img src="{{ '/assets/img/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生3<span class="student-year"> · 2025</span></div>
+          <div class="student-name">范静<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -262,10 +262,10 @@ permalink: /members/
       <!-- 学生6 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/tujiarui.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生4<span class="student-year"> · 2025</span></div>
+          <div class="student-name">涂家睿<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -275,7 +275,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：大模型 / AIGC for Robotics
+            研究方向：模型压缩
           </div>
         </div>
       </div>
@@ -283,10 +283,10 @@ permalink: /members/
             <!-- 学生7 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/wenzhiyong.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生3<span class="student-year"> · 2025</span></div>
+          <div class="student-name">文志勇<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -296,7 +296,28 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：多智能体协作 / 自主系统
+            研究方向：时序预测 / 大模型
+          </div>
+        </div>
+      </div>
+
+            <!-- 学生8 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/fuwenbo.jpg' | relative_url }}" alt="学生3">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">付文博<span class="student-year"> · 2025</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-mail-icon">✉</div>
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：推荐系统 / RAG
           </div>
         </div>
       </div>
