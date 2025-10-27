@@ -75,7 +75,7 @@ permalink: /members/
       <!-- 学生2 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
+          <img src="{{ '/assets/img/members/wangtao.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
           <div class="student-name">王涛<span class="student-year"> · 2024</span></div>
@@ -88,7 +88,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：自动驾驶 / 时空建模
+            研究方向：交通流预测 / 时空预测
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ permalink: /members/
       <!-- 学生2 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
+          <img src="{{ '/assets/img/members/majian.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
           <div class="student-name">马健<span class="student-year"> · 2023</span></div>
@@ -191,7 +191,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：智能感知 / 协同决策
+            研究方向：云计算 / 大数据分析
           </div>
         </div>
       </div>
@@ -348,8 +348,8 @@ permalink: /members/
         </div>
 
         <div class="alumni-meta">
-          <div class="alumni-name">姓名A</div>
-          <div class="alumni-year">毕业年份：2017</div>
+          <div class="alumni-name">关华琛</div>
+          <div class="alumni-year">毕业年份：2025</div>
 
           <div class="alumni-contact-row">
             <div class="alumni-mail-icon">✉</div>
@@ -368,8 +368,8 @@ permalink: /members/
         </div>
 
         <div class="alumni-meta">
-          <div class="alumni-name">姓名B</div>
-          <div class="alumni-year">毕业年份：2018</div>
+          <div class="alumni-name">王晋卿</div>
+          <div class="alumni-year">毕业年份：2025</div>
 
           <div class="alumni-contact-row">
             <div class="alumni-mail-icon">✉</div>
@@ -388,48 +388,8 @@ permalink: /members/
         </div>
 
         <div class="alumni-meta">
-          <div class="alumni-name">姓名C</div>
-          <div class="alumni-year">毕业年份：2018</div>
-
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
-
-          <div class="alumni-dest">
-            毕业去向：
-          </div>
-        </div>
-      </div>
-
-      <!-- 校友4 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/alumni_placeholder_4.jpg' | relative_url }}" alt="姓名D">
-        </div>
-
-        <div class="alumni-meta">
-          <div class="alumni-name">姓名D</div>
-          <div class="alumni-year">毕业年份：2018</div>
-
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
-
-          <div class="alumni-dest">
-            毕业去向：
-          </div>
-        </div>
-      </div>
-
-      <!-- 校友5 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/alumni_placeholder_5.jpg' | relative_url }}" alt="姓名E">
-        </div>
-
-        <div class="alumni-meta">
-          <div class="alumni-name">姓名E</div>
-          <div class="alumni-year">毕业年份：2019</div>
+          <div class="alumni-name">余子羽</div>
+          <div class="alumni-year">毕业年份：2025</div>
 
           <div class="alumni-contact-row">
             <div class="alumni-mail-icon">✉</div>
