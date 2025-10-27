@@ -9,32 +9,35 @@ permalink: /members/
   <!-- 指导教师 / FACULTY -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">FACULTY</div>
-      <div class="people-block-head-cn">指导教师</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
+  <div class="people-block-head">
+    <div class="people-block-head-en">FACULTY</div>
+    <div class="people-block-head-cn">指导教师</div>
+    <div class="people-block-head-divider">
+      <span class="dots">...</span>
+      <span class="line"></span>
+    </div>
+  </div>
+
+  <!-- 这一块才是照片 + 介绍 -->
+  <div class="faculty-row">
+
+    <div class="faculty-photo">
+      <img src="{{ '/assets/img/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
     </div>
 
-    <div class="faculty-row">
-      <div class="faculty-photo">
-        <img src="{{ '/assets/img/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
+    <div class="faculty-info">
+      <div class="faculty-name">陈晋鹏</div>
+      <div class="faculty-title">副教授 / 博士生导师</div>
+      <div class="faculty-desc">
+        研究领域：社会媒体与数据挖掘、人工智能及应用、大语言模型。
       </div>
-      <div class="faculty-info">
-        <div class="faculty-name">陈晋鹏</div>
-        <div class="faculty-title">副教授 / 博士生导师</div>
-        <div class="faculty-desc">
-          研究领域：社会媒体与数据挖掘、人工智能及应用、大语言模型。
-        </div>
-        <div class="faculty-links">
-          <a href="https://www.aminer.cn/profile/56145e2b45cedb3397a4d218" class="faculty-homepage">Homepage</a>
-        </div>
+      <div class="faculty-links">
+        <a href="#" class="faculty-homepage">Homepage</a>
       </div>
     </div>
 
   </div>
+</div>
 
 
   <!-- 博士研究生 / PH.D. STUDENT -->

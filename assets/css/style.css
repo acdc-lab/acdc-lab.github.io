@@ -444,32 +444,27 @@ a:hover {
    FACULTY 区块（单列：大图+介绍）
    ========================= */
 .faculty-row {
-  width: fit-content;
-  margin: 0 auto;          /* 整组(照片+文字)保持在页面正中，放在标题下面 */
   display: flex;
   flex-wrap: nowrap;
+
+  /* 两个并排的块（照片 / 文字）之间的水平间距 */
   column-gap: 32px;
 
-  /* 核心改动：把 flex-start 改成 center */
-  align-items: center;     /* 让右侧那一整块文字在垂直方向上与左侧照片居中对齐 */
+  /* 重点：让右边这块文字的垂直中心和左边照片的垂直中心对齐 */
+  align-items: center;
+
+  /* 把这整排放到页面中间（在“指导教师”标题正下方） */
+  width: fit-content;
+  margin: 0 auto;
 }
 
-/* 文字块本身现在可以左对齐，让阅读更自然 */
-.faculty-info {
-  min-width: 260px;
-  max-width: 500px;
-  color: #1a1a1a;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;        /* 从居中改成左对齐，更像学术主页的风格 */
-}
-
+/* 左边导师照片块 */
 .faculty-photo {
-  width: 220px;
+  width: 260px;          /* 可以按你图片的宽度来，220~280 都可以 */
   flex-shrink: 0;
 }
 .faculty-photo img {
-  width: 220px;
+  width: 100%;
   height: auto;
   display: block;
   border: 1px solid #d9dfdd;
@@ -477,13 +472,30 @@ a:hover {
   background-color: #fff;
 }
 
+/* 右边导师信息块 */
+.faculty-info {
+  max-width: 520px;
+  min-width: 260px;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: left;      /* 信息块内部左对齐，更像学术主页 */
+}
+
+/* 姓名 */
 .faculty-name {
   font-size: 20px;
   font-weight: 600;
   color: #1a1a1a;
   margin-bottom: 8px;
+  text-align: left;
 }
 
+/* 职称 */
 .faculty-title {
   font-size: 16px;
   font-weight: 500;
@@ -491,12 +503,14 @@ a:hover {
   margin-bottom: 16px;
 }
 
+/* 研究方向 */
 .faculty-desc {
   font-size: 15px;
   color: #444;
   margin-bottom: 16px;
 }
 
+/* Homepage 链接 */
 .faculty-links .faculty-homepage {
   font-size: 15px;
   color: #007acc;
