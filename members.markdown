@@ -365,7 +365,27 @@ permalink: /members/
       <!-- 校友1 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/alumni_placeholder_1.jpg' | relative_url }}" alt="姓名A">
+          <img src="{{ '/assets/img/members/liuxiaoqian.jpg' | relative_url }}" alt="姓名A">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">刘晓倩</div>
+          <div class="alumni-year">毕业年份：2025</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：阿里巴巴-淘天算法工程师
+          </div>
+        </div>
+      </div>
+
+      <!-- 校友1 -->
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/guanhuachen.jpg' | relative_url }}" alt="姓名A">
         </div>
 
         <div class="alumni-meta">
@@ -377,7 +397,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：美团-推荐算法
+            毕业去向：美团-营销推荐算法
           </div>
         </div>
       </div>
@@ -385,7 +405,7 @@ permalink: /members/
       <!-- 校友2 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/alumni_placeholder_2.jpg' | relative_url }}" alt="姓名B">
+          <img src="{{ '/assets/img/members/wangjinqing.jpg' | relative_url }}" alt="姓名B">
         </div>
 
         <div class="alumni-meta">
@@ -397,7 +417,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：中国移动
+            毕业去向：中电信数智科技有限公司
           </div>
         </div>
       </div>
