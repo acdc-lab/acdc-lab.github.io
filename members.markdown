@@ -233,7 +233,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：推荐系统 / 大模型
+            研究方向：推荐系统 / 生成式大模型
           </div>
         </div>
       </div>
@@ -254,7 +254,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：多智能体协作 / 自主系统
+            研究方向：推荐系统 / 多模态学习
           </div>
         </div>
       </div>
@@ -338,7 +338,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：推荐系统
+            研究方向：时序预测 / 互联网业务识别
           </div>
         </div>
       </div>
@@ -370,7 +370,7 @@ permalink: /members/
 
         <div class="alumni-meta">
           <div class="alumni-name">刘晓倩</div>
-          <div class="alumni-year">毕业年份：2025</div>
+          <div class="alumni-year">毕业年份：2024</div>
 
           <div class="alumni-contact-row">
             <div class="alumni-mail-icon">✉</div>

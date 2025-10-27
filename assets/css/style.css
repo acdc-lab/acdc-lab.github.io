@@ -444,13 +444,16 @@ a:hover {
    FACULTY 区块（单列：大图+介绍）
    ========================= */
 .faculty-row {
-  max-width: 1200px;
+  /* 让这一行（照片 + 文字块）本身根据内容宽度收缩 */
+  width: fit-content;
+
+  /* 然后把这整块居中到页面中间，正好落在“指导教师”下面 */
   margin: 0 auto;
+
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 24px;
-  align-items: flex-start;
+  flex-wrap: nowrap;
+  column-gap: 32px;        /* 照片和文字之间的水平间距，可以按需要调 */
+  align-items: flex-start; /* 照片顶部和文字第一行顶部对齐 */
 }
 
 .faculty-photo {
@@ -611,40 +614,61 @@ a:hover {
 /* =========================
    ALUMNI / 毕业生
    ========================= */
+/* 毕业生整体网格 */
 .alumni-grid {
   max-width: 1800px;
   margin: 0 auto;
-  display: grid;
 
-  /* 一行多列：和截图类似是5列-左右留空，我们用最小宽度260px自动排 */
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  column-gap: 24px;
-  row-gap: 48px;
+  column-gap: 48px;     /* 拉开列间距一点，和你截图里差不多 */
+  row-gap: 64px;        /* 行距更大一点，让每行看起来像独立小卡片 */
   align-items: start;
 }
 
+/* 单个毕业生卡片 */
 .alumni-card {
-  font-size: 15px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
   color: #1a1a1a;
   line-height: 1.5;
-  max-width: 260px; /* 让文本不会拉得特别宽 */
+  font-size: 15px;
 }
 
-.alumni-photo img {
+/* 统一的头像框：固定宽高，所有图片都塞进来并居中裁切 */
+.alumni-photo {
   width: 260px;
-  height: auto;
+  height: 300px;        /* << 关键：统一高度，按你的图大致就是 280~320 之间的感觉 */
   border: 1px solid #d9dfdd;
   box-shadow: 0 2px 4px rgba(0,0,0,0.06);
   background-color: #fff;
-  display: block;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   margin-bottom: 16px;
-  object-fit: cover;
 }
 
+/* 让不同比例的原图自适应放进同一个框 */
+.alumni-photo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;     /* 填满框；可能裁掉一点边缘，但观感最整齐 */
+  display: block;
+}
+
+/* 下方文本区域 */
 .alumni-meta {
   max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;          /* 允许这个块向下撑开，便于footer信息齐平 */
+  text-align: center;    /* 与你的截图一致：名字、年份居中 */
 }
 
+/* 名字 */
 .alumni-name {
   font-size: 20px;
   font-weight: 600;
@@ -652,29 +676,37 @@ a:hover {
   margin-bottom: 4px;
 }
 
+/* 毕业年份 */
 .alumni-year {
   font-size: 15px;
   color: #444;
   margin-bottom: 16px;
 }
 
+/* 信封 + (以后你也可以在这里加 homepage 链接) */
 .alumni-contact-row {
   display: flex;
+  justify-content: center; /* 居中信封图标 */
   align-items: flex-start;
   gap: 8px;
   margin-bottom: 12px;
 }
 
 .alumni-mail-icon {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1;
-  color: #f4a540; /* 橙色信封 */
+  color: #f4a540;      /* 橙色信封，和前面学生区保持一套视觉语言 */
 }
 
+/* 毕业去向 */
 .alumni-dest {
   font-size: 15px;
   color: #1a1a1a;
   line-height: 1.5;
+  text-align: center;
+  /* 如果你想让“毕业去向”永远在卡片最底部，并且所有卡片底线对齐，
+     打开下面这一行 */
+  /* margin-top: auto; */
 }
 
 
