@@ -444,16 +444,24 @@ a:hover {
    FACULTY 区块（单列：大图+介绍）
    ========================= */
 .faculty-row {
-  /* 让这一行（照片 + 文字块）本身根据内容宽度收缩 */
   width: fit-content;
-
-  /* 然后把这整块居中到页面中间，正好落在“指导教师”下面 */
-  margin: 0 auto;
-
+  margin: 0 auto;          /* 整组(照片+文字)保持在页面正中，放在标题下面 */
   display: flex;
   flex-wrap: nowrap;
-  column-gap: 32px;        /* 照片和文字之间的水平间距，可以按需要调 */
-  align-items: flex-start; /* 照片顶部和文字第一行顶部对齐 */
+  column-gap: 32px;
+
+  /* 核心改动：把 flex-start 改成 center */
+  align-items: center;     /* 让右侧那一整块文字在垂直方向上与左侧照片居中对齐 */
+}
+
+/* 文字块本身现在可以左对齐，让阅读更自然 */
+.faculty-info {
+  min-width: 260px;
+  max-width: 500px;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;        /* 从居中改成左对齐，更像学术主页的风格 */
 }
 
 .faculty-photo {
@@ -467,15 +475,6 @@ a:hover {
   border: 1px solid #d9dfdd;
   box-shadow: 0 2px 4px rgba(0,0,0,0.06);
   background-color: #fff;
-}
-
-.faculty-info {
-  flex: 1;
-  min-width: 240px;
-  max-width: 600px;
-  color: #1a1a1a;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .faculty-name {
