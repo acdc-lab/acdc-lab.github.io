@@ -78,7 +78,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生2<span class="student-year"> · 2024</span></div>
+          <div class="student-name">王涛<span class="student-year"> · 2024</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -88,7 +88,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：智能感知 / 协同决策
+            研究方向：自动驾驶 / 时空建模
           </div>
         </div>
       </div>
@@ -157,10 +157,10 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
+          <img src="{{ '/assets/img/members/hejianxiang.jpg' | relative_url }}" alt="学生1">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生1<span class="student-year"> · 2023</span></div>
+          <div class="student-name">贺健翔<span class="student-year"> · 2023</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -170,7 +170,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：多模态学习 / 表征学习
+            研究方向：知识图谱 / 推荐系统
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/phd_placeholder_2.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生2<span class="student-year"> · 2023</span></div>
+          <div class="student-name">马健<span class="student-year"> · 2023</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -241,7 +241,7 @@ permalink: /members/
             <!-- 学生5 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_3.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/fanjing.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">范静<span class="student-year"> · 2025</span></div>
