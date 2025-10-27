@@ -57,7 +57,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生1<span class="student-year"> · 2019</span></div>
+          <div class="student-name">张帆<span class="student-year"> · 2019</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -99,7 +99,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
-          <div class="student-name">学生4<span class="student-year"> · 2025</span></div>
+          <div class="student-name">董顺喜<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -307,7 +307,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/fuwenbo.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
-          <div class="student-name">付文博<span class="student-year"> · 2025</span></div>
+          <div class="student-name">付文博<span class="student-year"> · 2026#</span></div>
 
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
@@ -318,6 +318,27 @@ permalink: /members/
 
           <div class="student-desc">
             研究方向：推荐系统 / RAG
+          </div>
+        </div>
+      </div>
+
+
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/xxxxxx.jpg' | relative_url }}" alt="学生3">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">李骏天<span class="student-year"> · 2026#</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-mail-icon">✉</div>
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：推荐系统
           </div>
         </div>
       </div>
@@ -356,7 +377,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：
+            毕业去向：美团-推荐算法
           </div>
         </div>
       </div>
@@ -376,7 +397,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：
+            毕业去向：中国移动
           </div>
         </div>
       </div>
@@ -396,7 +417,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：
+            毕业去向：阿里巴巴-大模型算法
           </div>
         </div>
       </div>
