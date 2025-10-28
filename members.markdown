@@ -18,7 +18,6 @@ permalink: /members/
     </div>
   </div>
 
-  <!-- 这一块才是照片 + 介绍 -->
   <div class="faculty-row">
 
     <div class="faculty-photo">
@@ -57,7 +56,7 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_1.jpg' | relative_url }}" alt="学生1">
+          <img src="{{ '/assets/img/members/zhangfan.jpg' | relative_url }}" alt="学生1">
         </div>
         <div class="student-meta">
           <div class="student-name">张帆<span class="student-year"> · 2019</span></div>
@@ -70,7 +69,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：多模态学习 / 表征学习
+            研究方向：跨域推荐 / 大语言模型
           </div>
         </div>
       </div>
@@ -99,7 +98,7 @@ permalink: /members/
       <!-- 学生4 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/phd_placeholder_4.jpg' | relative_url }}" alt="学生4">
+          <img src="{{ '/assets/img/members/dongshunxi.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">董顺喜<span class="student-year"> · 2025</span></div>
@@ -112,7 +111,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：大模型 / AIGC for Robotics
+            研究方向：大语言模型 / 多模态
           </div>
         </div>
       </div>
@@ -173,7 +172,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：知识图谱 / 推荐系统
+            研究方向：知识图谱 / 会话推荐
           </div>
         </div>
       </div>
@@ -236,7 +235,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：推荐系统 / 生成式大模型
+            研究方向：生成式推荐 / 生成式大模型
           </div>
         </div>
       </div>
@@ -252,12 +251,12 @@ permalink: /members/
           <div class="student-contact-row">
             <div class="student-mail-icon">✉</div>
             <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
+              <a href="https://acdc-lab.github.io/JingFan-bupt" class="homepage-link">Homepage</a>
             </div>
           </div>
 
           <div class="student-desc">
-            研究方向：推荐系统 / 多模态学习
+            研究方向：会话推荐 / 多模态学习
           </div>
         </div>
       </div>
@@ -278,7 +277,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：模型压缩
+            研究方向：模型轻量化 / 推荐系统
           </div>
         </div>
       </div>
@@ -328,7 +327,7 @@ permalink: /members/
 
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/xxxxxx.jpg' | relative_url }}" alt="学生3">
+          <img src="{{ '/assets/img/members/lijuntian.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
           <div class="student-name">李骏天<span class="student-year"> · 2026#</span></div>
