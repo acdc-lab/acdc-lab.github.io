@@ -724,3 +724,206 @@ a:hover {
 
 
 
+/* ===== 招生页面 recruit ===== */
+
+.recruit-section {
+  background-color: #f5f8f7;
+  max-width: 1200px;        /* 如果你全站内容区是 1800px，可以调成 1800px 保持一致 */
+  margin: 0 auto;
+  padding: 60px 16px 80px;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-size: 18px;          /* 稍大字号，利于整段阅读 */
+}
+
+.recruit-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.recruit-title-cn {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1f252b;
+  margin-bottom: 12px;
+}
+
+.recruit-divider {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.recruit-dots {
+  font-size: 20px;
+  line-height: 1;
+  color: #1f252b;
+  letter-spacing: 0.2em;
+}
+
+.recruit-line {
+  width: 160px;
+  height: 4px;
+  background-color: #1f252b;
+  border-radius: 2px;
+}
+
+/* 正文区域 */
+.recruit-body {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.recruit-paragraph {
+  margin-bottom: 20px;
+  color: #2b2b2b;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+/* 链接和关键词 */
+.recruit-link {
+  color: #006dbe;
+  text-decoration: none;
+  font-weight: 500;
+}
+.recruit-link:hover {
+  text-decoration: underline;
+}
+
+.recruit-body strong {
+  font-weight: 600;
+  color: #000;
+}
+
+/* 列表（1. 2. 3. 4.） */
+.recruit-list {
+  margin: 28px 0 24px 2em;  /* 左缩进可以稍微大点，让数字+文字更舒服 */
+  padding: 0;
+
+  color: #2b2b2b;
+  font-size: 18px;
+  line-height: 1.7;
+
+  list-style-position: outside;
+  text-align: left;        /* 强制整个有序列表左对齐 */
+}
+
+.recruit-list li {
+  margin-bottom: 16px;
+  text-align: left;        /* 再加一层保险，确保 li 自己不继承“居中” */
+}
+
+/* 备注 */
+.recruit-note {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 32px;
+  border-top: 1px solid #d9dfdd;
+  padding-top: 20px;
+}
+
+
+
+/* ===== Publications / 相关成果 ===== */
+
+.pub-section {
+  background-color: #f5f8f7;
+  max-width: 1000px;         /* 1000px 阅读宽度比较舒服，想统一全站可以调到 1200/1800 */
+  margin: 0 auto;
+  padding: 60px 16px 80px;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+/* 顶部标题“论文” */
+.pub-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.pub-title-cn {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f252b;
+  margin-bottom: 8px;
+}
+.pub-divider {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.pub-dots {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  color: #1f252b;
+}
+.pub-line {
+  width: 140px;
+  height: 4px;
+  background-color: #1f252b;
+  border-radius: 2px;
+}
+
+/* 年份标题，比如 2025 */
+.pub-year-block {
+  margin-bottom: 32px;
+}
+.pub-year {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* 论文列表 */
+.pub-list {
+  list-style-position: outside;
+  margin: 0 0 0 1.5em;   /* 给序号留位置 */
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1a1a1a;
+}
+.pub-list li {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+/* 期刊/会议斜体部分 */
+.pub-list em {
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+/* 右侧小链接 [pdf code bibtex] */
+.pub-links {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+.pub-link {
+  color: #007acc;
+  text-decoration: none;
+}
+.pub-link:hover {
+  text-decoration: underline;
+}
+
+/* 让 &nbsp; 型小空格的感觉更接近截图 */
+.pub-links a + a {
+  margin-left: 4px;
+}
+
+
+
+
+

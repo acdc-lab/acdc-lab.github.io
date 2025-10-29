@@ -319,7 +319,7 @@ permalink: /members/
           </div>
 
           <div class="student-desc">
-            研究方向：推荐系统 / RAG
+            研究方向：推荐系统 / 系统攻防
           </div>
         </div>
       </div>
