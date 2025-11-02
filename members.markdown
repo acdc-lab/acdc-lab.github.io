@@ -364,6 +364,101 @@ permalink: /members/
 
     <div class="alumni-grid">
 
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangpei.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张佩</div>
+          <div class="alumni-year">毕业年份：2019</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：广西大学-助理教授
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/maruiyao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">马瑞遥</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：新加坡国立大学-RA，博士生
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/lihaiyang.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">李海洋</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：美团-算法策略岗
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/caoyuan.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">曹源</div>
+          <div class="alumni-year">毕业年份：2023</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：新加坡国立大学-博士生
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangxudong.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张旭东</div>
+          <div class="alumni-year">毕业年份：2024</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：兴业银行总行
+          </div>
+        </div>
+      </div>
+
       <!-- 校友1 -->
       <div class="alumni-card">
         <div class="alumni-photo">
@@ -427,7 +522,7 @@ permalink: /members/
       <!-- 校友3 -->
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/alumni_placeholder_3.jpg' | relative_url }}" alt="姓名C">
+          <img src="{{ '/assets/img/members/yuziyu.jpg' | relative_url }}" alt="姓名C">
         </div>
 
         <div class="alumni-meta">
@@ -440,6 +535,25 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：阿里巴巴-大模型算法
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/liuyingqiu.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">刘应秋</div>
+          <div class="alumni-year">毕业年份：2025</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：好未来-golang开发
           </div>
         </div>
       </div>
