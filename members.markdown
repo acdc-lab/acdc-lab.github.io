@@ -534,7 +534,7 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：阿里巴巴-大模型算法
+            毕业去向：阿里巴巴-ai infra工程师
           </div>
         </div>
       </div>
