@@ -51,7 +51,7 @@ title: 首页
         <img src="{{ '/assets/img/recommend.png' | relative_url }}" alt="推荐系统" />
       </div>
       <div class="research-card-title">推荐系统</div>
-      <a class="research-btn" href="{{ '/research/llm/' | relative_url }}">LEARN MORE</a>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
     <!-- 卡片 2：多模态学习 -->
@@ -60,7 +60,7 @@ title: 首页
         <img src="{{ '/assets/img/multimodal.png' | relative_url }}" alt="多模态学习" />
       </div>
       <div class="research-card-title">多模态学习</div>
-      <a class="research-btn" href="{{ '/research/multimodal/' | relative_url }}">LEARN MORE</a>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
     <!-- 卡片 3：多智能体学习 -->
@@ -69,7 +69,7 @@ title: 首页
         <img src="{{ '/assets/img/multiagent.png' | relative_url }}" alt="多智能体学习" />
       </div>
       <div class="research-card-title">多智能体学习</div>
-      <a class="research-btn" href="{{ '/research/multi-agent/' | relative_url }}">LEARN MORE</a>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
   </div>
