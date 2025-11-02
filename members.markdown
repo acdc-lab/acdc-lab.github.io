@@ -31,7 +31,7 @@ permalink: /members/
         研究领域：社会媒体与数据挖掘、人工智能及应用、大语言模型。
       </div>
       <div class="faculty-links">
-        <a href="#" class="faculty-homepage">Homepage</a>
+        <a href="https://acdc-lab.github.io/jpchen/" class="faculty-homepage">Homepage</a>
       </div>
     </div>
 
