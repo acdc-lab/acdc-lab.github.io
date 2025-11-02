@@ -29,6 +29,15 @@ permalink: /publications/
       </li>
 
       <li>
+        Jinpeng Chen, Huachen Guan, Hongbo Gao, Huan Li, Zhenye Yang, Fan Zhang, Kaimin Wei, Feifei Kou, Xindong Wu.
+        Enhancing Explainable Sequential Recommendation with Disentangled Representations and Auxiliary Review Explanations.
+        <em>IEEE Transactions on Computational Social Systems.</em>
+        <span class="pub-links">
+          [<a href="#" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
         Jinqing Wang, Yuan Cao, Fan Zhang, Feifei Kou, Kaimin Wei, Jinghui Zhang, Jinpeng Chen.
         IDBR: Interaction-Aware Dual-Granularity Learning for Bundle Recommendation.
         <em>Big Data Mining and Analytics.</em>
