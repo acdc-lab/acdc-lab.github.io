@@ -385,6 +385,44 @@ permalink: /members/
 
       <div class="alumni-card">
         <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/gengxinyao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">耿新尧</div>
+          <div class="alumni-year">毕业年份：2021</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：Apple
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangjingyi.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张静怡</div>
+          <div class="alumni-year">毕业年份：2021</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：易方达基金 IT
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
           <img src="{{ '/assets/img/members/maruiyao.jpg' | relative_url }}" alt="姓名C">
         </div>
 
@@ -423,6 +461,44 @@ permalink: /members/
 
       <div class="alumni-card">
         <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhouyaoyao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">周瑶瑶</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：阿里巴巴集团-后端开发工程师
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/huhalei.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">胡哈蕾</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：华为-软件开发工程师
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
           <img src="{{ '/assets/img/members/caoyuan.jpg' | relative_url }}" alt="姓名C">
         </div>
 
@@ -436,6 +512,63 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：新加坡国立大学-博士生
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/luanhouyun.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">栾厚蕴</div>
+          <div class="alumni-year">毕业年份：2023</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：牵手未来_算法工程师
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/luanhouyun.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">许祎</div>
+          <div class="alumni-year">毕业年份：2023</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：阿里巴巴-推荐广告算法
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/wangbojie.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">王博杰</div>
+          <div class="alumni-year">毕业年份：2023</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：智谱AI-大模型算法
           </div>
         </div>
       </div>
@@ -534,14 +667,186 @@ permalink: /members/
           </div>
 
           <div class="alumni-dest">
-            毕业去向：阿里巴巴-ai infra工程师
+            毕业去向：华为-ai infra工程师
           </div>
         </div>
       </div>
 
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/liuyingqiu.jpg' | relative_url }}" alt="姓名C">
+          <img src="{{ '/assets/img/members/jingran.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">井然</div>
+          <div class="alumni-year">毕业年份：2025</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：中航信移动科技股份有限公司-软件工程师
+          </div>
+        </div>
+      </div>
+
+      <!-- 继续复制 alumni-card添加更多毕业生 -->
+    </div>
+
+  </div>
+
+
+   <div class="people-block">
+
+    <div class="people-block-head">
+      <div class="people-block-head-en">B.S. STUDENT</div>
+      <div class="people-block-head-cn">本科生（科研助手）</div>
+      <div class="people-block-head-divider">
+        <span class="dots">...</span>
+        <span class="line"></span>
+      </div>
+    </div>
+
+    <div class="alumni-grid">
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/hetong.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">贺桐</div>
+          <div class="alumni-year">毕业年份：2017</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：腾讯-游戏开发
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/dengyutong.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">邓宇彤</div>
+          <div class="alumni-year">毕业年份：2020</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：留学
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/xiongbotao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">熊博韬</div>
+          <div class="alumni-year">毕业年份：2021</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：四川电信-AI工程师
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/chenyutao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">陈昱滔</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：澳门大学-博士生
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/zhaochaowei.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张超伟</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：厦门建发-信息岗
+          </div>
+        </div>
+      </div>
+
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/zhuxiao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">朱霄</div>
+          <div class="alumni-year">毕业年份：2024</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：香港科技大学（广州）
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/huangtianrui.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">黄天瑞</div>
+          <div class="alumni-year">毕业年份：2025</div>
+
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+
+          <div class="alumni-dest">
+            毕业去向：中国科学院大学软件学院
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/bs_students/liuyingqiu.jpg' | relative_url }}" alt="姓名C">
         </div>
 
         <div class="alumni-meta">
@@ -562,7 +867,6 @@ permalink: /members/
     </div>
 
   </div>
-
 
 
 </section>
