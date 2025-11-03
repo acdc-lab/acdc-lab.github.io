@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="932fbfee-ca9f-4a92-8943-d1a918b8e483" name="更改" comment="1.2 version">
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/chenyutao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/dengyutong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/hetong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/huangtianrui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/xiongbotao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/zhaochaowei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/bs_students/zhuxiao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/gengxinyao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/huhalei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/jingran.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/luanhouyun.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/wangbojie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/xuyi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/zhangjingyi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/members/zhouyaoyao.jpg" afterDir="false" />
+    <list default="true" id="932fbfee-ca9f-4a92-8943-d1a918b8e483" name="更改" comment="1.3 version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/members/liuyingqiu.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/members/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/members/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/members/liuyingqiu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/members/bs_students/liuyingqiu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/members.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/members.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,34 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/17297/web-acdc/assets/img/members",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/17297/web-acdc/assets/img/members&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\17297\web-acdc\assets\img\members" />
+      <recent name="C:\Users\17297\web-acdc\assets\img\members\bs_students" />
       <recent name="C:\Users\17297\web-acdc\assets\img\research" />
       <recent name="C:\Users\17297\web-acdc\assets\img\news" />
-      <recent name="C:\Users\17297\web-acdc\assets\img\members" />
       <recent name="C:\Users\17297\web-acdc\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17297\web-acdc\assets\img\members\bs_students" />
       <recent name="C:\Users\17297\web-acdc" />
       <recent name="C:\Users\17297\web-acdc\_posts" />
     </key>
@@ -138,7 +119,8 @@
       <workItem from="1762070196109" duration="141000" />
       <workItem from="1762073409793" duration="52000" />
       <workItem from="1762074123403" duration="859000" />
-      <workItem from="1762162222521" duration="1999000" />
+      <workItem from="1762162222521" duration="2837000" />
+      <workItem from="1762167887093" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="0.1 version">
       <option name="closed" value="true" />
@@ -332,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762073451181</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.3 version">
+      <option name="closed" value="true" />
+      <created>1762164246641</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1762164246641</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +356,7 @@
     <MESSAGE value="1.0 version" />
     <MESSAGE value="1.1 version" />
     <MESSAGE value="1.2 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 version" />
+    <MESSAGE value="1.3 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3 version" />
   </component>
 </project>

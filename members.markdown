@@ -537,7 +537,7 @@ permalink: /members/
 
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/luanhouyun.jpg' | relative_url }}" alt="姓名C">
+          <img src="{{ '/assets/img/members/xuyi.jpg' | relative_url }}" alt="姓名C">
         </div>
 
         <div class="alumni-meta">
