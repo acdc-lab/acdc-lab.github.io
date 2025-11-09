@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-03T19:06:13+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ACDC Lab</title><subtitle>数据挖掘/多模态/模型轻量化</subtitle><entry><title type="html">ACDC网站正式发布</title><link href="http://localhost:4000/news/2025/11/02/acdc-website-launch.html" rel="alternate" type="text/html" title="ACDC网站正式发布" /><published>2025-11-02T00:00:00+08:00</published><updated>2025-11-02T00:00:00+08:00</updated><id>http://localhost:4000/news/2025/11/02/acdc-website-launch</id><content type="html" xml:base="http://localhost:4000/news/2025/11/02/acdc-website-launch.html"><![CDATA[<p>我们很高兴地宣布，<strong>ACDC 网站</strong> 今日正式上线！<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-09T12:36:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ACDC Lab</title><subtitle>数据挖掘/多模态/模型轻量化</subtitle><entry><title type="html">DiMA 入选 AAAI 2026（Oral）</title><link href="http://localhost:4000/news/2025/11/09/acdc-aaai.html" rel="alternate" type="text/html" title="DiMA 入选 AAAI 2026（Oral）" /><published>2025-11-09T00:00:00+08:00</published><updated>2025-11-09T00:00:00+08:00</updated><id>http://localhost:4000/news/2025/11/09/acdc-aaai</id><content type="html" xml:base="http://localhost:4000/news/2025/11/09/acdc-aaai.html"><![CDATA[<p>我们欣喜的宣布：团队论文 <strong>DiMA（Distinguishing Resident and Tourist Preferences via Multi-Modal LLM Alignment for Out-of-Town Cross-Domain Recommendation）</strong> 入选 <strong>AAAI 2026</strong> 并获 <strong>Oral</strong> 报告！</p>
+
+<p><strong>作者：</strong> Fan Zhang, Jinpeng Chen, Tao Wang, Huan Li, Senzhang Wang, Feifei Kou, Ji Ye, Kaimin Wei, Zhenye Yang</p>
+
+<p><strong>工作亮点（基于论文摘要）：</strong> DiMA 面向“异地出行（OOT）推荐”中的重排任务，针对两大瓶颈——<strong>跨模态推理困难</strong>与<strong>常住/游客偏好偏移</strong>——提出一套端到端的多模态 LLM 对齐与教师-学生蒸馏框架：</p>
+
+<ul>
+  <li><strong>多模态对齐：</strong> 先利用 MLLM/LLM 将 POI 的图像与文本<strong>统一映射为结构化语义标签</strong>，从而支持跨模态对比与高效下游推理。</li>
+  <li><strong>偏好解耦：</strong> 设计 <strong>CoT（Chain-of-Thought）</strong> 推理流程，由“教师”LLM 从<strong>常住城市</strong>与<strong>旅行城市</strong>历史中<strong>区分并综合“游客模式”偏好</strong>，据此对候选 POI 进行重排。</li>
+  <li><strong>高效落地：</strong> 以 <strong>SFT→DPO</strong> 两阶段训练“学生”小模型，<strong>学习并有望超越教师</strong>的重排逻辑，实现<strong>低时延</strong>推理，显著提升 OOT 重排表现。</li>
+  <li><strong>实验结果：</strong> 在真实多城数据上，DiMA 对多种强基线的 <strong>NDCG@K/MAP@K</strong> 均有显著提升。</li>
+</ul>
+
+<blockquote>
+  <p>欢迎持续关注后续论文与代码资源更新！</p>
+</blockquote>]]></content><author><name></name></author><category term="news" /><summary type="html"><![CDATA[我们欣喜的宣布：团队论文 DiMA（Distinguishing Resident and Tourist Preferences via Multi-Modal LLM Alignment for Out-of-Town Cross-Domain Recommendation） 入选 AAAI 2026 并获 Oral 报告！]]></summary></entry><entry><title type="html">ACDC网站正式发布</title><link href="http://localhost:4000/news/2025/11/02/acdc-website-launch.html" rel="alternate" type="text/html" title="ACDC网站正式发布" /><published>2025-11-02T00:00:00+08:00</published><updated>2025-11-02T00:00:00+08:00</updated><id>http://localhost:4000/news/2025/11/02/acdc-website-launch</id><content type="html" xml:base="http://localhost:4000/news/2025/11/02/acdc-website-launch.html"><![CDATA[<p>我们很高兴地宣布，<strong>ACDC 网站</strong> 今日正式上线！<br />
 网站将持续发布团队新闻、论文、项目与数据资源更新，欢迎收藏与关注。</p>
 
 <ul>
