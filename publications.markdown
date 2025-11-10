@@ -69,7 +69,7 @@ permalink: /publications/
         STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational Recommendation.
         <em>CIKM 2025.</em>
         <span class="pub-links">
-          [<a href="#" class="pub-link">PDF</a>]
+          [<a href="https://dl.acm.org/doi/10.1145/3746252.3761186" class="pub-link">PDF</a>]
         </span>
       </li>
 
