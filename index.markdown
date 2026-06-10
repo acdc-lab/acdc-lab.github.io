@@ -3,6 +3,17 @@ layout: default
 title: 首页
 ---
 
+<!-- Hero Banner -->
+<div class="hero-banner">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <h1 class="hero-title">ACDC Lab</h1>
+    <p class="hero-subtitle">Advanced Computing & Data-Centric Intelligence</p>
+    <p class="hero-affil">北京邮电大学  ·  计算机学院</p>
+  </div>
+</div>
+
 <div class="home-header-block">
   <div class="en-title">GROUP HOMEPAGE</div>
   <div class="cn-title">团队简介</div>

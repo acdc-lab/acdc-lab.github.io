@@ -65,6 +65,15 @@ a:hover {
   height: 60px;
   width: auto;
 }
+.logo-affiliation {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7a8a9a;
+  letter-spacing: 0.04em;
+  margin-left: 10px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+}
 .logo-text {
   color: #003366;
   letter-spacing: 0.5px;
@@ -174,6 +183,75 @@ a:hover {
   margin: 0 auto;
   padding: 160px 16px 40px; /* 顶部预留: LOGO行(64) + 菜单行(48) + 一点空隙 */
   text-align: center; /* 我们要把正文栏目放在中间 */
+}
+
+/* ===== Hero Banner (首页全宽背景图) ===== */
+.hero-banner {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);   /* 突破父容器 .page-content 的宽度限制 */
+  margin-top: -160px;               /* 抵消 page-content 的顶部 padding */
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* 背景图层 */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, #0a1628 0%, #1a2a4a 40%, #0d2137 100%);
+  background-size: cover;
+  background-position: center 30%;
+  z-index: 0;
+  /* 备用图片背景：在 assets/img/ 下放置 bupt-bg.jpg 后取消下行注释 */
+  /* background-image: url('../img/bupt-bg.jpg'); */
+}
+
+/* 暗色遮罩 */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+/* 文字层 */
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 24px;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 16px;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 12px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+}
+
+.hero-affil {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+  letter-spacing: 0.06em;
 }
 
 /* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
