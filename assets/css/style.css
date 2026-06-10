@@ -2,6 +2,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 body {
   display: flex;
@@ -194,6 +195,13 @@ a:hover {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+/* 移动端禁用视差（iOS Safari 不支持 fixed 背景） */
+@media (max-width: 768px) {
+  .hero-banner {
+    background-attachment: scroll;
+  }
 }
 
 /* 文字层 */
