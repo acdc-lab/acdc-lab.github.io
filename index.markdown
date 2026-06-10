@@ -4,13 +4,12 @@ title: 首页
 ---
 
 <!-- Hero Banner -->
-<div class="hero-banner">
-  <div class="hero-bg"></div>
+<section class="hero-banner">
   <div class="hero-inner">
     <h1 class="hero-title">ACDC Lab</h1>
     <p class="hero-subtitle">Advanced Cross-media Data Computing Group</p>
   </div>
-</div>
+</section>
 
 <div class="home-header-block">
   <div class="en-title">GROUP HOMEPAGE</div>
