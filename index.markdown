@@ -6,7 +6,6 @@ title: 首页
 <!-- Hero Banner -->
 <div class="hero-banner">
   <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
   <div class="hero-inner">
     <h1 class="hero-title">ACDC Lab</h1>
     <p class="hero-subtitle">Advanced Cross-media Data Computing Group</p>

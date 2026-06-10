@@ -208,15 +208,7 @@ a:hover {
   background-size: cover;
   background-position: center 30%;
   z-index: 0;
-  background-image: url('https://news.bupt.edu.cn/__local/C/11/E2/8B1DA91256AB334B02FBF646269_C647A11D_4FFC5.jpg');
-}
-
-/* 暗色遮罩 */
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: 1;
+  background-image: url('../img/bupt-bg.jpg');
 }
 
 /* 文字层 */
@@ -233,25 +225,17 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.06em;
   margin: 0 0 16px;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 16px rgba(0,0,0,0.7), 0 0 40px rgba(0,0,0,0.4);
 }
 
 .hero-subtitle {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.04em;
-  color: rgba(255,255,255,0.85);
-  margin: 0 0 12px;
-  font-family: "Georgia", "Times New Roman", serif;
-  font-style: italic;
-}
-
-.hero-affil {
-  font-size: 18px;
-  font-weight: 400;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.90);
   margin: 0;
-  letter-spacing: 0.06em;
+  font-family: "Georgia", "Times New Roman", serif;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.6);
 }
 
 /* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
