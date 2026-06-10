@@ -80,21 +80,11 @@ a:hover {
   letter-spacing: 0.5px;
 }
 
-/* 第二层：菜单行，浅灰底，居中排列 */
+/* 第二层：菜单行，白底，居中排列 */
 .header-nav {
-  background-color: #f5f8f7;
+  background-color: #ffffff;
   border-top: 1px solid #e0e5e3;
   border-bottom: 1px solid #d9dfdd;
-}
-
-/* 第二层：菜单行，浅灰底，居中排列 */
-.header-nav {
-  background-color: #f5f8f7;
-  border-top: 1px solid #e0e5e3;
-  border-bottom: 1px solid #d9dfdd;
-  /* 让下方正文离开导航有阴影感的话也可以加一层浅阴影：
-     box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-  */
 }
 
 .site-nav {
@@ -183,32 +173,33 @@ a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 160px 16px 40px; /* 顶部预留: LOGO行(64) + 菜单行(48) + 一点空隙 */
-  text-align: center; /* 我们要把正文栏目放在中间 */
+  text-align: center;
 }
 
-/* ===== Hero Banner (首页全宽背景图) ===== */
+/* ===== Hero Banner (全屏视差) ===== */
 .hero-banner {
   position: relative;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);   /* 突破父容器 .page-content 的宽度限制 */
-  margin-top: -160px;               /* 抵消 page-content 的顶部 padding */
-  height: 520px;
+  margin-left: calc(-50vw + 50%);
+  margin-top: -160px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-/* 背景图层 */
+/* 背景图层：fixed 实现视差效果 */
 .hero-bg {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(135deg, #0a1628 0%, #1a2a4a 40%, #0d2137 100%);
-  background-size: cover;
-  background-position: center 30%;
-  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url('../img/bupt-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
 }
 
 /* 文字层 */
@@ -240,8 +231,12 @@ a:hover {
 
 /* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
 .home-header-block {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
   text-align: center;
-  margin-bottom: 32px;
+  padding-top: 48px;
+  margin-bottom: 0;
   color: #2f2f2f;
 }
 .home-header-block .en-title {
@@ -267,12 +262,16 @@ a:hover {
 
 /* 居中正文列 */
 .home-body-centered {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
   display: flex;
   justify-content: center;
+  padding-bottom: 56px;
 }
 .home-text-centered {
   max-width: 1060px;
-  text-align: left; /* 左对齐文字，更好读 */
+  text-align: left;
   font-size: 20px;
   color: #444;
 }
@@ -310,13 +309,14 @@ a:hover {
 
 /* ====== 研究方向区域 ====== */
 .research-section {
+  position: relative;
+  z-index: 1;
   background-color: #f5f8f7;
   padding: 60px 16px 80px;
   text-align: center;
   color: #1a1a1a;
   max-width: 1800px;
   margin: 0 auto;
-  /* 保持和主内容一样的宽度风格 */
 }
 
 /* 标题块 */
