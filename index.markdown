@@ -9,8 +9,7 @@ title: 首页
   <div class="hero-overlay"></div>
   <div class="hero-inner">
     <h1 class="hero-title">ACDC Lab</h1>
-    <p class="hero-subtitle">Advanced Computing & Data-Centric Intelligence</p>
-    <p class="hero-affil">北京邮电大学  ·  计算机学院</p>
+    <p class="hero-subtitle">Advanced Cross-media Data Computing Group</p>
   </div>
 </div>
 

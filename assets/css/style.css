@@ -66,13 +66,14 @@ a:hover {
   width: auto;
 }
 .logo-affiliation {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   color: #7a8a9a;
-  letter-spacing: 0.04em;
-  margin-left: 10px;
+  letter-spacing: 0.03em;
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 2px solid #c8d6d3;
   font-family: "Georgia", "Times New Roman", serif;
-  font-style: italic;
 }
 .logo-text {
   color: #003366;
@@ -207,8 +208,7 @@ a:hover {
   background-size: cover;
   background-position: center 30%;
   z-index: 0;
-  /* 备用图片背景：在 assets/img/ 下放置 bupt-bg.jpg 后取消下行注释 */
-  /* background-image: url('../img/bupt-bg.jpg'); */
+  background-image: url('https://news.bupt.edu.cn/__local/C/11/E2/8B1DA91256AB334B02FBF646269_C647A11D_4FFC5.jpg');
 }
 
 /* 暗色遮罩 */
