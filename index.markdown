@@ -59,29 +59,29 @@ title: 首页
 
     <!-- 卡片 1：大模型 -->
     <div class="research-card">
+      <div class="research-card-title">推荐系统</div>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
       <div class="research-img-wrapper">
         <img src="{{ '/assets/img/recommend.png' | relative_url }}" alt="推荐系统" />
       </div>
-      <div class="research-card-title">推荐系统</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
     <!-- 卡片 2：多模态学习 -->
     <div class="research-card">
+      <div class="research-card-title">多模态学习</div>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
       <div class="research-img-wrapper">
         <img src="{{ '/assets/img/multimodal.png' | relative_url }}" alt="多模态学习" />
       </div>
-      <div class="research-card-title">多模态学习</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
     <!-- 卡片 3：多智能体学习 -->
     <div class="research-card">
+      <div class="research-card-title">多智能体学习</div>
+      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
       <div class="research-img-wrapper">
         <img src="{{ '/assets/img/multiagent.png' | relative_url }}" alt="多智能体学习" />
       </div>
-      <div class="research-card-title">多智能体学习</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
     </div>
 
   </div>

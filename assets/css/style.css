@@ -195,9 +195,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background:
-    radial-gradient(circle at 50% 100%, rgba(94, 117, 142, 0.22), transparent 36%),
-    linear-gradient(180deg, #f1f4f8 0%, #dfe8ef 100%);
+  background: linear-gradient(180deg, #f1f4f8 0%, #dfe8ef 100%);
 }
 
 /* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
@@ -301,7 +299,7 @@ a:hover {
 
 /* 标题块 */
 .research-header {
-  background: linear-gradient(180deg, #eef2f6 0%, #e2e9f0 100%);
+  background: #e8eef4;
   text-align: center;
   margin-bottom: 12px;
   padding: 52px 24px 44px;
@@ -358,36 +356,33 @@ a:hover {
 
 /* 单个研究方向卡片 */
 .research-card {
-  position: relative;
   overflow: hidden;
   width: auto;
-  min-height: 580px;
+  min-height: 520px;
+  padding: 58px 32px 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  background: linear-gradient(180deg, #eef3f7 0%, #dbe6ee 100%);
+  background: #e6edf4;
   color: #1d1d1f;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 /* 图片容器+样式（浅灰背景+细边+轻shadow，类似你图3右卡） */
 .research-img-wrapper {
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
-  width: min(74%, 620px);
-  height: 48%;
+  width: min(78%, 620px);
+  height: 300px;
   background-color: transparent;
   border: 0;
   box-shadow: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0;
+  margin: 36px auto 0;
   padding: 0;
-  transform: translateX(-50%);
 }
 
 .research-img-wrapper img {
@@ -401,19 +396,15 @@ a:hover {
 
 /* 卡片标题（大模型 / 多模态学习 / 多智能体学习） */
 .research-card-title {
-  position: relative;
-  z-index: 1;
   font-size: 40px;            /* 根据你现在1.5倍字号方案，22px正文 → 30px这里是主标题级 */
   font-weight: 700;
   color: #1d1d1f;
-  margin: 68px 24px 12px;
+  margin: 0 24px 12px;
   line-height: 1.15;
 }
 
 /* Learn More 按钮 */
 .research-btn {
-  position: relative;
-  z-index: 1;
   display: inline-block;
   background-color: #2f6f9f;   /* 与首页背景图一致的冷蓝色 */
   color: #ffffff;
@@ -434,16 +425,17 @@ a:hover {
 }
 
 .research-card:nth-child(2) {
-  background: linear-gradient(180deg, #f0f3f7 0%, #d9e2ec 100%);
+  background: #e3ebf3;
 }
 
 .research-card:nth-child(3) {
   grid-column: 1 / -1;
-  background: linear-gradient(180deg, #eceff3 0%, #cfd9e3 100%);
+  background: #dbe4ed;
 }
 
 .research-card:nth-child(3) .research-img-wrapper {
-  width: min(58%, 760px);
+  width: min(52%, 760px);
+  height: 320px;
 }
 
 @media (max-width: 900px) {
@@ -474,7 +466,8 @@ a:hover {
   .research-card,
   .research-card:nth-child(3) {
     grid-column: auto;
-    min-height: 540px;
+    min-height: 500px;
+    padding: 50px 24px 34px;
   }
 
   .research-card-title {
@@ -484,6 +477,7 @@ a:hover {
   .research-card:nth-child(3) .research-img-wrapper,
   .research-img-wrapper {
     width: 82%;
+    height: 280px;
   }
 }
 
@@ -511,17 +505,19 @@ a:hover {
   }
 
   .research-card {
-    min-height: 500px;
+    min-height: 460px;
+    padding: 42px 20px 30px;
   }
 
   .research-card-title {
     font-size: 30px;
-    margin-top: 52px;
+    margin-top: 0;
   }
 
   .research-img-wrapper {
     width: 88%;
-    height: 44%;
+    height: 240px;
+    margin-top: 28px;
   }
 }
 
