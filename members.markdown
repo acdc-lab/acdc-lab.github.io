@@ -612,6 +612,23 @@ permalink: /members/
         </div>
       </div>
 
+      <!-- 刘真光 -->
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/liuzhenguang.jpg' | relative_url }}" alt="刘真光">
+        </div>
+        <div class="alumni-meta">
+          <div class="alumni-name">刘真光</div>
+          <div class="alumni-year">毕业年份：2024</div>
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+          <div class="alumni-dest">
+            毕业去向：农业银行西安研发中心-软件开发岗
+          </div>
+        </div>
+      </div>
+
       <!-- 校友1 -->
       <div class="alumni-card">
         <div class="alumni-photo">
@@ -687,23 +704,6 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：中航信移动科技股份有限公司-软件工程师
-          </div>
-        </div>
-      </div>
-
-      <!-- 刘真光 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/liuzhenguang.jpg' | relative_url }}" alt="刘真光">
-        </div>
-        <div class="alumni-meta">
-          <div class="alumni-name">刘真光</div>
-          <div class="alumni-year">毕业年份：2024</div>
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
-          <div class="alumni-dest">
-            毕业去向：农业银行西安研发中心-软件开发岗
           </div>
         </div>
       </div>
