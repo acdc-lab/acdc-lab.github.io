@@ -49,35 +49,41 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .header-left {
   display: flex;
   align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
+  gap: 10px;
+  min-width: 0;
+  flex-shrink: 1;
 }
 .logo-img {
-  height: 42px;
+  height: 38px;
   width: auto;
+  flex-shrink: 0;
 }
 .logo-affiliation {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: #5a6b7a;
   letter-spacing: 0.02em;
-  padding-left: 12px;
+  padding-left: 10px;
   border-left: 2px solid #d0d8d5;
   font-family: "Georgia", "Times New Roman", serif;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .header-nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 20px;
+  flex-shrink: 0;
 }
 .header-nav a {
   color: #555;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   white-space: nowrap;
@@ -86,6 +92,13 @@ a:hover {
 .header-nav a:hover {
   color: #20b2aa;
   text-decoration: none;
+}
+
+/* 窄屏：隐藏组名，只保留导航 */
+@media (max-width: 900px) {
+  .logo-affiliation { display: none; }
+  .header-nav { gap: 14px; }
+  .header-nav a { font-size: 13px; }
 }
 
 /* --- 主体内容区域 --- */
