@@ -55,35 +55,35 @@ title: 首页
     </div>
   </div>
 
-  <div class="research-grid">
+  <div class="research-map">
+    <div class="research-map-center">
+      <div class="research-map-logo">ACDC</div>
+      <div class="research-map-name">Lab Research Map</div>
+    </div>
 
-    <!-- 卡片 1：大模型 -->
-    <div class="research-card">
-      <div class="research-card-title">推荐系统</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
-      <div class="research-img-wrapper">
+    <a class="research-node node-recommend" href="{{ '/research/' | relative_url }}">
+      <div class="research-node-visual">
         <img src="{{ '/assets/img/recommend.png' | relative_url }}" alt="推荐系统" />
       </div>
-    </div>
+      <div class="research-card-title">推荐系统</div>
+      <span class="research-btn">LEARN MORE</span>
+    </a>
 
-    <!-- 卡片 2：多模态学习 -->
-    <div class="research-card">
-      <div class="research-card-title">多模态学习</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
-      <div class="research-img-wrapper">
+    <a class="research-node node-multimodal" href="{{ '/research/' | relative_url }}">
+      <div class="research-node-visual">
         <img src="{{ '/assets/img/multimodal.png' | relative_url }}" alt="多模态学习" />
       </div>
-    </div>
+      <div class="research-card-title">多模态学习</div>
+      <span class="research-btn">LEARN MORE</span>
+    </a>
 
-    <!-- 卡片 3：多智能体学习 -->
-    <div class="research-card">
-      <div class="research-card-title">多智能体学习</div>
-      <a class="research-btn" href="{{ '/research/' | relative_url }}">LEARN MORE</a>
-      <div class="research-img-wrapper">
+    <a class="research-node node-agent" href="{{ '/research/' | relative_url }}">
+      <div class="research-node-visual">
         <img src="{{ '/assets/img/multiagent.png' | relative_url }}" alt="多智能体学习" />
       </div>
-    </div>
-
+      <div class="research-card-title">多智能体学习</div>
+      <span class="research-btn">LEARN MORE</span>
+    </a>
   </div>
 </section>
 
