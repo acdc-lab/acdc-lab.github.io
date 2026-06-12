@@ -691,6 +691,23 @@ permalink: /members/
         </div>
       </div>
 
+      <!-- 刘真光 -->
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/liuzhenguang.jpg' | relative_url }}" alt="刘真光">
+        </div>
+        <div class="alumni-meta">
+          <div class="alumni-name">刘真光</div>
+          <div class="alumni-year">毕业年份：2024</div>
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+          <div class="alumni-dest">
+            毕业去向：农业银行西安研发中心-软件开发岗
+          </div>
+        </div>
+      </div>
+
       <!-- 继续复制 alumni-card添加更多毕业生 -->
     </div>
 
@@ -859,6 +876,40 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：好未来-golang开发
+          </div>
+        </div>
+      </div>
+
+      <!-- 张钧渭 -->
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangjunwei.jpg' | relative_url }}" alt="张钧渭">
+        </div>
+        <div class="alumni-meta">
+          <div class="alumni-name">张钧渭</div>
+          <div class="alumni-year">毕业年份：2026</div>
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+          <div class="alumni-dest">
+            毕业去向：复旦大学 读研
+          </div>
+        </div>
+      </div>
+
+      <!-- 密言 -->
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/miyan.jpg' | relative_url }}" alt="密言">
+        </div>
+        <div class="alumni-meta">
+          <div class="alumni-name">密言</div>
+          <div class="alumni-year">毕业年份：2026</div>
+          <div class="alumni-contact-row">
+            <div class="alumni-mail-icon">✉</div>
+          </div>
+          <div class="alumni-dest">
+            毕业去向：中国科学院计算技术研究所 保研
           </div>
         </div>
       </div>
