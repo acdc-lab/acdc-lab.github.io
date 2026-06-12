@@ -45,7 +45,7 @@ a:hover {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  height: 56px;
+  height: 60px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -60,12 +60,12 @@ a:hover {
   overflow: hidden;
 }
 .logo-img {
-  height: 38px;
+  height: 46px;
   width: auto;
   flex-shrink: 0;
 }
 .logo-affiliation {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: #5a6b7a;
   letter-spacing: 0.02em;
