@@ -177,7 +177,7 @@ a:hover {
 .apple-home-strip {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background: #ffffff;
+  background: #dfe5ec;
   display: grid;
   gap: 12px;
   padding: 12px;
@@ -186,7 +186,7 @@ a:hover {
 
 .apple-home-tile {
   overflow: hidden;
-  background: #f5f5f7;
+  background: #eef2f6;
   color: #1d1d1f;
   min-height: calc(100vh - 84px);
 }
@@ -196,8 +196,8 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   background:
-    radial-gradient(circle at 50% 100%, rgba(32, 178, 170, 0.16), transparent 34%),
-    linear-gradient(180deg, #fbfbfd 0%, #eef7f6 100%);
+    radial-gradient(circle at 50% 100%, rgba(94, 117, 142, 0.22), transparent 36%),
+    linear-gradient(180deg, #f1f4f8 0%, #dfe8ef 100%);
 }
 
 /* 标题块（GROUP HOMEPAGE / 团队简介 / ...） */
@@ -214,7 +214,7 @@ a:hover {
   box-sizing: border-box;
 }
 .home-header-block .en-title {
-  color: #5f6b6d;
+  color: #66717d;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -265,7 +265,7 @@ a:hover {
 
 /* “欢迎加入VisDrone大家庭”蓝色小标题 */
 .home-cta-title {
-  color: #0071e3;
+  color: #2f6f9f;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -292,7 +292,7 @@ a:hover {
   z-index: 1;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background-color: #ffffff;
+  background-color: #dfe5ec;
   padding: 12px;
   text-align: center;
   color: #1a1a1a;
@@ -301,7 +301,7 @@ a:hover {
 
 /* 标题块 */
 .research-header {
-  background: #f5f5f7;
+  background: linear-gradient(180deg, #eef2f6 0%, #e2e9f0 100%);
   text-align: center;
   margin-bottom: 12px;
   padding: 52px 24px 44px;
@@ -312,7 +312,7 @@ a:hover {
 .research-header-en {
   font-size: 20px;          /* 比正文略小，但是英文字母全大写 */
   font-weight: 600;
-  color: #424b52;
+  color: #66717d;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 8px;
@@ -367,7 +367,7 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  background: linear-gradient(180deg, #fbfbfd 0%, #eef7f6 100%);
+  background: linear-gradient(180deg, #eef3f7 0%, #dbe6ee 100%);
   color: #1d1d1f;
   text-decoration: none;
 }
@@ -415,7 +415,7 @@ a:hover {
   position: relative;
   z-index: 1;
   display: inline-block;
-  background-color: #0071e3;   /* 深灰接近海军蓝的按钮底 */
+  background-color: #2f6f9f;   /* 与首页背景图一致的冷蓝色 */
   color: #ffffff;
   text-decoration: none;
   font-size: 16px;             /* 按钮文字略小，像截图那样是英文大写 */
@@ -428,18 +428,18 @@ a:hover {
 
 .research-btn:hover,
 .research-btn:focus {
-  background-color: #0077ed;   /* hover稍微浅一点，给手感 */
+  background-color: #3b7daa;   /* hover稍微浅一点，给手感 */
   text-decoration: none;
   color: #ffffff;
 }
 
 .research-card:nth-child(2) {
-  background: linear-gradient(180deg, #f9fbff 0%, #eaf1fb 100%);
+  background: linear-gradient(180deg, #f0f3f7 0%, #d9e2ec 100%);
 }
 
 .research-card:nth-child(3) {
   grid-column: 1 / -1;
-  background: linear-gradient(180deg, #fbfaf8 0%, #eef4ed 100%);
+  background: linear-gradient(180deg, #eceff3 0%, #cfd9e3 100%);
 }
 
 .research-card:nth-child(3) .research-img-wrapper {
