@@ -31,139 +31,61 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- 顶部导航，两层结构 --- */
+/* --- 顶部导航：单行紧凑 --- */
 .site-header {
-  position: fixed;      /* 吸顶 */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  /* 不要给整体背景色，这样上、下两层可以有不同颜色 */
-  font-size: 15px;
-  line-height: 1.4;
-  border-bottom: 1px solid #d9dfdd;
+  background: #ffffff;
+  border-bottom: 1px solid #e0e5e3;
 }
-
-/* 第一层：LOGO行，白底 */
-.header-top {
-  background-color: #ffffff;
-}
-.header-top-inner {
+.header-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 56px;
   display: flex;
   align-items: center;
-  height: 64px;
+  justify-content: space-between;
 }
-
-/* LOGO 样式（用图片 or 文字） */
-.site-logo {
+.header-left {
   display: flex;
   align-items: center;
-  font-weight: 600;
-  font-size: 20px;
-  color: #003366;
+  gap: 12px;
+  flex-shrink: 0;
 }
 .logo-img {
-  height: 60px;
+  height: 42px;
   width: auto;
 }
 .logo-affiliation {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
   color: #5a6b7a;
-  letter-spacing: 0.03em;
-  margin-left: 14px;
-  padding-left: 14px;
-  border-left: 2px solid #c8d6d3;
+  letter-spacing: 0.02em;
+  padding-left: 12px;
+  border-left: 2px solid #d0d8d5;
   font-family: "Georgia", "Times New Roman", serif;
+  white-space: nowrap;
 }
-.logo-text {
-  color: #003366;
-  letter-spacing: 0.5px;
-}
-
-/* 第二层：菜单行，白底，居中排列 */
 .header-nav {
-  background-color: #ffffff;
-  border-top: 1px solid #e0e5e3;
-  border-bottom: 1px solid #d9dfdd;
-}
-
-.site-nav {
-  display: flex;
-  justify-content: center;
-}
-
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 50px;
-
-  /* 间距由 li 上的 padding 控制，不再用 gap */
-}
-
-/* 单个菜单项容器 */
-.nav-list li {
-  position: relative;          /* 让上方高亮线可以用绝对定位 */
-  padding: 0 44px;             /* <<< 调大左右间距，之前是 gap:24px，现在每项左右24px */
-  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 28px;
 }
-
-/* 链接本体 */
-.nav-list li a {
-  color: #6d7780;              /* 深灰而不是纯黑 */
-  font-weight: 500;
+.header-nav a {
+  color: #555;
   font-size: 15px;
-  line-height: 1.2;
+  font-weight: 500;
   text-decoration: none;
-  display: inline-block;
-  padding-top: 8px;            /* 给顶部高亮线留一点空气 */
-  transition: color 0.18s ease;
+  white-space: nowrap;
+  transition: color 0.15s ease;
 }
-
-/* 悬浮/聚焦时，字颜色稍微变蓝灰一点点（可按喜好调） */
-.nav-list li:hover a,
-.nav-list li a:focus {
-  color: #006d7a;              /* 深青蓝感，和上方那条绿线协调 */
+.header-nav a:hover {
+  color: #20b2aa;
   text-decoration: none;
-}
-
-/* 顶部高亮线：默认透明，hover时出现 */
-.nav-list li::before {
-  content: "";
-  position: absolute;
-  top: 8px;                     /* 这决定线条离文字多近，可微调 */
-  left: 12px;
-  right: 12px;
-  height: 3px;
-  background-color: #20b2aa;   /* 青绿色/水绿色，可以换成你喜欢的色号 */
-  border-radius: 2px;
-  opacity: 0;
-  transform: translateY(-4px); /* 默认稍微上移+隐藏 */
-  transition: all 0.18s ease;
-}
-
-/* hover时显示这条线并下移到位 */
-.nav-list li:hover::before,
-.nav-list li:focus-within::before {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* 搜索图标那一项可以稍微窄一点（可选） */
-.nav-list li.nav-search {
-  padding: 0 16px;
-}
-.nav-list li.nav-search a {
-  font-size: 16px;
-  line-height: 1;
 }
 
 /* --- 主体内容区域 --- */
@@ -173,7 +95,7 @@ a:hover {
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
-  padding: 160px 16px 40px; /* 顶部预留: LOGO行(64) + 菜单行(48) + 一点空隙 */
+  padding: 100px 16px 40px; /* 顶部预留: 单行header(56) + 余量 */
   text-align: center;
 }
 
@@ -182,13 +104,13 @@ a:hover {
   position: relative;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  margin-top: -160px;              /* 突破 page-content 的 padding-top */
+  margin-top: -100px;              /* 突破 page-content 的 padding-top */
   margin-bottom: 0;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 114px;              /* 让内容不被 fixed header 挡住 */
+  padding-top: 56px;               /* 让内容不被 fixed header 挡住 */
   box-sizing: border-box;
   background-image: url('../img/bupt-bg.jpg');
   background-size: cover;
