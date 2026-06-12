@@ -4,14 +4,12 @@ title: 研究
 permalink: /research/
 ---
 
-  <section class="rsx-section container">
+  <section class="page-section">
 
-    <!-- 页眉 -->
-    <div class="rsx-header">
-      <h1 class="rsx-title">研究方向</h1>
-      <div class="rsx-divider">
-        <span class="rsx-line"></span>
-      </div>
+    <div class="page-header">
+      <div class="page-header-en">RESEARCH</div>
+      <div class="page-header-cn">研究方向</div>
+      <div class="page-header-divider"><span class="line"></span></div>
     </div>
 
     <!-- 方向 1：推荐系统 -->

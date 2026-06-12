@@ -4,13 +4,12 @@ title: 新闻
 permalink: /news/
 ---
 
-<section class="news-section container">
+<section class="page-section">
 
-  <div class="news-header">
-    <div class="news-title">新闻</div>
-    <div class="news-divider">
-      <span class="news-line"></span>
-    </div>
+  <div class="page-header">
+    <div class="page-header-en">NEWS</div>
+    <div class="page-header-cn">新闻</div>
+    <div class="page-header-divider"><span class="line"></span></div>
   </div>
 
   <ul class="news-list">

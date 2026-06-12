@@ -4,7 +4,13 @@ title: 成员
 permalink: /members/
 ---
 
-<section class="people-section container">
+<section class="page-section">
+
+  <div class="page-header">
+    <div class="page-header-en">PEOPLE</div>
+    <div class="page-header-cn">团队成员</div>
+    <div class="page-header-divider"><span class="line"></span></div>
+  </div>
 
   <!-- 指导教师 / FACULTY -->
   <div class="people-block">
@@ -62,7 +68,6 @@ permalink: /members/
           <div class="student-name">张帆<span class="student-year"> · 2019</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -83,7 +88,6 @@ permalink: /members/
           <div class="student-name">王涛<span class="student-year"> · 2024</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -104,7 +108,6 @@ permalink: /members/
           <div class="student-name">董顺喜<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -125,7 +128,6 @@ permalink: /members/
           <div class="student-name">周瑞臣<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -165,7 +167,6 @@ permalink: /members/
           <div class="student-name">贺健翔<span class="student-year"> · 2023</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -186,7 +187,6 @@ permalink: /members/
           <div class="student-name">马健<span class="student-year"> · 2023</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -270,7 +270,6 @@ permalink: /members/
           <div class="student-name">涂家睿<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -291,7 +290,6 @@ permalink: /members/
           <div class="student-name">文志勇<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -312,7 +310,6 @@ permalink: /members/
           <div class="student-name">付文博<span class="student-year"> · 2026#</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -333,7 +330,6 @@ permalink: /members/
           <div class="student-name">李骏天<span class="student-year"> · 2026#</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="#" class="homepage-link">Homepage</a>
             </div>
@@ -373,9 +369,6 @@ permalink: /members/
           <div class="alumni-name">张佩</div>
           <div class="alumni-year">毕业年份：2019</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：广西大学-助理教授
@@ -392,9 +385,6 @@ permalink: /members/
           <div class="alumni-name">耿新尧</div>
           <div class="alumni-year">毕业年份：2021</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：Apple
@@ -411,9 +401,6 @@ permalink: /members/
           <div class="alumni-name">张静怡</div>
           <div class="alumni-year">毕业年份：2021</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：易方达基金 IT
@@ -430,9 +417,6 @@ permalink: /members/
           <div class="alumni-name">马瑞遥</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：新加坡国立大学-RA，博士生
@@ -449,9 +433,6 @@ permalink: /members/
           <div class="alumni-name">李海洋</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：美团-算法策略岗
@@ -468,9 +449,6 @@ permalink: /members/
           <div class="alumni-name">周瑶瑶</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：阿里巴巴集团-后端开发工程师
@@ -487,9 +465,6 @@ permalink: /members/
           <div class="alumni-name">胡哈蕾</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：华为-软件开发工程师
@@ -506,9 +481,6 @@ permalink: /members/
           <div class="alumni-name">曹源</div>
           <div class="alumni-year">毕业年份：2023</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：新加坡国立大学-博士生
@@ -525,9 +497,6 @@ permalink: /members/
           <div class="alumni-name">栾厚蕴</div>
           <div class="alumni-year">毕业年份：2023</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：牵手未来_算法工程师
@@ -544,9 +513,6 @@ permalink: /members/
           <div class="alumni-name">许祎</div>
           <div class="alumni-year">毕业年份：2023</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：阿里巴巴-推荐广告算法
@@ -563,9 +529,6 @@ permalink: /members/
           <div class="alumni-name">王博杰</div>
           <div class="alumni-year">毕业年份：2023</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：智谱AI-大模型算法
@@ -582,9 +545,6 @@ permalink: /members/
           <div class="alumni-name">张旭东</div>
           <div class="alumni-year">毕业年份：2024</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：兴业银行总行
@@ -602,9 +562,6 @@ permalink: /members/
           <div class="alumni-name">刘晓倩</div>
           <div class="alumni-year">毕业年份：2024</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：阿里巴巴-淘天算法工程师
@@ -620,9 +577,6 @@ permalink: /members/
         <div class="alumni-meta">
           <div class="alumni-name">刘真光</div>
           <div class="alumni-year">毕业年份：2024</div>
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
           <div class="alumni-dest">
             毕业去向：农业银行西安研发中心-软件开发岗
           </div>
@@ -639,9 +593,6 @@ permalink: /members/
           <div class="alumni-name">关华琛</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：美团-营销推荐算法
@@ -659,9 +610,6 @@ permalink: /members/
           <div class="alumni-name">王晋卿</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：中电信数智科技有限公司
@@ -679,9 +627,6 @@ permalink: /members/
           <div class="alumni-name">余子羽</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：华为-ai infra工程师
@@ -698,9 +643,6 @@ permalink: /members/
           <div class="alumni-name">井然</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：中航信移动科技股份有限公司-软件工程师
@@ -736,9 +678,6 @@ permalink: /members/
           <div class="alumni-name">贺桐</div>
           <div class="alumni-year">毕业年份：2017</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：腾讯-游戏开发
@@ -755,9 +694,6 @@ permalink: /members/
           <div class="alumni-name">邓宇彤</div>
           <div class="alumni-year">毕业年份：2020</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：留学
@@ -774,9 +710,6 @@ permalink: /members/
           <div class="alumni-name">熊博韬</div>
           <div class="alumni-year">毕业年份：2021</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：四川电信-AI工程师
@@ -793,9 +726,6 @@ permalink: /members/
           <div class="alumni-name">陈昱滔</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：澳门大学-博士生
@@ -812,9 +742,6 @@ permalink: /members/
           <div class="alumni-name">张超伟</div>
           <div class="alumni-year">毕业年份：2022</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：厦门建发-信息岗
@@ -832,9 +759,6 @@ permalink: /members/
           <div class="alumni-name">朱霄</div>
           <div class="alumni-year">毕业年份：2024</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：香港科技大学（广州）
@@ -851,9 +775,6 @@ permalink: /members/
           <div class="alumni-name">黄天瑞</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：中国科学院大学软件学院
@@ -870,9 +791,6 @@ permalink: /members/
           <div class="alumni-name">刘应秋</div>
           <div class="alumni-year">毕业年份：2025</div>
 
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
 
           <div class="alumni-dest">
             毕业去向：好未来-golang开发
@@ -888,9 +806,6 @@ permalink: /members/
         <div class="alumni-meta">
           <div class="alumni-name">张钧渭</div>
           <div class="alumni-year">毕业年份：2026</div>
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
           <div class="alumni-dest">
             毕业去向：复旦大学 读研
           </div>
@@ -905,9 +820,6 @@ permalink: /members/
         <div class="alumni-meta">
           <div class="alumni-name">密言</div>
           <div class="alumni-year">毕业年份：2026</div>
-          <div class="alumni-contact-row">
-            <div class="alumni-mail-icon">✉</div>
-          </div>
           <div class="alumni-dest">
             毕业去向：中国科学院计算技术研究所 保研
           </div>

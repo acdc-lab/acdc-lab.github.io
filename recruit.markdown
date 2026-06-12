@@ -4,13 +4,12 @@ title: 招生
 permalink: /recruit/
 ---
 
-<section class="recruit-section container">
+<section class="page-section">
 
-  <div class="recruit-header">
-    <div class="recruit-title-cn">招生要求</div>
-    <div class="recruit-divider">
-      <span class="recruit-line"></span>
-    </div>
+  <div class="page-header">
+    <div class="page-header-en">JOIN US</div>
+    <div class="page-header-cn">招生要求</div>
+    <div class="page-header-divider"><span class="line"></span></div>
   </div>
 
   <div class="recruit-body">

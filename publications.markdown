@@ -4,14 +4,12 @@ title: 相关成果
 permalink: /publications/
 ---
 
-<section class="pub-section container">
+<section class="page-section">
 
-  <!-- 页面主标题 -->
-  <div class="pub-header">
-    <div class="pub-title-cn">论文</div>
-    <div class="pub-divider">
-      <span class="pub-line"></span>
-    </div>
+  <div class="page-header">
+    <div class="page-header-en">PUBLICATIONS</div>
+    <div class="page-header-cn">相关成果</div>
+    <div class="page-header-divider"><span class="line"></span></div>
   </div>
 
   <!-- 年份块：2025 -->

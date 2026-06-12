@@ -658,18 +658,9 @@ a:hover {
   color: #666;
 }
 
-/* 邮箱行 + Homepage 行 */
+/* Homepage 链接行 */
 .student-contact-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
   margin-bottom: 8px;
-}
-
-.student-mail-icon {
-  font-size: 20px;
-  line-height: 1;
-  color: #f4a540; /* 橙色小信封 */
 }
 
 .student-home a.homepage-link {
@@ -762,21 +753,6 @@ a:hover {
   font-size: 15px;
   color: #444;
   margin-bottom: 16px;
-}
-
-/* 信封 + (以后你也可以在这里加 homepage 链接) */
-.alumni-contact-row {
-  display: flex;
-  justify-content: center; /* 居中信封图标 */
-  align-items: flex-start;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.alumni-mail-icon {
-  font-size: 24px;
-  line-height: 1;
-  color: #f4a540;      /* 橙色信封，和前面学生区保持一套视觉语言 */
 }
 
 /* 毕业去向 */
@@ -989,6 +965,45 @@ a:hover {
 /* 让 &nbsp; 型小空格的感觉更接近截图 */
 .pub-links a + a {
   margin-left: 4px;
+}
+
+/* ===== 统一页面标题组件 ===== */
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.page-header-en {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5a6168;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.page-header-cn {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f252b;
+  margin-bottom: 12px;
+}
+.page-header-divider {
+  display: flex;
+  justify-content: center;
+}
+.page-header-divider .line {
+  width: 100px;
+  height: 3px;
+  background-color: #1f252b;
+  border-radius: 2px;
+}
+
+/* ===== 统一子页面内容区宽度 ===== */
+.page-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 16px 80px;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
 /* ===== News / 新闻 ===== */
