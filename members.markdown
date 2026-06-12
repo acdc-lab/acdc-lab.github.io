@@ -207,7 +207,6 @@ permalink: /members/
           <div class="student-name">马俊<span class="student-year"> · 2024</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="https://acdc-lab.github.io/Mason-bupt/" class="homepage-link">Homepage</a>
             </div>
@@ -228,7 +227,6 @@ permalink: /members/
           <div class="student-name">杨臻烨<span class="student-year"> · 2024</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="https://acdc-lab.github.io/Alex-bupt/" class="homepage-link">Homepage</a>
             </div>
@@ -249,7 +247,6 @@ permalink: /members/
           <div class="student-name">范静<span class="student-year"> · 2025</span></div>
 
           <div class="student-contact-row">
-            <div class="student-mail-icon">✉</div>
             <div class="student-home">
               <a href="https://acdc-lab.github.io/JingFan-bupt" class="homepage-link">Homepage</a>
             </div>
