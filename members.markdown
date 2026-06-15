@@ -359,22 +359,6 @@ permalink: /members/
 
       <div class="alumni-card">
         <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/zhangpei.jpg' | relative_url }}" alt="姓名C">
-        </div>
-
-        <div class="alumni-meta">
-          <div class="alumni-name">张佩</div>
-          <div class="alumni-year">毕业年份：2019</div>
-
-
-          <div class="alumni-dest">
-            毕业去向：广西大学-助理教授
-          </div>
-        </div>
-      </div>
-
-      <div class="alumni-card">
-        <div class="alumni-photo">
           <img src="{{ '/assets/img/members/gengxinyao.jpg' | relative_url }}" alt="姓名C">
         </div>
 
@@ -385,38 +369,6 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：Apple
-          </div>
-        </div>
-      </div>
-
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/zhangjingyi.jpg' | relative_url }}" alt="姓名C">
-        </div>
-
-        <div class="alumni-meta">
-          <div class="alumni-name">张静怡</div>
-          <div class="alumni-year">毕业年份：2021</div>
-
-
-          <div class="alumni-dest">
-            毕业去向：易方达基金 IT
-          </div>
-        </div>
-      </div>
-
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <img src="{{ '/assets/img/members/maruiyao.jpg' | relative_url }}" alt="姓名C">
-        </div>
-
-        <div class="alumni-meta">
-          <div class="alumni-name">马瑞遥</div>
-          <div class="alumni-year">毕业年份：2022</div>
-
-
-          <div class="alumni-dest">
-            毕业去向：新加坡国立大学-RA，博士生
           </div>
         </div>
       </div>
@@ -684,6 +636,38 @@ permalink: /members/
 
       <div class="alumni-card">
         <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangjingyi.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张静怡</div>
+          <div class="alumni-year">毕业年份：2018</div>
+
+
+          <div class="alumni-dest">
+            毕业去向：易方达基金 IT
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangpei.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张佩</div>
+          <div class="alumni-year">毕业年份：2019</div>
+
+
+          <div class="alumni-dest">
+            毕业去向：广西大学-助理教授
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
           <img src="{{ '/assets/img/members/bs_students/dengyutong.jpg' | relative_url }}" alt="姓名C">
         </div>
 
@@ -742,6 +726,22 @@ permalink: /members/
 
           <div class="alumni-dest">
             毕业去向：厦门建发-信息岗
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/maruiyao.jpg' | relative_url }}" alt="姓名C">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">马瑞遥</div>
+          <div class="alumni-year">毕业年份：2022</div>
+
+
+          <div class="alumni-dest">
+            毕业去向：新加坡国立大学-RA，博士生
           </div>
         </div>
       </div>
