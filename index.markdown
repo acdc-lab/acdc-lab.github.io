@@ -5,8 +5,8 @@ title: 首页
 
 <div class="acdc-home">
 
-  <!-- Hero / Codex-like product landing area -->
-  <section class="acdc-hero">
+  <!-- Hero / Codex-like product landing area with original background and research tags -->
+  <section class="acdc-hero acdc-hero-tags">
     <div class="acdc-hero-noise"></div>
 
     <div class="acdc-hero-copy">
@@ -24,57 +24,16 @@ title: 首页
       </div>
     </div>
 
-    <div class="acdc-console" aria-label="ACDC Lab Research System">
-      <div class="acdc-console-sidebar">
-        <span>◎</span>
-        <span>⌂</span>
-        <span>▥</span>
-        <span>✣</span>
-        <span>♟</span>
-      </div>
-
-      <div class="acdc-console-main">
-        <div class="acdc-console-title">ACDC Lab Research System</div>
-
-        <div class="acdc-console-grid">
-          <div class="acdc-panel acdc-panel-embedding">
-            <div class="acdc-panel-label">Cross-media Embedding</div>
-            <div class="acdc-dot-field">
-              <span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </div>
-
-          <div class="acdc-panel acdc-panel-chart">
-            <div class="acdc-panel-label">Model Performance</div>
-            <svg viewBox="0 0 240 120" role="img" aria-label="model performance chart">
-              <polyline points="10,94 45,66 78,78 112,46 145,56 180,28 220,18" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-              <g class="grid">
-                <line x1="10" y1="100" x2="230" y2="100"/><line x1="10" y1="70" x2="230" y2="70"/><line x1="10" y1="40" x2="230" y2="40"/>
-              </g>
-            </svg>
-          </div>
-
-          <div class="acdc-panel acdc-panel-fusion">
-            <div class="acdc-panel-label">Multimodal Fusion</div>
-            <div class="acdc-fusion-icons">
-              <span>IMG</span><span>AUD</span><span>T</span><span>VID</span>
-            </div>
-            <div class="acdc-fusion-node"></div>
-          </div>
-
-          <div class="acdc-panel acdc-panel-data">
-            <div class="acdc-panel-label">Data Overview</div>
-            <div class="acdc-donut"><span>68%</span></div>
-            <ul>
-              <li>文本 Text</li>
-              <li>图像 Image</li>
-              <li>视频 Video</li>
-              <li>音频 Audio</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="acdc-topic-cloud" aria-label="ACDC Lab research directions">
+      <div class="acdc-topic-lines" aria-hidden="true"></div>
+      <div class="acdc-topic-pill acdc-topic-rec"><span>✦</span>推荐系统</div>
+      <div class="acdc-topic-pill acdc-topic-mm"><span>▦</span>多模态学习</div>
+      <div class="acdc-topic-pill acdc-topic-llm"><span>A</span>大语言模型</div>
+      <div class="acdc-topic-pill acdc-topic-light"><span>◇</span>模型轻量化</div>
+      <div class="acdc-topic-pill acdc-topic-auto"><span>▱</span>自动驾驶</div>
+      <div class="acdc-topic-pill acdc-topic-data"><span>▥</span>数据挖掘</div>
+      <div class="acdc-topic-pill acdc-topic-agent"><span>◎</span>智能体</div>
+      <div class="acdc-topic-pill acdc-topic-cross"><span>⌁</span>跨媒体计算</div>
     </div>
   </section>
 
@@ -162,8 +121,8 @@ title: 首页
   </section>
 
   <!-- Join us -->
-  <section class="acdc-join-band">
-    <div>
+  <section class="acdc-join-band acdc-join-refined">
+    <div class="acdc-join-copy">
       <p class="acdc-eyebrow">JOIN US</p>
       <h2>加入ACDC，共同创造未来</h2>
       <p>
@@ -175,8 +134,16 @@ title: 首页
         <a class="acdc-mail-link" href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>
       </div>
     </div>
-    <div class="acdc-portal" aria-hidden="true">
-      <span></span>
+
+    <div class="acdc-join-visual" aria-hidden="true">
+      <div class="acdc-join-orbit"></div>
+      <div class="acdc-join-card acdc-join-card-main">
+        <span>ACDC Lab</span>
+        <strong>Research Community</strong>
+      </div>
+      <div class="acdc-join-card acdc-join-card-a">Recommendation</div>
+      <div class="acdc-join-card acdc-join-card-b">Multimodal</div>
+      <div class="acdc-join-card acdc-join-card-c">Agents</div>
     </div>
   </section>
 
