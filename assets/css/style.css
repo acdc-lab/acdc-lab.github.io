@@ -31,21 +31,26 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- 顶部导航：单行紧凑 --- */
+/* --- 顶部导航：沉浸式悬浮毛玻璃 --- */
 .site-header {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
-  background: #ffffff;
-  border-bottom: 1px solid #e0e5e3;
+  width: min(1180px, calc(100% - 48px));
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 18px 50px rgba(15, 35, 60, 0.12);
 }
 .header-inner {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
-  height: 60px;
+  padding: 0 28px;
+  height: 54px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -60,7 +65,7 @@ a:hover {
   overflow: hidden;
 }
 .logo-img {
-  height: 46px;
+  height: 38px;
   width: auto;
   flex-shrink: 0;
 }
@@ -84,26 +89,36 @@ a:hover {
   margin-left: auto;
 }
 .header-nav a {
-  color: #555;
+  color: #334155;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 520;
   text-decoration: none;
   white-space: nowrap;
   transition: color 0.15s ease;
 }
 .header-nav a:hover {
-  color: #20b2aa;
+  color: #1155a8;
   text-decoration: none;
 }
 
-/* 窄屏：隐藏组名，只保留logo+导航 */
+/* 窄屏：隐藏组名，导航恢复全宽 */
 @media (max-width: 950px) {
+  .site-header {
+    width: calc(100% - 24px);
+    border-radius: 28px;
+    top: 12px;
+  }
   .logo-affiliation { display: none; }
   .header-nav { gap: 14px; }
   .header-nav a { font-size: 13px; }
 }
 @media (max-width: 600px) {
-  .header-inner { padding: 0 10px; }
+  .site-header {
+    width: calc(100% - 16px);
+    border-radius: 22px;
+    top: 8px;
+  }
+  .header-inner { padding: 0 14px; height: 48px; }
   .header-nav { gap: 8px; }
   .header-nav a { font-size: 12px; }
 }
@@ -112,10 +127,10 @@ a:hover {
 /* 由于header是fixed，正文需要上内边距把内容往下推开 */
 .page-content {
   flex: 1;
-  max-width: 1500px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  padding: 100px 16px 40px; /* 顶部预留: 单行header(56) + 余量 */
+  padding: 0;
   text-align: center;
 }
 
