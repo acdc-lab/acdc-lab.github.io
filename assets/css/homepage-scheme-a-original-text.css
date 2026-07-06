@@ -16,7 +16,7 @@
 
 .acdc-home-scheme-a {
   width: 100%;
-  margin: 0;
+  margin: -88px 0 0;
   overflow: hidden;
   background: #eef4fa;
   color: #111827;
@@ -92,7 +92,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -88px;
   padding: 104px 24px 138px;
   box-sizing: border-box;
   overflow: visible;
