@@ -12,7 +12,7 @@
     linear-gradient(90deg, rgba(247,250,252,.86) 0%, rgba(247,250,252,.68) 42%, rgba(232,240,250,.34) 100%),
     radial-gradient(circle at 18% 22%, rgba(49,112,178,.16), transparent 28%),
     radial-gradient(circle at 76% 30%, rgba(255,255,255,.62), transparent 36%),
-    url('../img/bupt-bg.jpg') center / cover no-repeat;
+    url('../img/hero-bg.jpg') center / cover no-repeat;
 }
 
 .acdc-topic-cloud {

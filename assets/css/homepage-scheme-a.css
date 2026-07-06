@@ -37,7 +37,7 @@
   background:
     linear-gradient(180deg, rgba(8,22,38,.16) 0%, rgba(8,22,38,.26) 52%, rgba(8,22,38,.38) 100%),
     linear-gradient(90deg, rgba(247,250,252,.72) 0%, rgba(247,250,252,.46) 48%, rgba(210,227,245,.32) 100%),
-    url('../img/bupt-bg.jpg') center / cover no-repeat;
+    url('../img/hero-bg.jpg') center / cover no-repeat;
 }
 
 .acdc-home-scheme-a .acdc-hero-simple::after {

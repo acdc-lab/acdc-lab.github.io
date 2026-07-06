@@ -124,7 +124,7 @@
     linear-gradient(90deg, rgba(247,250,252,.88) 0%, rgba(247,250,252,.70) 43%, rgba(232,240,250,.42) 100%),
     radial-gradient(circle at 20% 25%, rgba(49,112,178,.16), transparent 30%),
     radial-gradient(circle at 74% 34%, rgba(255,255,255,.66), transparent 38%),
-    url('../img/bupt-bg.jpg') center / cover no-repeat;
+    url('../img/hero-bg.jpg') center / cover no-repeat;
 }
 
 @media (max-width: 1080px) {

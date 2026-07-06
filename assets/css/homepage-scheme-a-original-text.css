@@ -37,7 +37,7 @@
   inset: 0;
   z-index: -3;
   background:
-    url('../img/bupt-bg.jpg') center / cover no-repeat;
+    url('../img/hero-bg.jpg') center / cover no-repeat;
 }
 
 /* Bottom gradient: blend from BUPT photo into page background color */

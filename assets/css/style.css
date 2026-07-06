@@ -132,7 +132,7 @@ a:hover {
   justify-content: center;
   padding-top: 56px;               /* 让内容不被 fixed header 挡住 */
   box-sizing: border-box;
-  background-image: url('../img/bupt-bg.jpg');
+  background-image: url('../img/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1923,5 +1923,5 @@ a:hover {
     linear-gradient(90deg, rgba(247,250,252,.90) 0%, rgba(247,250,252,.78) 43%, rgba(232,240,250,.48) 100%),
     radial-gradient(circle at 20% 25%, rgba(49,112,178,.18), transparent 30%),
     radial-gradient(circle at 74% 34%, rgba(255,255,255,.72), transparent 38%),
-    url('../img/bupt-bg.jpg') center / cover no-repeat;
+    url('../img/hero-bg.jpg') center / cover no-repeat;
 }
