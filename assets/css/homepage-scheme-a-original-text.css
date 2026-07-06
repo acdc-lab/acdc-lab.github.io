@@ -40,22 +40,6 @@
     url('../img/hero-bg.jpg') center / cover no-repeat;
 }
 
-/* Bottom gradient: blend from BUPT photo into page background color */
-.acdc-home-scheme-a .acdc-hero-simple::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -2;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    transparent 55%,
-    rgba(238, 244, 250, .6) 72%,
-    rgba(238, 244, 250, .92) 88%,
-    #eef4fa 100%
-  );
-  pointer-events: none;
-}
 
 /* Transparent inner container */
 .acdc-home-scheme-a .acdc-hero-simple-inner {
