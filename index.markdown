@@ -5,10 +5,9 @@ title: 首页
 
 <div class="acdc-home acdc-home-scheme-a">
 
-  <!-- Hero / Scheme A: original background + pure typography -->
+  <!-- Hero / Scheme A: immersive background + pure typography -->
   <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
     <div class="acdc-hero-simple-inner">
-      <p class="acdc-eyebrow">Advanced Cross-media Data Computing Group</p>
       <h1>ACDC Lab</h1>
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
       <p class="acdc-hero-lead">跨媒体数据计算 · 探索智能，连接世界</p>
@@ -26,24 +25,24 @@ title: 首页
 
   <!-- Team introduction -->
   <section class="acdc-section acdc-intro-section">
-    <div class="acdc-section-head">
-      <p class="acdc-eyebrow">GROUP INTRODUCTION</p>
-      <h2>团队简介</h2>
-    </div>
-
     <div class="acdc-intro-card">
       <div class="acdc-faculty-photo">
         <img src="{{ '/assets/img/members/jpchen.png' | relative_url }}" alt="陈晋鹏">
       </div>
 
       <div class="acdc-intro-content">
+        <div class="acdc-section-head acdc-section-head-inline">
+          <h2>团队简介</h2>
+          <p class="acdc-eyebrow">GROUP INTRODUCTION</p>
+        </div>
+
         <p>
           ACDC团队负责人 <strong>陈晋鹏</strong>，副教授，博士生导师，北京邮电大学计算机学院副院长。
           主要研究方向：社会媒体与数据挖掘、人工智能应用、大语言模型等。主持/参与国家级、省部级和企事业合作项目40余项，
           已发表SIGIR、AAAI、CIKM、MM等学术论文80余篇，申请/授权专利8项。
         </p>
         <p>
-          曾获ICONIP 2022最佳论文奖、周炯槃优秀青年教师励志奖、"北京移动"教学创新奖等。
+          曾获ICONIP 2022最佳论文奖、周炯槃优秀青年教师励志奖、“北京移动”教学创新奖等。
           CAAI智能服务专委会委员，CIPS社会媒体处理专委会委员、语言与知识计算专委会委员等，
           担任《Big Data Mining and Analytics》青年编委、《计算机科学》执行委员、《智能系统学报》助理编委等。
         </p>
@@ -70,8 +69,8 @@ title: 首页
   <!-- Research cards -->
   <section class="acdc-section acdc-research-section">
     <div class="acdc-section-head">
-      <p class="acdc-eyebrow">MAIN RESEARCH</p>
       <h2>研究方向</h2>
+      <p class="acdc-eyebrow">MAIN RESEARCH</p>
     </div>
 
     <div class="acdc-research-cards">
