@@ -10,7 +10,7 @@
 .page-content {
   max-width: none;
   width: 100%;
-  padding: 0;
+  padding: 88px 0 0;
   text-align: initial;
 }
 
@@ -78,22 +78,11 @@
   color: #172033;
   font-size: 14px;
   font-weight: 650;
+  transition: color 0.15s ease;
 }
 
-.header-nav a:first-child {
+.header-nav a:hover {
   color: #0b63d8;
-}
-
-.header-nav a:first-child::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -12px;
-  width: 22px;
-  height: 2px;
-  border-radius: 999px;
-  background: #0b63d8;
-  transform: translateX(-50%);
 }
 
 /* ---------- Hero ---------- */
@@ -103,6 +92,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -88px;
   padding: 104px 24px 138px;
   box-sizing: border-box;
   overflow: visible;
