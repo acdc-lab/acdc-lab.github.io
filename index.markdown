@@ -3,15 +3,14 @@ layout: default
 title: 首页
 ---
 
-<div class="acdc-home">
+<div class="acdc-home acdc-home-scheme-a">
 
-  <!-- Hero / Codex-like product landing area with original background and research tags -->
-  <section class="acdc-hero">
-    <div class="acdc-hero-noise"></div>
-
-    <div class="acdc-hero-copy">
+  <!-- Hero / Scheme A: original background + pure typography -->
+  <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
+    <div class="acdc-hero-simple-inner">
       <p class="acdc-eyebrow">Advanced Cross-media Data Computing Group</p>
       <h1>ACDC Lab</h1>
+      <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
       <p class="acdc-hero-lead">跨媒体数据计算 · 探索智能，连接世界</p>
       <p class="acdc-hero-desc">
         聚焦社交媒体与数据挖掘、人工智能应用、多模态学习与大模型等前沿方向，
@@ -21,21 +20,6 @@ title: 首页
       <div class="acdc-hero-actions">
         <a class="acdc-btn acdc-btn-primary" href="{{ '/research/' | relative_url }}">了解研究方向</a>
         <a class="acdc-btn acdc-btn-secondary" href="{{ '/recruit/' | relative_url }}">加入实验室</a>
-      </div>
-    </div>
-
-    <div class="acdc-brand-visual" aria-label="ACDC Lab brand visual">
-      <div class="acdc-brand-card">
-        <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="ACDC Lab">
-        <div class="acdc-brand-title">ACDC Lab</div>
-        <div class="acdc-brand-subtitle">Advanced Cross-media Data Computing Group</div>
-      </div>
-
-      <div class="acdc-brand-topics">
-        <span>推荐系统</span>
-        <span>多模态学习</span>
-        <span>大语言模型</span>
-        <span>数据挖掘</span>
       </div>
     </div>
   </section>
@@ -123,8 +107,8 @@ title: 首页
     </div>
   </section>
 
-  <!-- Join us -->
-  <section class="acdc-join-band acdc-join-band-sketch">
+  <!-- Join us / text-only band -->
+  <section class="acdc-join-band acdc-join-band-simple">
     <div class="acdc-join-copy">
       <p class="acdc-eyebrow">JOIN US</p>
       <h2>加入ACDC，共同创造未来</h2>
@@ -136,9 +120,6 @@ title: 首页
         <a class="acdc-btn acdc-btn-light" href="mailto:jpchen@bupt.edu.cn">发送简历</a>
         <a class="acdc-mail-link" href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>
       </div>
-    </div>
-    <div class="acdc-join-visual-image" aria-hidden="true">
-      <img src="{{ '/assets/img/joinus-visual-sketch.png' | relative_url }}" alt="">
     </div>
   </section>
 
