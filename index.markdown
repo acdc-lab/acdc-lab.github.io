@@ -6,7 +6,7 @@ title: 首页
 <div class="acdc-home">
 
   <!-- Hero / Codex-like product landing area with original background and research tags -->
-  <section class="acdc-hero acdc-hero-tags">
+  <section class="acdc-hero">
     <div class="acdc-hero-noise"></div>
 
     <div class="acdc-hero-copy">
@@ -24,16 +24,19 @@ title: 首页
       </div>
     </div>
 
-    <div class="acdc-topic-cloud" aria-label="ACDC Lab research directions">
-      <div class="acdc-topic-lines" aria-hidden="true"></div>
-      <div class="acdc-topic-pill acdc-topic-rec"><span>✦</span>推荐系统</div>
-      <div class="acdc-topic-pill acdc-topic-mm"><span>▦</span>多模态学习</div>
-      <div class="acdc-topic-pill acdc-topic-llm"><span>A</span>大语言模型</div>
-      <div class="acdc-topic-pill acdc-topic-light"><span>◇</span>模型轻量化</div>
-      <div class="acdc-topic-pill acdc-topic-auto"><span>▱</span>自动驾驶</div>
-      <div class="acdc-topic-pill acdc-topic-data"><span>▥</span>数据挖掘</div>
-      <div class="acdc-topic-pill acdc-topic-agent"><span>◎</span>智能体</div>
-      <div class="acdc-topic-pill acdc-topic-cross"><span>⌁</span>跨媒体计算</div>
+    <div class="acdc-brand-visual" aria-label="ACDC Lab brand visual">
+      <div class="acdc-brand-card">
+        <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="ACDC Lab">
+        <div class="acdc-brand-title">ACDC Lab</div>
+        <div class="acdc-brand-subtitle">Advanced Cross-media Data Computing Group</div>
+      </div>
+
+      <div class="acdc-brand-topics">
+        <span>推荐系统</span>
+        <span>多模态学习</span>
+        <span>大语言模型</span>
+        <span>数据挖掘</span>
+      </div>
     </div>
   </section>
 
@@ -121,29 +124,21 @@ title: 首页
   </section>
 
   <!-- Join us -->
-  <section class="acdc-join-band acdc-join-refined">
+  <section class="acdc-join-band acdc-join-band-sketch">
     <div class="acdc-join-copy">
       <p class="acdc-eyebrow">JOIN US</p>
       <h2>加入ACDC，共同创造未来</h2>
       <p>
-        我们欢迎对社会媒体、人工智能、多模态学习与大模型等方向充满热情的同学加入，
-        一起探索数据智能的无限可能。
+        在这里，你将与优秀的伙伴一起，探索前沿技术，解决真实问题，
+        让想法落地，影响世界。
       </p>
       <div class="acdc-join-actions">
         <a class="acdc-btn acdc-btn-light" href="mailto:jpchen@bupt.edu.cn">发送简历</a>
         <a class="acdc-mail-link" href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>
       </div>
     </div>
-
-    <div class="acdc-join-visual" aria-hidden="true">
-      <div class="acdc-join-orbit"></div>
-      <div class="acdc-join-card acdc-join-card-main">
-        <span>ACDC Lab</span>
-        <strong>Research Community</strong>
-      </div>
-      <div class="acdc-join-card acdc-join-card-a">Recommendation</div>
-      <div class="acdc-join-card acdc-join-card-b">Multimodal</div>
-      <div class="acdc-join-card acdc-join-card-c">Agents</div>
+    <div class="acdc-join-visual-image" aria-hidden="true">
+      <img src="{{ '/assets/img/joinus-visual-sketch.png' | relative_url }}" alt="">
     </div>
   </section>
 
