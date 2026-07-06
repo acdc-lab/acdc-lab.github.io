@@ -1201,17 +1201,6 @@ a:hover {
    Only CSS/Markdown changed; existing image assets are reused.
    ========================================================= */
 
-.site-header {
-  backdrop-filter: saturate(160%) blur(18px);
-  background: rgba(255,255,255,.86);
-  border-bottom: 1px solid rgba(210,219,230,.72);
-}
-
-.logo-img {
-  border-radius: 10px;
-  box-shadow: 0 10px 24px rgba(16,45,82,.08);
-}
-
 .header-nav a {
   position: relative;
   color: #273142;

@@ -1,8 +1,8 @@
 /* =========================================================
-   Scheme A tweak: keep original hero text layout style.
-   - No glass card
-   - No dashboard / topic cloud / ACDC brand card
-   - Text floats directly on bupt-bg.jpg like the original homepage
+   Scheme A tweak: original hero text layout style.
+   - No glass card, no dashboard / topic cloud / brand card
+   - BUPT photo background with light gradient at bottom to blend
+     with the page background below
    ========================================================= */
 
 .acdc-home-scheme-a .acdc-console,
@@ -16,7 +16,7 @@
   display: none !important;
 }
 
-/* Restore original-feeling full-screen hero layout */
+/* Full-screen hero with BUPT background */
 .acdc-home-scheme-a .acdc-hero-simple {
   min-height: 100vh;
   display: flex;
@@ -30,30 +30,34 @@
   text-align: center;
 }
 
-/* Original background image remains the main visual */
+/* BUPT background photo */
 .acdc-home-scheme-a .acdc-hero-simple::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -3;
   background:
-    linear-gradient(180deg, rgba(8, 20, 34, .22) 0%, rgba(8, 20, 34, .18) 42%, rgba(8, 20, 34, .34) 100%),
     url('../img/bupt-bg.jpg') center / cover no-repeat;
 }
 
-/* Soft readable overlay, not a card */
+/* Bottom gradient: blend from BUPT photo into page background color */
 .acdc-home-scheme-a .acdc-hero-simple::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -2;
-  background:
-    radial-gradient(circle at center, rgba(255,255,255,.08) 0%, transparent 42%),
-    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,0));
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 55%,
+    rgba(238, 244, 250, .6) 72%,
+    rgba(238, 244, 250, .92) 88%,
+    #eef4fa 100%
+  );
   pointer-events: none;
 }
 
-/* Remove previous glass panel look */
+/* Transparent inner container */
 .acdc-home-scheme-a .acdc-hero-simple-inner {
   width: min(100%, 980px);
   padding: 0 24px;
@@ -64,6 +68,7 @@
   backdrop-filter: none;
 }
 
+/* White text on dark BUPT photo, readable with shadows */
 .acdc-home-scheme-a .acdc-hero-simple .acdc-eyebrow {
   margin: 0 0 18px;
   color: rgba(255,255,255,.92);
@@ -87,7 +92,7 @@
     0 0 44px rgba(0,0,0,.42);
 }
 
-/* Keep this text in original hero subtitle style */
+/* English subtitle */
 .acdc-home-scheme-a .acdc-hero-subtitle-en {
   margin: 0;
   color: rgba(255,255,255,.90);
