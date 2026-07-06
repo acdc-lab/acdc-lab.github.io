@@ -5,7 +5,7 @@ title: 首页
 
 <div class="acdc-home acdc-home-scheme-a">
 
-  <!-- Hero / Scheme A: immersive background + pure typography -->
+  <!-- Hero / restrained immersive background + pure typography -->
   <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
     <div class="acdc-hero-simple-inner">
       <h1>ACDC Lab</h1>

@@ -1,21 +1,12 @@
 /* =========================================================
-   Final homepage: immersive status-bar nav + smooth hero fade.
-   This file intentionally overrides previous homepage experiments.
-   Keep only style.css + this file in _layouts/default.html.
+   Final restrained homepage style
+   - Immersive floating glass navigation
+   - Softer hero typography
+   - Smooth top/bottom transitions
+   - Less aggressive intro card overlap
    ========================================================= */
 
-:root {
-  --acdc-page-bg: #eef4fa;
-  --acdc-navy: #0c1d33;
-  --acdc-blue: #1267d8;
-  --acdc-text: #2f3b4f;
-}
-
-/* Full-page canvas */
-body {
-  background: var(--acdc-page-bg);
-}
-
+/* ---------- Global homepage canvas ---------- */
 .page-content {
   max-width: none;
   width: 100%;
@@ -25,82 +16,13 @@ body {
 
 .acdc-home-scheme-a {
   width: 100%;
-  min-height: 100vh;
   margin: 0;
   overflow: hidden;
-  background:
-    linear-gradient(180deg, transparent 0, var(--acdc-page-bg) 42vh),
-    var(--acdc-page-bg);
+  background: #eef4fa;
+  color: #111827;
 }
 
-/* Immersive floating status-bar navigation */
-.site-header {
-  position: fixed;
-  top: 18px;
-  left: 50%;
-  right: auto;
-  width: min(1180px, calc(100% - 48px));
-  transform: translateX(-50%);
-  z-index: 1000;
-  background: rgba(255,255,255,.64);
-  border: 1px solid rgba(255,255,255,.62);
-  border-radius: 999px;
-  box-shadow: 0 18px 54px rgba(15,35,60,.14);
-  backdrop-filter: blur(18px) saturate(160%);
-  -webkit-backdrop-filter: blur(18px) saturate(160%);
-}
-
-.header-inner {
-  height: 54px;
-  max-width: none;
-  padding: 0 24px;
-  overflow: visible;
-}
-
-.logo-img {
-  height: 34px;
-}
-
-.logo-affiliation {
-  color: #24384f;
-  border-left: 1px solid rgba(20,45,75,.20);
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.header-nav {
-  gap: 26px;
-}
-
-.header-nav a {
-  position: relative;
-  color: #172033;
-  font-size: 14px;
-  font-weight: 700;
-  opacity: .88;
-}
-
-.header-nav a:hover {
-  color: var(--acdc-blue);
-}
-
-.header-nav a:first-child {
-  color: var(--acdc-blue);
-}
-
-.header-nav a:first-child::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -14px;
-  width: 26px;
-  height: 3px;
-  border-radius: 999px;
-  background: var(--acdc-blue);
-  transform: translateX(-50%);
-}
-
-/* Hide old visual experiments if their DOM/classes exist. */
+/* Remove previous experiment visuals if any markup survives. */
 .acdc-home-scheme-a .acdc-console,
 .acdc-home-scheme-a .acdc-topic-cloud,
 .acdc-home-scheme-a .acdc-brand-visual,
@@ -112,15 +34,76 @@ body {
   display: none !important;
 }
 
-/* Hero: background begins at the very top and fades into content. */
+/* ---------- Immersive floating status-bar navigation ---------- */
+.site-header {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  right: auto;
+  width: min(1120px, calc(100% - 64px));
+  transform: translateX(-50%);
+  z-index: 1000;
+
+  background: rgba(255, 255, 255, .52);
+  border: 1px solid rgba(255, 255, 255, .40);
+  border-radius: 999px;
+  box-shadow: 0 12px 36px rgba(15, 35, 60, .11);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+.header-inner {
+  height: 50px;
+  padding: 0 20px;
+  max-width: none;
+}
+
+.logo-img {
+  height: 32px;
+}
+
+.logo-affiliation {
+  font-size: 14px;
+  color: #27364a;
+  border-left-color: rgba(39, 54, 74, .22);
+}
+
+.header-nav {
+  gap: 22px;
+}
+
+.header-nav a {
+  position: relative;
+  color: #172033;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.header-nav a:first-child {
+  color: #0b63d8;
+}
+
+.header-nav a:first-child::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  width: 22px;
+  height: 2px;
+  border-radius: 999px;
+  background: #0b63d8;
+  transform: translateX(-50%);
+}
+
+/* ---------- Hero ---------- */
 .acdc-home-scheme-a .acdc-hero-simple {
-  min-height: 86vh;
+  position: relative;
+  min-height: 76vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 126px 24px 150px;
+  padding: 104px 24px 106px;
   box-sizing: border-box;
-  position: relative;
   overflow: hidden;
   isolation: isolate;
   text-align: center;
@@ -134,156 +117,222 @@ body {
   background:
     linear-gradient(
       to bottom,
-      rgba(255,255,255,.34) 0%,
-      rgba(255,255,255,.14) 16%,
+      rgba(255,255,255,.28) 0%,
+      rgba(255,255,255,.10) 16%,
       rgba(255,255,255,0) 34%
     ),
-    url('../img/hero-bg.jpg') center / cover no-repeat;
+    linear-gradient(
+      to bottom,
+      rgba(7, 19, 34, .10) 0%,
+      rgba(7, 19, 34, .24) 48%,
+      rgba(7, 19, 34, .18) 100%
+    ),
+    url('../img/hero-bg.jpg') center 44% / cover no-repeat;
 }
 
+/* Long bottom fade: image slowly becomes the page background. */
 .acdc-home-scheme-a .acdc-hero-simple::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -2;
   pointer-events: none;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(238,244,250,0) 0%,
-      rgba(238,244,250,0) 54%,
-      rgba(238,244,250,.32) 72%,
-      rgba(238,244,250,.78) 88%,
-      var(--acdc-page-bg) 100%
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(238,244,250,0) 0%,
+    rgba(238,244,250,0) 56%,
+    rgba(238,244,250,.34) 74%,
+    rgba(238,244,250,.78) 90%,
+    #eef4fa 100%
+  );
 }
 
 .acdc-home-scheme-a .acdc-hero-simple-inner {
-  width: min(100%, 1020px);
+  width: min(100%, 860px);
   padding: 0 24px;
   border: 0;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
   backdrop-filter: none;
-  position: relative;
-  z-index: 1;
 }
 
+/* Very soft local readability glow, not a visible card. */
 .acdc-home-scheme-a .acdc-hero-simple-inner::before {
   content: "";
   position: absolute;
   left: 50%;
   top: 50%;
-  width: min(920px, 100vw - 48px);
-  height: 360px;
+  width: min(760px, 86vw);
+  height: 300px;
   transform: translate(-50%, -50%);
   z-index: -1;
   pointer-events: none;
-  background: radial-gradient(ellipse, rgba(0,0,0,.30) 0%, rgba(0,0,0,.13) 42%, rgba(0,0,0,0) 76%);
-  filter: blur(8px);
+  background: radial-gradient(
+    ellipse,
+    rgba(0, 0, 0, .16) 0%,
+    rgba(0, 0, 0, .08) 42%,
+    rgba(0, 0, 0, 0) 76%
+  );
 }
 
 .acdc-home-scheme-a .acdc-hero-simple h1 {
   margin: 0 0 16px;
   color: #fff;
-  font-size: clamp(64px, 8vw, 118px);
-  line-height: .96;
-  letter-spacing: .02em;
+  font-size: clamp(56px, 6.2vw, 92px);
+  line-height: .98;
+  letter-spacing: .035em;
   font-weight: 760;
-  text-shadow: 0 2px 16px rgba(0,0,0,.70), 0 0 44px rgba(0,0,0,.42);
+  text-shadow: 0 4px 24px rgba(0,0,0,.46);
 }
 
 .acdc-home-scheme-a .acdc-hero-subtitle-en {
   margin: 0;
-  color: rgba(255,255,255,.92);
+  color: rgba(255,255,255,.91);
+  font-size: clamp(18px, 1.75vw, 24px);
+  font-weight: 440;
+  letter-spacing: .025em;
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: clamp(18px, 2.1vw, 26px);
-  font-weight: 500;
-  letter-spacing: .035em;
-  text-shadow: 0 1px 12px rgba(0,0,0,.58);
+  text-shadow: 0 2px 14px rgba(0,0,0,.44);
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-lead {
-  margin: 22px 0 0;
-  color: rgba(255,255,255,.97);
-  font-size: clamp(22px, 2.6vw, 36px);
+  margin: 20px 0 0;
+  color: rgba(255,255,255,.96);
+  font-size: clamp(23px, 2.35vw, 34px);
   line-height: 1.22;
   font-weight: 680;
-  letter-spacing: .02em;
-  text-shadow: 0 2px 14px rgba(0,0,0,.64), 0 0 32px rgba(0,0,0,.34);
+  letter-spacing: .01em;
+  text-shadow: 0 3px 18px rgba(0,0,0,.46);
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-desc {
-  max-width: 780px;
-  margin: 24px auto 0;
-  color: rgba(255,255,255,.88);
-  font-size: 18px;
-  line-height: 1.9;
-  text-shadow: 0 1px 10px rgba(0,0,0,.58);
+  max-width: 720px;
+  margin: 22px auto 0;
+  color: rgba(255,255,255,.86);
+  font-size: 16px;
+  line-height: 1.85;
+  text-shadow: 0 2px 12px rgba(0,0,0,.42);
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 36px;
+  gap: 16px;
+  margin-top: 30px;
 }
 
 .acdc-btn {
-  min-height: 50px;
-  padding: 0 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 23px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 750;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.acdc-btn:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
 }
 
 .acdc-btn-primary {
   color: #fff;
-  background: linear-gradient(135deg, #075fcb, #1674ea);
-  box-shadow: 0 18px 34px rgba(8,85,190,.26);
+  background: linear-gradient(135deg, #0b63d8 0%, #1d79ee 100%);
+  box-shadow: 0 14px 30px rgba(6, 70, 156, .25);
 }
 
-.acdc-home-scheme-a .acdc-hero-simple .acdc-btn-secondary {
+.acdc-btn-secondary {
   color: #fff;
   background: rgba(255,255,255,.12);
-  border: 1px solid rgba(255,255,255,.78);
-  box-shadow: 0 18px 34px rgba(0,0,0,.10), inset 0 1px 0 rgba(255,255,255,.16);
-  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.62);
+  box-shadow: none;
+  backdrop-filter: blur(8px);
 }
 
-/* Content sections */
+/* ---------- Shared section rhythm ---------- */
 .acdc-section {
-  width: min(100% - 96px, 1320px);
+  width: min(100% - 96px, 1180px);
   margin: 0 auto;
-  padding: 76px 0 0;
 }
 
+.acdc-section-head {
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.acdc-section-head h2 {
+  margin: 0;
+  color: #111827;
+  font-size: clamp(34px, 3.4vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+  font-weight: 760;
+}
+
+.acdc-section-head .acdc-eyebrow {
+  margin: 8px 0 0;
+  color: #7b899b;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.acdc-section-head h2::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 3px;
+  margin: 14px auto 0;
+  border-radius: 999px;
+  background: #1c73d8;
+}
+
+.acdc-section-head-inline {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.acdc-section-head-inline h2::after {
+  margin-left: 0;
+}
+
+/* ---------- Intro card: less overlap, lighter size ---------- */
 .acdc-intro-section {
   position: relative;
-  z-index: 3;
-  margin-top: -92px;
-  padding-top: 0;
+  z-index: 2;
+  margin-top: -38px;
+  padding-bottom: 70px;
 }
 
 .acdc-intro-card {
   display: grid;
-  grid-template-columns: 250px 1fr;
-  gap: 52px;
-  align-items: center;
-  padding: 54px;
-  border: 1px solid rgba(220,230,242,.76);
-  border-radius: 34px;
+  grid-template-columns: 230px 1fr;
+  gap: 40px;
+  padding: 38px;
+  border: 1px solid rgba(220, 230, 242, .76);
+  border-radius: 28px;
   background: rgba(255,255,255,.94);
-  box-shadow: 0 30px 90px rgba(22,48,86,.14);
-  backdrop-filter: blur(16px);
+  box-shadow: 0 20px 58px rgba(22,48,86,.105);
+  backdrop-filter: blur(14px);
 }
 
 .acdc-faculty-photo {
   align-self: start;
-  border-radius: 24px;
   overflow: hidden;
-  background: #eaf1f8;
-  border: 1px solid #d9e5f1;
-  box-shadow: 0 18px 42px rgba(18,44,73,.10);
+  border-radius: 22px;
+  background: #e9f0f7;
+  border: 1px solid #d9e4ef;
+  box-shadow: 0 14px 36px rgba(18,44,73,.10);
 }
 
 .acdc-faculty-photo img {
@@ -292,60 +341,14 @@ body {
   height: auto;
 }
 
-.acdc-section-head {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.acdc-section-head-inline {
-  display: flex;
-  align-items: baseline;
-  gap: 18px;
-  text-align: left;
-  margin: 0 0 22px;
-}
-
-.acdc-section-head h2 {
-  margin: 0;
-  color: #111827;
-  font-size: clamp(36px, 4vw, 54px);
-  line-height: 1.05;
-  letter-spacing: -.04em;
-  font-weight: 780;
-}
-
-.acdc-section-head h2::after,
-.acdc-section-head-inline h2::after {
-  content: "";
-  display: block;
-  width: 34px;
-  height: 4px;
-  margin: 16px auto 0;
-  border-radius: 999px;
-  background: var(--acdc-blue);
-}
-
-.acdc-section-head-inline h2::after {
-  margin-left: 0;
-}
-
-.acdc-eyebrow {
-  margin: 0;
-  color: #7c8999;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-}
-
 .acdc-intro-content {
-  color: #3b4656;
-  font-size: 16px;
-  line-height: 1.95;
+  color: #3a4656;
+  font-size: 15.5px;
+  line-height: 1.9;
 }
 
 .acdc-intro-content p {
-  margin: 0 0 16px;
+  margin: 0 0 14px;
 }
 
 .acdc-intro-content strong,
@@ -356,30 +359,30 @@ body {
 
 .acdc-info-strip {
   display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 18px;
+  grid-template-columns: 52px 1fr;
+  gap: 16px;
   align-items: center;
-  margin: 26px 0 20px;
-  padding: 22px;
-  border: 1px solid #d8e7f5;
-  border-radius: 20px;
+  margin: 22px 0 18px;
+  padding: 20px;
+  border: 1px solid #dceaf7;
+  border-radius: 18px;
   background: linear-gradient(135deg, rgba(239,247,255,.96), rgba(255,255,255,.86));
 }
 
 .acdc-info-icon {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   display: grid;
   place-items: center;
-  border-radius: 16px;
+  border-radius: 15px;
   background: #e4f0ff;
-  font-size: 24px;
+  font-size: 23px;
 }
 
 .acdc-info-strip h3 {
   margin: 0 0 4px;
   color: #155f9d;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .acdc-info-strip p,
@@ -387,40 +390,41 @@ body {
   margin: 0;
 }
 
+/* ---------- Research cards ---------- */
 .acdc-research-section {
-  padding-top: 84px;
+  padding: 8px 0 0;
 }
 
 .acdc-research-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 26px;
 }
 
 .acdc-research-card {
-  min-height: 370px;
-  padding: 30px;
+  min-height: 330px;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(210,222,238,.92);
-  border-radius: 28px;
+  border-radius: 24px;
   background:
-    radial-gradient(circle at 78% 72%, rgba(61,132,220,.14), transparent 42%),
-    rgba(255,255,255,.90);
-  box-shadow: 0 24px 62px rgba(21,44,73,.09);
+    radial-gradient(circle at 78% 72%, rgba(61,132,220,.12), transparent 42%),
+    rgba(255,255,255,.92);
+  box-shadow: 0 18px 46px rgba(21,44,73,.08);
   transition: transform .18s ease, box-shadow .18s ease;
 }
 
 .acdc-research-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 34px 80px rgba(21,44,73,.14);
+  transform: translateY(-3px);
+  box-shadow: 0 28px 64px rgba(21,44,73,.12);
 }
 
 .acdc-card-number {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   display: grid;
   place-items: center;
   border-radius: 999px;
@@ -431,23 +435,23 @@ body {
 }
 
 .acdc-card-copy h3 {
-  margin: 28px 0 12px;
+  margin: 24px 0 12px;
   color: #111827;
-  font-size: 28px;
+  font-size: 26px;
   letter-spacing: -.03em;
 }
 
 .acdc-card-copy p {
-  min-height: 90px;
+  min-height: 84px;
   margin: 0;
   color: #5a6878;
-  line-height: 1.82;
+  line-height: 1.78;
   font-size: 15px;
 }
 
 .acdc-card-copy a {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 18px;
   color: #1f6eaa;
   font-weight: 750;
   text-decoration: none;
@@ -455,31 +459,31 @@ body {
 
 .acdc-research-card img {
   align-self: flex-end;
-  max-width: 48%;
-  max-height: 150px;
+  max-width: 46%;
+  max-height: 135px;
   margin-top: auto;
   object-fit: contain;
-  filter: drop-shadow(0 22px 22px rgba(32,79,130,.12));
+  filter: drop-shadow(0 18px 18px rgba(32,79,130,.10));
 }
 
-/* Join Us: text-only blue band */
+/* ---------- Join us ---------- */
 .acdc-join-band-simple {
-  width: min(100% - 96px, 1320px);
-  margin: 84px auto 80px;
-  min-height: 270px;
+  width: min(100% - 96px, 1180px);
+  margin: 74px auto 72px;
+  min-height: 250px;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  padding: 56px 66px;
-  border-radius: 30px;
+  padding: 50px 60px;
+  border-radius: 28px;
   color: #fff;
   overflow: hidden;
   position: relative;
   background:
     radial-gradient(circle at 78% 22%, rgba(255,255,255,.18), transparent 20%),
-    radial-gradient(circle at 20% 86%, rgba(78,159,236,.28), transparent 30%),
+    radial-gradient(circle at 20% 86%, rgba(78,159,236,.26), transparent 30%),
     linear-gradient(135deg, #12324f 0%, #0c2f4b 52%, #1d5d8f 100%);
-  box-shadow: 0 30px 80px rgba(12,47,75,.24);
+  box-shadow: 0 24px 64px rgba(12,47,75,.22);
 }
 
 .acdc-join-band-simple::after {
@@ -489,7 +493,7 @@ body {
   bottom: -92px;
   width: 620px;
   height: 240px;
-  opacity: .36;
+  opacity: .30;
   pointer-events: none;
   background: radial-gradient(circle at 10px 10px, rgba(255,255,255,.68) 1px, transparent 2px);
   background-size: 20px 20px;
@@ -503,29 +507,34 @@ body {
   z-index: 1;
 }
 
+.acdc-join-band-simple .acdc-eyebrow {
+  margin: 0 0 10px;
+  color: rgba(255,255,255,.70);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
 .acdc-join-band-simple h2 {
-  margin: 8px 0 0;
-  font-size: clamp(34px, 4vw, 52px);
-  letter-spacing: -.05em;
+  margin: 0;
+  font-size: clamp(30px, 3.2vw, 44px);
+  letter-spacing: -.045em;
 }
 
 .acdc-join-band-simple p:not(.acdc-eyebrow) {
   max-width: 720px;
-  margin: 18px 0 0;
-  color: rgba(255,255,255,.84);
-  line-height: 1.9;
-}
-
-.acdc-join-band-simple .acdc-eyebrow {
-  color: rgba(255,255,255,.72);
+  margin: 16px 0 0;
+  color: rgba(255,255,255,.82);
+  line-height: 1.85;
 }
 
 .acdc-join-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 18px;
-  margin-top: 30px;
+  gap: 16px;
+  margin-top: 28px;
 }
 
 .acdc-btn-light {
@@ -544,14 +553,14 @@ body {
   border-top: 1px solid rgba(210,219,230,.72);
 }
 
+/* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
   .site-header {
-    top: 12px;
-    width: calc(100% - 28px);
+    width: min(960px, calc(100% - 36px));
   }
 
-  .header-nav {
-    gap: 14px;
+  .logo-affiliation {
+    display: none;
   }
 
   .acdc-intro-card {
@@ -559,7 +568,7 @@ body {
   }
 
   .acdc-faculty-photo {
-    max-width: 260px;
+    width: 230px;
   }
 
   .acdc-research-cards {
@@ -571,23 +580,26 @@ body {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 760px) {
   .site-header {
-    border-radius: 26px;
+    top: 10px;
+    width: calc(100% - 18px);
+    border-radius: 24px;
   }
 
   .header-inner {
     height: auto;
-    min-height: 58px;
-    padding: 10px 14px;
-  }
-
-  .logo-img {
-    height: 30px;
+    min-height: 50px;
+    padding: 8px 12px;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .header-nav {
-    gap: 8px;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    overflow-x: auto;
   }
 
   .header-nav a {
@@ -595,12 +607,12 @@ body {
   }
 
   .acdc-home-scheme-a .acdc-hero-simple {
-    min-height: 88vh;
-    padding: 126px 18px 108px;
+    min-height: 82vh;
+    padding: 132px 18px 78px;
   }
 
   .acdc-home-scheme-a .acdc-hero-simple h1 {
-    font-size: clamp(50px, 17vw, 76px);
+    font-size: clamp(48px, 16vw, 72px);
   }
 
   .acdc-home-scheme-a .acdc-hero-subtitle-en {
@@ -611,19 +623,27 @@ body {
     font-size: 21px;
   }
 
+  .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-desc {
+    font-size: 15px;
+  }
+
   .acdc-section,
   .acdc-join-band-simple {
     width: calc(100% - 32px);
   }
 
   .acdc-intro-section {
-    margin-top: -58px;
+    margin-top: -28px;
   }
 
   .acdc-intro-card,
   .acdc-join-band-simple {
-    padding: 28px 24px;
-    border-radius: 24px;
+    padding: 24px;
+    border-radius: 22px;
+  }
+
+  .acdc-faculty-photo {
+    width: min(100%, 220px);
   }
 
   .acdc-section-head-inline {
@@ -632,6 +652,14 @@ body {
 
   .acdc-info-strip {
     grid-template-columns: 1fr;
+  }
+
+  .acdc-research-card {
+    min-height: auto;
+  }
+
+  .acdc-research-card img {
+    max-width: 60%;
   }
 
   .acdc-btn {
