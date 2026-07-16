@@ -356,12 +356,12 @@ permalink: /members/
 
   </div>
 
-  <!-- 毕业生 / ALUMNI -->
+  <!-- 硕士毕业生 / M.S. ALUMNI -->
   <div class="people-block">
 
     <div class="people-block-head">
-      <div class="people-block-head-en">ALUMNI</div>
-      <div class="people-block-head-cn">毕业生</div>
+      <div class="people-block-head-en">M.S. ALUMNI</div>
+      <div class="people-block-head-cn">硕士毕业生</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
