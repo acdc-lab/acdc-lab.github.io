@@ -244,7 +244,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/fuwenbo.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
-          <div class="student-name">付文博<span class="student-year"> · 2026#</span></div>
+          <div class="student-name">付文博<span class="student-year"> · 2026</span></div>
 
           <div class="student-contact-row">
             <div class="student-home">
@@ -264,7 +264,7 @@ permalink: /members/
           <img src="{{ '/assets/img/members/lijuntian.jpg' | relative_url }}" alt="学生3">
         </div>
         <div class="student-meta">
-          <div class="student-name">李骏天<span class="student-year"> · 2026#</span></div>
+          <div class="student-name">李骏天<span class="student-year"> · 2026</span></div>
 
           <div class="student-contact-row">
             <div class="student-home">
@@ -274,6 +274,46 @@ permalink: /members/
 
           <div class="student-desc">
             研究方向：时序预测 / 互联网业务识别
+          </div>
+        </div>
+      </div>
+
+      <!-- 金国涛 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/jinguotao.jpg' | relative_url }}" alt="金国涛">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">金国涛<span class="student-year"> · 2026</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：大语言模型
+          </div>
+        </div>
+      </div>
+
+      <!-- 张宇贺 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/zhangyuhe.jpg' | relative_url }}" alt="张宇贺">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">张宇贺<span class="student-year"> · 2026</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：大语言模型
           </div>
         </div>
       </div>
