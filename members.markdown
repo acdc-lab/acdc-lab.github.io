@@ -162,9 +162,6 @@ permalink: /members/
       <div class="student-card">
         <div class="student-photo">
           <img src="{{ '/assets/img/members/yangzhenye.jpg' | relative_url }}" alt="学生4">
-      <div class="student-card">
-        <div class="student-photo">
-          <img src="{{ '/assets/img/members/yangzhenye.jpg' | relative_url }}" alt="学生4">
         </div>
         <div class="student-meta">
           <div class="student-name">杨臻烨<span class="student-year"> · 2024</span></div>
