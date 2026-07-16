@@ -119,6 +119,26 @@ permalink: /members/
         </div>
       </div>
 
+      <!-- 马俊 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/majun.jpg' | relative_url }}" alt="马俊">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">马俊<span class="student-year"> · 2026</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="https://acdc-lab.github.io/Mason-bupt/" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+
+          <div class="student-desc">
+            研究方向：多模态学习 / 视觉语言模型
+          </div>
+        </div>
+      </div>
+
       <!-- 你可以继续复制更多 student-card，让它自动换行 -->
     </div>
 
@@ -141,24 +161,7 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/majun.jpg' | relative_url }}" alt="学生3">
-        </div>
-        <div class="student-meta">
-          <div class="student-name">马俊<span class="student-year"> · 2024</span></div>
-
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/Mason-bupt/" class="homepage-link">Homepage</a>
-            </div>
-          </div>
-
-          <div class="student-desc">
-            研究方向：多模态学习 / 驾驶辅助
-          </div>
-        </div>
-      </div>
-
-      <!-- 学生4 -->
+          <img src="{{ '/assets/img/members/yangzhenye.jpg' | relative_url }}" alt="学生4">
       <div class="student-card">
         <div class="student-photo">
           <img src="{{ '/assets/img/members/yangzhenye.jpg' | relative_url }}" alt="学生4">
