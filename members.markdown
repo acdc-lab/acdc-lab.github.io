@@ -62,26 +62,6 @@ permalink: /members/
       <!-- 学生1 -->
       <div class="student-card">
         <div class="student-photo">
-          <img src="{{ '/assets/img/members/zhangfan.jpg' | relative_url }}" alt="学生1">
-        </div>
-        <div class="student-meta">
-          <div class="student-name">张帆<span class="student-year"> · 2019</span></div>
-
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
-
-          <div class="student-desc">
-            研究方向：跨域推荐 / 大语言模型
-          </div>
-        </div>
-      </div>
-
-      <!-- 学生2 -->
-      <div class="student-card">
-        <div class="student-photo">
           <img src="{{ '/assets/img/members/wangtao.jpg' | relative_url }}" alt="学生2">
         </div>
         <div class="student-meta">
@@ -159,46 +139,6 @@ permalink: /members/
     <div class="student-grid">
 
       <!-- 学生1 -->
-      <div class="student-card">
-        <div class="student-photo">
-          <img src="{{ '/assets/img/members/hejianxiang.jpg' | relative_url }}" alt="学生1">
-        </div>
-        <div class="student-meta">
-          <div class="student-name">贺健翔<span class="student-year"> · 2023</span></div>
-
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
-
-          <div class="student-desc">
-            研究方向：知识图谱 / 会话推荐
-          </div>
-        </div>
-      </div>
-
-      <!-- 学生2 -->
-      <div class="student-card">
-        <div class="student-photo">
-          <img src="{{ '/assets/img/members/majian.jpg' | relative_url }}" alt="学生2">
-        </div>
-        <div class="student-meta">
-          <div class="student-name">马健<span class="student-year"> · 2023</span></div>
-
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
-
-          <div class="student-desc">
-            研究方向：云计算 / 大数据分析
-          </div>
-        </div>
-      </div>
-
-      <!-- 学生3 -->
       <div class="student-card">
         <div class="student-photo">
           <img src="{{ '/assets/img/members/majun.jpg' | relative_url }}" alt="学生3">
@@ -343,6 +283,39 @@ permalink: /members/
 
   </div>
 
+  <!-- 博士毕业生 / PH.D. ALUMNI -->
+  <div class="people-block">
+
+    <div class="people-block-head">
+      <div class="people-block-head-en">PH.D. ALUMNI</div>
+      <div class="people-block-head-cn">博士毕业生</div>
+      <div class="people-block-head-divider">
+        <span class="dots">...</span>
+        <span class="line"></span>
+      </div>
+    </div>
+
+    <div class="alumni-grid">
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/zhangfan.jpg' | relative_url }}" alt="张帆">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">张帆</div>
+          <div class="alumni-year">毕业年份：2026</div>
+
+          <div class="alumni-dest">
+            毕业去向：中国电科院
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
   <!-- 毕业生 / ALUMNI -->
   <div class="people-block">
 
@@ -356,6 +329,36 @@ permalink: /members/
     </div>
 
     <div class="alumni-grid">
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/hejianxiang.jpg' | relative_url }}" alt="贺健翔">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">贺健翔</div>
+          <div class="alumni-year">毕业年份：2026</div>
+
+          <div class="alumni-dest">
+            毕业去向：字节
+          </div>
+        </div>
+      </div>
+
+      <div class="alumni-card">
+        <div class="alumni-photo">
+          <img src="{{ '/assets/img/members/majian.jpg' | relative_url }}" alt="马健">
+        </div>
+
+        <div class="alumni-meta">
+          <div class="alumni-name">马健</div>
+          <div class="alumni-year">毕业年份：2026</div>
+
+          <div class="alumni-dest">
+            毕业去向：字节
+          </div>
+        </div>
+      </div>
 
       <div class="alumni-card">
         <div class="alumni-photo">
