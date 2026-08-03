@@ -12,6 +12,11 @@ permalink: /publications/
     <div class="page-header-divider"><span class="line"></span></div>
   </div>
 
+  <p class="pub-source-note">
+    收录 2023 年以来正式发表的同行评审期刊与会议论文；不收录 arXiv/CoRR 预印本，文献信息以 DBLP 为准。<br>
+    Peer-reviewed journal and conference papers from 2023 onward. Preprints (arXiv/CoRR) are excluded; records are verified against DBLP.
+  </p>
+
   <!-- 年份块：2026 -->
   <div class="pub-year-block">
     <div class="pub-year">2026</div>
@@ -68,6 +73,51 @@ permalink: /publications/
         <em>WWW 2026.</em>
         <span class="pub-links">
           [<a href="https://doi.org/10.1145/3774904.3792356" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Xingyu Zheng, Kaimin Wei, Zhiquan Liu, Jinpeng Chen, Chengkun Jia, Jilian Zhang.
+        E2E-PP: End-to-End Privacy Protection via Compressive Sensing and Personalized Differential Privacy for Mobile Crowdsensing.
+        <em>Comput. Secur.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1016/j.cose.2026.104962" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Mengge Jiao, Kaimin Wei, Zhiquan Liu, Jinpeng Chen, Chengkun Jia, Yan Li, Tingrui Pei.
+        Towards Dynamic Cooperative Scheduling in Multi-UAV Urban Sensing: A Hierarchical Reinforcement Learning Approach.
+        <em>Internet Things.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1016/j.iot.2026.101985" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Shiting Zhao, Kaimin Wei, Zhiquan Liu, Jinpeng Chen.
+        STA-MS: A Many-to-Many Stable Task Allocation Based on Multi-Round Selection in Mobile Crowdsensing.
+        <em>J. Netw. Comput. Appl.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1016/j.jnca.2026.104491" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Jinpeng Chen, Wenbo Fu, Huachen Guan, Fan Zhang, Zhenye Yang, Jianxiang He, Hongbo Gao, Kaimin Wei.
+        Frequency-Enhanced Heterogeneous Graph-Based Sequential Recommendation with Disentangled Methods.
+        <em>Knowl. Inf. Syst.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1007/s10115-026-02820-3" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Yicheng Ji, Jun Zhang, Jinpeng Chen, Cong Wang, Lidan Shou, Gang Chen, Huan Li.
+        See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs.
+        <em>ACL 2026.</em>
+        <span class="pub-links">
+          [<a href="https://aclanthology.org/2026.acl-long.1087/" class="pub-link">PDF</a>]
         </span>
       </li>
     </ol>
@@ -173,7 +223,7 @@ permalink: /publications/
         Heterogeneous Graph-based Sequential Recommendation with Disentangled Methods.
         <em>ICDM 2025.</em>
         <span class="pub-links">
-          [<a href="#" class="pub-link">PDF</a>]
+          [<a href="https://doi.org/10.1109/ICDM65498.2025.00021" class="pub-link">PDF</a>]
         </span>
       </li>
 
@@ -182,7 +232,7 @@ permalink: /publications/
         STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational Recommendation.
         <em>CIKM 2025.</em>
         <span class="pub-links">
-          [<a href="https://dl.acm.org/doi/10.1145/3746252.3761186" class="pub-link">PDF</a>]
+          [<a href="https://doi.org/10.1145/3746252.3761186" class="pub-link">PDF</a>]
         </span>
       </li>
 
@@ -191,7 +241,34 @@ permalink: /publications/
         Leveraging Multimodal Data and Side Users for Diffusion Cross-Domain Recommendation.
         <em>ACM MM 2025.</em>
         <span class="pub-links">
-          [<a href="#" class="pub-link">PDF</a>]
+          [<a href="https://doi.org/10.1145/3746027.3754555" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Kaimin Wei, Guozi Qi, Lin Cui, Jinpeng Chen, Xiaohui Chen, Ke Xu.
+        Stable Task Allocation in Mobile Crowdsensing: An Interruption-Driven Approach.
+        <em>IEEE Trans. Netw. Serv. Manag.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1109/TNSM.2025.3598025" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Yicheng Ji, Jun Zhang, Heming Xia, Jinpeng Chen, Lidan Shou, Gang Chen, Huan Li.
+        SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided Token Pruning.
+        <em>EMNLP 2025.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.18653/v1/2025.emnlp-main.366" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Yichen Yan, Ming Zhong, Qi Zhu, Xiaoling Gu, Jinpeng Chen, Huan Li.
+        CoIDO: Efficient Data Selection for Visual Instruction Tuning via Coupled Importance-Diversity Optimization.
+        <em>NeurIPS 2025.</em>
+        <span class="pub-links">
+          [<a href="https://papers.nips.cc/paper_files/paper/2025/hash/f3f2ff9579ba6deeb89caa2fe1f0b99c-Abstract-Conference.html" class="pub-link">PDF</a>]
         </span>
       </li>
     </ol>
@@ -299,14 +376,6 @@ permalink: /publications/
         </span>
       </li>
 
-      <li>
-        Yuan Cao, Xudong Zhang, Fan Zhang, Feifei Kou, Josiah Poon, Xiongnan Jin, Yongheng Wang, Jinpeng Chen.
-        SimCGNN: Simple Contrastive Graph Neural Network for Session-based Recommendation.
-        <em>CoRR 2023.</em>
-        <span class="pub-links">
-          [<a href="https://doi.org/10.48550/arXiv.2302.03997" class="pub-link">PDF</a>]
-        </span>
-      </li>
     </ol>
   </div>
 

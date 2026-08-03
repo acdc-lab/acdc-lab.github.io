@@ -994,6 +994,15 @@ a:hover {
 }
 
 /* 年份标题，比如 2025 */
+.pub-source-note {
+  max-width: 820px;
+  margin: -16px auto 36px;
+  color: #5c6864;
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .pub-year-block {
   margin-bottom: 32px;
 }
