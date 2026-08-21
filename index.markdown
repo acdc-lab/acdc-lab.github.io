@@ -81,7 +81,7 @@ title: 首页
           <p>面向大规模数据的个性化推荐方法研究，包括召回、排序、多样性与可解释性等关键问题。</p>
           <a href="{{ '/research/' | relative_url }}">了解更多 →</a>
         </div>
-        <img src="{{ '/assets/img/recommend.png' | relative_url }}" alt="推荐系统">
+        <img src="{{ '/assets/img/research-cards/recommender-ai.webp' | relative_url }}" alt="推荐系统">
       </article>
 
       <article class="acdc-research-card">
@@ -91,7 +91,7 @@ title: 首页
           <p>探索文本、图像、视频、音频等多模态数据的表示学习与融合建模，助力跨模态理解与生成。</p>
           <a href="{{ '/research/' | relative_url }}">了解更多 →</a>
         </div>
-        <img src="{{ '/assets/img/multimodal.png' | relative_url }}" alt="多模态学习">
+        <img src="{{ '/assets/img/research-cards/multimodal-ai.webp' | relative_url }}" alt="多模态学习">
       </article>
 
       <article class="acdc-research-card">
@@ -101,7 +101,7 @@ title: 首页
           <p>研究多智能体协作与博弈、强化学习与决策优化，面向复杂场景的智能体系统建模与应用。</p>
           <a href="{{ '/research/' | relative_url }}">了解更多 →</a>
         </div>
-        <img src="{{ '/assets/img/multiagent.png' | relative_url }}" alt="多智能体学习">
+        <img src="{{ '/assets/img/research-cards/multiagent-ai.webp' | relative_url }}" alt="多智能体学习">
       </article>
     </div>
   </section>
