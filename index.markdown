@@ -54,7 +54,7 @@ title: 首页
             <p>
               目前团队研究方向聚焦推荐系统 / 模型轻量化 / 自动驾驶，
               欢迎相关研究方向同行者加入，感兴趣的同学可发送简历到
-              <a href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>。
+              <a href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu" data-mail-show>jpchen [at] bupt [dot] edu [dot] cn</a>。
             </p>
           </div>
         </div>
@@ -116,8 +116,8 @@ title: 首页
         让想法落地，影响世界。
       </p>
       <div class="acdc-join-actions">
-        <a class="acdc-btn acdc-btn-light" href="mailto:jpchen@bupt.edu.cn">发送简历</a>
-        <a class="acdc-mail-link" href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>
+        <a class="acdc-btn acdc-btn-light" href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu">发送简历</a>
+        <a class="acdc-mail-link" href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu" data-mail-show>jpchen [at] bupt [dot] edu [dot] cn</a>
       </div>
     </div>
   </section>

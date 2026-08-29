@@ -12,4 +12,4 @@ thumb: /assets/img/news/launch.jpg   # 自己放一张缩略图到 assets/img/ne
 - 首批内容：团队简介、研究方向版块、成员/毕业生页面、论文列表、招生说明  
 - 后续将陆续发布更多**论文解读**、**数据与代码**等
 
-如有建议或合作意向，欢迎联系邮箱：<a href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>。
+如有建议或合作意向，欢迎联系邮箱：<a href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu" data-mail-show>jpchen [at] bupt [dot] edu [dot] cn</a>。

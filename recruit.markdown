@@ -16,7 +16,7 @@ permalink: /recruit/
 
     <p class="recruit-paragraph">
       团队招收<strong>博士和硕士</strong>，感兴趣的同学可发送简历到邮箱
-      <a class="recruit-link" href="mailto:zhupengfei@tju.edu.cn">jpchen@bupt.edu.cn</a>。
+      <a class="recruit-link" href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu" data-mail-show>jpchen [at] bupt [dot] edu [dot] cn</a>。
     </p>
 
     <p class="recruit-paragraph">

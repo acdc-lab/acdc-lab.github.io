@@ -13,4 +13,4 @@ thumb: /assets/img/news/launch.jpg
 
 感谢三位同学为 ACDC 实验室做出的贡献，祝愿他们在未来的学术与职业道路上乘风破浪、前程似锦！🎓
 
-> ACDC 实验室长期招收对推荐系统、多模态学习、大语言模型等方向感兴趣的博士和硕士研究生，欢迎发送简历至 jpchen@bupt.edu.cn。
+> ACDC 实验室长期招收对推荐系统、多模态学习、大语言模型等方向感兴趣的博士和硕士研究生，欢迎发送简历至 <a href="#" data-mail="anBjaGVuQGJ1cHQuZWR1LmNu" data-mail-show>jpchen [at] bupt [dot] edu [dot] cn</a>。

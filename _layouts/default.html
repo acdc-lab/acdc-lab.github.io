@@ -20,5 +20,17 @@
   </main>
 
   {% include footer.html %}
+
+  <!-- 防爬虫：邮箱地址 base64 编码，页面加载后由 JS 解码还原 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[data-mail]').forEach(function (a) {
+        var email = '';
+        try { email = atob(a.getAttribute('data-mail')); } catch (e) { return; }
+        a.href = 'mailto:' + email;
+        if (a.hasAttribute('data-mail-show')) a.textContent = email;
+      });
+    });
+  </script>
 </body>
 </html>
