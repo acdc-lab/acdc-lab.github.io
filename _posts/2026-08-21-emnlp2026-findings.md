@@ -2,6 +2,7 @@
 layout: post
 title: "团队论文被 EMNLP 2026 Findings 接收"
 categories: [news]
+thumb: /assets/img/news/emnlp2026.jpg
 ---
 
 我们欣喜地宣布：团队论文 **Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment** 被 **EMNLP 2026** 接收为 **Findings** 论文！

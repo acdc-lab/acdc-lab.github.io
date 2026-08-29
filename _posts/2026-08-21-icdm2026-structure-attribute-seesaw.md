@@ -2,6 +2,7 @@
 layout: post
 title: "团队论文被 IEEE ICDM 2026 接收"
 categories: [news]
+thumb: /assets/img/news/icdm2026.jpg
 ---
 
 我们欣喜地宣布：团队论文 **Structure Attribute Seesaw: Conflict Aware Embedding Decoupling in Attributed Graph Clustering** 被 **IEEE ICDM 2026** 接收！
