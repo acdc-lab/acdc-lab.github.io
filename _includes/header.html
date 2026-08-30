@@ -5,12 +5,23 @@
       <span class="logo-affiliation">Advanced Cross-media Data Computing Group @BUPT</span>
     </div>
     <nav class="header-nav">
+      {% if page.lang == 'en' %}
+      <a href="{{ '/en/' | relative_url }}">Home</a>
+      <a href="{{ '/en/news/' | relative_url }}">News</a>
+      <a href="{{ '/en/research/' | relative_url }}">Research</a>
+      <a href="{{ '/en/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/en/members/' | relative_url }}">People</a>
+      <a href="{{ '/en/recruit/' | relative_url }}">Join Us</a>
+      <a class="lang-switch" href="{{ page.url | remove_first: '/en' | relative_url }}">中文</a>
+      {% else %}
       <a href="{{ '/' | relative_url }}">首页</a>
       <a href="{{ '/news/' | relative_url }}">新闻</a>
       <a href="{{ '/research/' | relative_url }}">研究</a>
       <a href="{{ '/publications/' | relative_url }}">相关成果</a>
       <a href="{{ '/members/' | relative_url }}">成员</a>
       <a href="{{ '/recruit/' | relative_url }}">招生</a>
+      <a class="lang-switch" href="{{ '/en' | append: page.url | relative_url }}">EN</a>
+      {% endif %}
     </nav>
   </div>
 </header>

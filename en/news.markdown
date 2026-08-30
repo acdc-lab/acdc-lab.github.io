@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 新闻
-permalink: /news/
+title: News
+lang: en
+permalink: /en/news/
 ---
 
 <section class="page-section">
@@ -13,7 +14,7 @@ permalink: /news/
   </div>
 
   <ul class="news-list">
-    {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news" and p.lang != "en"' %}
+    {% assign news_posts = site.posts | where_exp:'p','p.lang == "en"' %}
     {% for post in news_posts %}
     <li class="news-item">
       <a class="news-thumb" href="{{ post.url | relative_url }}">
@@ -28,7 +29,7 @@ permalink: /news/
         <h3 class="news-title-link">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h3>
-        <div class="news-date">📅 {{ post.date | date: "%-m月 %-d, %Y" }}</div>
+        <div class="news-date">📅 {{ post.date | date: "%b %-d, %Y" }}</div>
         {% if post.excerpt %}
           <p class="news-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
         {% endif %}
@@ -36,7 +37,5 @@ permalink: /news/
     </li>
     {% endfor %}
   </ul>
-
-  <!-- 以后需要分页时，这里可以放一个简单的分页条（现在先省略） -->
 
 </section>
