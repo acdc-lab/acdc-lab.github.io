@@ -1185,7 +1185,7 @@ a:hover {
 .rsx-card:hover{transform:translateY(-2px) scale(1.01);box-shadow:0 12px 28px rgba(0,0,0,.08);border-color:#d9e4e2;}
 
 .rsx-figure{width:100%;border-radius:12px;overflow:hidden;margin-bottom:12px;background:#f1f6f5;}
-.rsx-figure img{width:100%;height:auto;display:block;transition:transform .25s ease;}
+.rsx-figure img{width:100%;height:320px;object-fit:cover;display:block;transition:transform .25s ease;}
 .rsx-card:hover .rsx-figure img{transform:scale(1.02);}
 
 .rsx-text{padding:4px 6px 14px;}
@@ -1197,6 +1197,7 @@ a:hover {
   .rsx-section{padding:40px 14px 64px;}
   .rsx-title{font-size:32px;}
   .rsx-subtitle{font-size:22px;}
+  .rsx-figure img{height:190px;}
 }
 
 
