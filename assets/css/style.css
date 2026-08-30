@@ -1963,9 +1963,10 @@ a:hover {
 
 /* 新闻卡片 */
 .news-item {
-  background: rgba(255,255,255,.62);
-  border: 1px solid rgba(255,255,255,.85);
-  backdrop-filter: blur(14px);
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(255,255,255,.45);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
   box-shadow:
     0 2px 6px rgba(0,0,0,.04),
     inset 0 1px 0 rgba(255,255,255,.9);
@@ -1973,9 +1974,10 @@ a:hover {
 
 /* 研究方向卡片 */
 .rsx-card {
-  background: rgba(255,255,255,.62);
-  border: 1px solid rgba(255,255,255,.85);
-  backdrop-filter: blur(14px);
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(255,255,255,.45);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
   box-shadow:
     0 2px 6px rgba(0,0,0,.04),
     inset 0 1px 0 rgba(255,255,255,.9);
@@ -1983,11 +1985,12 @@ a:hover {
 
 /* 成员页分组面板（指导教师/博士/硕士/毕业生/本科生） */
 .people-block {
-  background: rgba(255,255,255,.55);
-  border: 1px solid rgba(255,255,255,.8);
+  background: rgba(255,255,255,.50);
+  border: 1px solid rgba(255,255,255,.42);
   border-radius: 24px;
   padding: 28px 24px;
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
   box-shadow:
     0 18px 48px rgba(21,44,73,.08),
     inset 0 1px 0 rgba(255,255,255,.9);
@@ -1995,11 +1998,12 @@ a:hover {
 
 /* 论文年份块 */
 .pub-year-block {
-  background: rgba(255,255,255,.55);
-  border: 1px solid rgba(255,255,255,.8);
+  background: rgba(255,255,255,.50);
+  border: 1px solid rgba(255,255,255,.42);
   border-radius: 20px;
   padding: 24px 26px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
   box-shadow:
     0 14px 40px rgba(21,44,73,.07),
     inset 0 1px 0 rgba(255,255,255,.9);
@@ -2007,11 +2011,12 @@ a:hover {
 
 /* 招生页正文面板 */
 .recruit-body {
-  background: rgba(255,255,255,.55);
-  border: 1px solid rgba(255,255,255,.8);
+  background: rgba(255,255,255,.50);
+  border: 1px solid rgba(255,255,255,.42);
   border-radius: 20px;
   padding: 30px 34px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
   box-shadow:
     0 14px 40px rgba(21,44,73,.07),
     inset 0 1px 0 rgba(255,255,255,.9);
@@ -2022,11 +2027,12 @@ a:hover {
   max-width: 1100px;
   margin: 0 auto;
   text-align: left;
-  background: rgba(255,255,255,.6);
-  border: 1px solid rgba(255,255,255,.85);
+  background: rgba(255,255,255,.55);
+  border: 1px solid rgba(255,255,255,.45);
   border-radius: 20px;
   padding: 34px 38px;
-  backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
   box-shadow:
     0 14px 40px rgba(21,44,73,.07),
     inset 0 1px 0 rgba(255,255,255,.9);
