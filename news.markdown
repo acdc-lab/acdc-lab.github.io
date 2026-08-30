@@ -13,7 +13,7 @@ permalink: /news/
   </div>
 
   <ul class="news-list">
-    {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news" and p.lang != "en"' %}
+    {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news"' | where_exp:'p','p.lang != "en"' %}
     {% for post in news_posts %}
     <li class="news-item">
       <a class="news-thumb" href="{{ post.url | relative_url }}">
