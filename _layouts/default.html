@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }} | {{ site.title }}</title>
 
-  <!-- 站点主样式 -->
+  <!-- Site styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/homepage-scheme-a-original-text.css' | relative_url }}">
 </head>
 
 <body>
-  <!-- 顶部导航栏 -->
+  <!-- Top navigation -->
   {% include header.html %}
 
-  <!-- 主体内容容器 -->
+  <!-- Main content container -->
   <main class="page-content">
     {{ content }}
   </main>
 
   {% include footer.html %}
 
-  <!-- 防爬虫：邮箱地址 base64 编码，页面加载后由 JS 解码还原 -->
+  <!-- Anti-scraping: email is base64-encoded, decoded by JS on load -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('a[data-mail]').forEach(function (a) {
