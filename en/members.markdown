@@ -35,7 +35,7 @@ permalink: /en/members/
       <div class="faculty-name">Jinpeng Chen</div>
       <div class="faculty-title">Associate Professor / Doctoral Advisor</div>
       <div class="faculty-desc">
-        Research areas: social media &amp; data mining, AI applications, large language models.
+        Research areas: data mining &amp; intelligent computing, AI &amp; applications, multimodal learning.
       </div>
       <div class="faculty-links">
         <a href="https://acdc-lab.github.io/jpchen/" class="faculty-homepage">Homepage</a>

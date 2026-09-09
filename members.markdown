@@ -34,7 +34,7 @@ permalink: /members/
       <div class="faculty-name">陈晋鹏</div>
       <div class="faculty-title">副教授 / 博士生导师</div>
       <div class="faculty-desc">
-        研究领域：社会媒体与数据挖掘、人工智能及应用、大语言模型。
+        研究领域：数据挖掘与智能计算、人工智能及应用、多模态学习。
       </div>
       <div class="faculty-links">
         <a href="https://acdc-lab.github.io/jpchen/" class="faculty-homepage">Homepage</a>

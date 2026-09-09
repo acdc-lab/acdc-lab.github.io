@@ -39,9 +39,10 @@ permalink: /en/
         </div>
 
         <p>
-          The ACDC group is led by <strong>Prof. Jinpeng Chen</strong>, Associate Professor, Doctoral Advisor,
-          and Vice Dean of the School of Computer Science at Beijing University of Posts and Telecommunications (BUPT).
-          His research interests include social media & data mining, AI applications, and large language models.
+          The ACDC group is led by <strong>Prof. Jinpeng Chen</strong>, Associate Professor and Doctoral Advisor
+          at the School of Computer Science (National Model Software College), Beijing University of Posts and
+          Telecommunications (BUPT), and Deputy Director of the Digital &amp; Intelligent Transformation Department.
+          His research interests include data mining &amp; intelligent computing, AI &amp; applications, and multimodal learning.
           He has led or participated in 40+ national, provincial/ministerial, and industry research projects,
           published 100+ papers at leading venues such as SIGIR, WWW, NeurIPS, ICML, AAAI, ACM MM, ACL, EMNLP, TKDE, and TMC,
           and holds 14 granted/pending patents.
