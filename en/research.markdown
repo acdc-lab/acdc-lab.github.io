@@ -9,7 +9,6 @@ permalink: /en/research/
 
     <div class="page-header">
       <div class="page-header-en">RESEARCH</div>
-      <div class="page-header-cn">研究方向</div>
       <div class="page-header-divider"><span class="line"></span></div>
     </div>
 

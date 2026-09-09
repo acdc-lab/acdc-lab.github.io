@@ -18,7 +18,7 @@ permalink: /en/publications/
     Peer-reviewed journal and conference papers from 2023 onward. Preprints (arXiv/CoRR) are excluded; records are verified against DBLP.
   </p>
 
-  <!-- 年份块：2026 -->
+  <!-- Year: 2026 -->
   <div class="pub-year-block">
     <div class="pub-year">2026</div>
 
@@ -124,7 +124,7 @@ permalink: /en/publications/
     </ol>
   </div>
 
-  <!-- 年份块：2025 -->
+  <!-- Year: 2025 -->
   <div class="pub-year-block">
     <div class="pub-year">2025</div>
 
@@ -275,7 +275,7 @@ permalink: /en/publications/
     </ol>
   </div>
 
-  <!-- 年份块：2024 -->
+  <!-- Year: 2024 -->
   <div class="pub-year-block">
     <div class="pub-year">2024</div>
 
@@ -354,7 +354,7 @@ permalink: /en/publications/
     </ol>
   </div>
 
-  <!-- 年份块：2023 -->
+  <!-- Year: 2023 -->
   <div class="pub-year-block">
     <div class="pub-year">2023</div>
 

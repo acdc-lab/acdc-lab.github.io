@@ -9,7 +9,6 @@ permalink: /en/news/
 
   <div class="page-header">
     <div class="page-header-en">NEWS</div>
-    <div class="page-header-cn">新闻</div>
     <div class="page-header-divider"><span class="line"></span></div>
   </div>
 

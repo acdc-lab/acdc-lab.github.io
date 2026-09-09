@@ -9,7 +9,6 @@ permalink: /en/recruit/
 
   <div class="page-header">
     <div class="page-header-en">JOIN US</div>
-    <div class="page-header-cn">招生要求</div>
     <div class="page-header-divider"><span class="line"></span></div>
   </div>
 

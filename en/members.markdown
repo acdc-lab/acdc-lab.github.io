@@ -9,7 +9,6 @@ permalink: /en/members/
 
   <div class="page-header">
     <div class="page-header-en">PEOPLE</div>
-    <div class="page-header-cn">团队成员</div>
     <div class="page-header-divider"><span class="line"></span></div>
   </div>
 
@@ -18,7 +17,6 @@ permalink: /en/members/
 
   <div class="people-block-head">
     <div class="people-block-head-en">FACULTY</div>
-    <div class="people-block-head-cn">指导教师</div>
     <div class="people-block-head-divider">
       <span class="dots">...</span>
       <span class="line"></span>
@@ -51,7 +49,6 @@ permalink: /en/members/
 
     <div class="people-block-head">
       <div class="people-block-head-en">PH.D. STUDENT</div>
-      <div class="people-block-head-cn">博士研究生</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
@@ -150,7 +147,6 @@ permalink: /en/members/
 
     <div class="people-block-head">
       <div class="people-block-head-en">Graduate Student</div>
-      <div class="people-block-head-cn">硕士研究生</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
@@ -329,7 +325,6 @@ permalink: /en/members/
 
     <div class="people-block-head">
       <div class="people-block-head-en">PH.D. ALUMNI</div>
-      <div class="people-block-head-cn">博士毕业生</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
@@ -362,7 +357,6 @@ permalink: /en/members/
 
     <div class="people-block-head">
       <div class="people-block-head-en">M.S. ALUMNI</div>
-      <div class="people-block-head-cn">硕士毕业生</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
@@ -640,7 +634,6 @@ permalink: /en/members/
 
     <div class="people-block-head">
       <div class="people-block-head-en">B.S. STUDENT</div>
-      <div class="people-block-head-cn">本科生（科研助手）</div>
       <div class="people-block-head-divider">
         <span class="dots">...</span>
         <span class="line"></span>
