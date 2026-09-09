@@ -43,7 +43,8 @@ permalink: /en/
           and Vice Dean of the School of Computer Science at Beijing University of Posts and Telecommunications (BUPT).
           His research interests include social media & data mining, AI applications, and large language models.
           He has led or participated in 40+ national, provincial/ministerial, and industry research projects,
-          published 80+ papers at venues such as SIGIR, AAAI, CIKM, and ACM MM, and holds 8 granted/pending patents.
+          published 100+ papers at leading venues such as SIGIR, WWW, NeurIPS, ICML, AAAI, ACM MM, ACL, EMNLP, TKDE, and TMC,
+          and holds 14 granted/pending patents.
         </p>
         <p>
           He received the ICONIP 2022 Best Paper Award, the Zhou Jiongpan Outstanding Young Teacher Award,
