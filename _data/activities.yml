@@ -1,17 +1,57 @@
-# 活动列表：按时间倒序排列
-# 每项字段：
-#   title   活动标题
-#   date    日期（显示用，如 2026-06-10）
-#   photos  照片列表，每张：
-#     img     图片路径（放在 assets/img/activities/ 下，如 /assets/img/activities/2026-graduation/photo1.jpg）
-#     caption 图片说明（可选）
+# 活动列表：按时间倒序排列（最新的放最上面）
 #
-# 示例：
-# - title: 2026 毕业季合影
-#   date: 2026-06-10
-#   photos:
-#     - img: /assets/img/activities/2026-graduation/photo1.jpg
-#       caption: 实验室合影
-#     - img: /assets/img/activities/2026-graduation/photo2.jpg
-#       caption: 聚餐
-[]
+# 每项字段：
+#   title     活动标题（中文页显示）
+#   title_en  活动标题（英文页显示；不填则英文页也用 title）
+#   date      日期，必须写完整的 YYYY-MM-DD（显示时只取到「年月」，
+#             日不确定就随便填个 01，页面上不会显示出来）
+#   photos    照片列表，每张：
+#     img         图片路径（放在 assets/img/activities/<活动名>/ 下）
+#     caption     图片说明（中文页显示，可选）
+#     caption_en  图片说明（英文页显示，可选；不填则英文页不显示说明）
+#
+# 加新活动：把照片放进 assets/img/activities/<活动名>/，照着下面复制一段改就行。
+
+- title: 2026 毕业聚餐
+  title_en: 2026 Graduation Dinner
+  date: "2026-06-01"   # 日不确定，填的 01；显示只到「年月」
+  photos:
+    - img: /assets/img/activities/2026-06-graduation-dinner/photo1.jpg
+      caption: 毕业合影
+      caption_en: Graduation group photo
+    - img: /assets/img/activities/2026-06-graduation-dinner/photo2.jpg
+      caption: 毕业聚餐
+      caption_en: Graduation dinner
+
+- title: 2026 毕业答辩
+  title_en: 2026 Thesis Defense
+  date: "2026-05-01"   # 日不确定，填的 01；显示只到「年月」
+  photos:
+    - img: /assets/img/activities/2026-05-thesis-defense/photo1.jpg
+      caption: 博士学位论文答辩会合影
+      caption_en: Group photo at the doctoral thesis defense
+    - img: /assets/img/activities/2026-05-thesis-defense/photo2.jpg
+      caption: 答辩人与导师合影
+      caption_en: Candidates with their advisor
+
+- title: 2026 年度总结
+  title_en: 2026 Annual Review
+  date: "2026-02-05"
+  photos:
+    - img: /assets/img/activities/2026-02-annual-summary/photo1.jpg
+      caption: 线上线下同步进行，颁发荣誉证书
+      caption_en: Held in person and online, with certificates awarded
+    - img: /assets/img/activities/2026-02-annual-summary/photo2.jpg
+      caption: 年度工作总结汇报
+      caption_en: Annual work summary presentation
+
+- title: 2026 团建
+  title_en: 2026 Team Building
+  date: "2026-01-01"   # 日不确定，填的 01；显示只到「年月」
+  photos:
+    - img: /assets/img/activities/2026-01-team-building/photo1.jpg
+      caption: 实验室合影
+      caption_en: Lab group photo
+    - img: /assets/img/activities/2026-01-team-building/photo2.jpg
+      caption: 团建聚餐
+      caption_en: Team dinner

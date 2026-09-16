@@ -16,12 +16,12 @@ permalink: /en/activities/
   {% if activities and activities.size > 0 %}
   {% for act in activities %}
   <div class="act-block">
-    <h2 class="act-title">{{ act.title }}<span class="act-date">{{ act.date }}</span></h2>
+    <h2 class="act-title">{{ act.title_en | default: act.title }}<span class="act-date">{{ act.date | date: "%b %Y" }}</span></h2>
     <div class="act-grid">
       {% for p in act.photos %}
       <figure class="act-item">
-        <img src="{{ p.img | relative_url }}" alt="{{ p.caption | default: act.title }}" loading="lazy" decoding="async">
-        {% if p.caption %}<figcaption>{{ p.caption }}</figcaption>{% endif %}
+        <img src="{{ p.img | relative_url }}" alt="{{ p.caption_en | default: act.title_en | default: act.title }}" loading="lazy" decoding="async">
+        {% if p.caption_en %}<figcaption>{{ p.caption_en }}</figcaption>{% endif %}
       </figure>
       {% endfor %}
     </div>

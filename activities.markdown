@@ -16,7 +16,7 @@ permalink: /activities/
   {% if activities and activities.size > 0 %}
   {% for act in activities %}
   <div class="act-block">
-    <h2 class="act-title">{{ act.title }}<span class="act-date">{{ act.date }}</span></h2>
+    <h2 class="act-title">{{ act.title }}<span class="act-date">{{ act.date | date: "%Y年%-m月" }}</span></h2>
     <div class="act-grid">
       {% for p in act.photos %}
       <figure class="act-item">
