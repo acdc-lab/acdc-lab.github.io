@@ -2045,3 +2045,67 @@ a:hover {
   .recruit-body { padding: 20px 16px; }
   .post-content { padding: 22px 18px; }
 }
+
+/* =========================================================
+   Activities / 活动照片墙
+   ========================================================= */
+.act-block { margin-bottom: 44px; }
+.act-title { font-size: 24px; font-weight: 700; margin: 0 0 14px; color: #273142; }
+.act-date { font-size: 14px; font-weight: 500; color: #8a959e; margin-left: 12px; }
+.act-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.act-item { margin: 0; cursor: zoom-in; }
+.act-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.8);
+  box-shadow: 0 6px 18px rgba(21,44,73,.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.act-item:hover img { transform: scale(1.02); box-shadow: 0 12px 30px rgba(21,44,73,.16); }
+.act-item figcaption {
+  margin-top: 6px;
+  font-size: 13.5px;
+  color: #4a5560;
+  text-align: center;
+}
+.act-empty { text-align: center; color: #8a959e; padding: 40px 0; }
+
+/* 灯箱 */
+.act-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background: rgba(10,16,24,.86);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+.act-lightbox[hidden] { display: none; }
+.act-lightbox img { max-width: 100%; max-height: 88vh; border-radius: 8px; }
+.act-lightbox button {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255,255,255,.16);
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .act-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .act-grid { grid-template-columns: 1fr; }
+}

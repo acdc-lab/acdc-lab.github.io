@@ -1,0 +1,17 @@
+# 活动列表：按时间倒序排列
+# 每项字段：
+#   title   活动标题
+#   date    日期（显示用，如 2026-06-10）
+#   photos  照片列表，每张：
+#     img     图片路径（放在 assets/img/activities/ 下，如 /assets/img/activities/2026-graduation/photo1.jpg）
+#     caption 图片说明（可选）
+#
+# 示例：
+# - title: 2026 毕业季合影
+#   date: 2026-06-10
+#   photos:
+#     - img: /assets/img/activities/2026-graduation/photo1.jpg
+#       caption: 实验室合影
+#     - img: /assets/img/activities/2026-graduation/photo2.jpg
+#       caption: 聚餐
+[]
