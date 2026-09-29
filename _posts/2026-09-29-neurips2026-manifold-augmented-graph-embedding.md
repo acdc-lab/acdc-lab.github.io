@@ -2,6 +2,7 @@
 layout: post
 title: "团队论文被 NeurIPS 2026 接收"
 categories: [news]
+date: 2026-09-29 12:04:00 +0800
 thumb: /assets/img/news/neurips2026.jpg
 ---
 

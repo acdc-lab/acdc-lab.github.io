@@ -2,6 +2,7 @@
 layout: post
 title: "Group Paper Accepted at NeurIPS 2026"
 categories: [news]
+date: 2026-09-29 12:04:00 +0800
 lang: en
 permalink: /en/news/2026/09/29/manifold-augmented-graph-embedding/
 thumb: /assets/img/news/neurips2026.jpg
