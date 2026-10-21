@@ -139,6 +139,22 @@ permalink: /members/
         </div>
       </div>
 
+      <!-- 丁靖宇 -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/dingjingyu.jpg' | relative_url }}" alt="丁靖宇">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">丁靖宇<span class="student-year"> · 2027</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- 你可以继续复制更多 student-card，让它自动换行 -->
     </div>
 

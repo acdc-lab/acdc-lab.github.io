@@ -137,6 +137,22 @@ permalink: /en/members/
         </div>
       </div>
 
+      <!-- Jingyu Ding -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/dingjingyu.jpg' | relative_url }}" alt="Jingyu Ding">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">Jingyu Ding<span class="student-year"> · 2027</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Add more student-cards here; they wrap automatically -->
     </div>
 
