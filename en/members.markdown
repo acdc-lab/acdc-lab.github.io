@@ -65,11 +65,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Tao Wang<span class="student-year"> · 2024</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: traffic flow prediction / spatiotemporal forecasting
@@ -85,11 +80,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Shunxi Dong<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: large language models / multimodal
@@ -105,11 +95,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Ruichen Zhou<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: recommender systems / model compression
@@ -125,11 +110,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Jun Ma<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/Mason-bupt/" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: multimodal learning / vision-language models
@@ -145,11 +125,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Jingyu Ding<span class="student-year"> · 2027</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -179,11 +154,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Zhenye Yang<span class="student-year"> · 2024</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/Alex-bupt/" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: generative recommendation / generative large models
@@ -199,11 +169,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Jing Fan<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/JingFan-bupt" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: conversational recommendation / multimodal learning
@@ -219,11 +184,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Jiarui Tu<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: model lightweighting / recommender systems
@@ -239,11 +199,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Zhiyong Wen<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: time-series forecasting / large models
@@ -259,11 +214,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Wenbo Fu<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: recommender systems / system attack &amp; defense
@@ -279,11 +229,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Juntian Li<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: time-series forecasting / internet business identification
@@ -299,11 +244,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Guotao Jin<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: large language models
@@ -319,11 +259,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Yuhe Zhang<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             Research: large language models
@@ -339,11 +274,6 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Yi Jiang<span class="student-year"> · 2027</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
         </div>
       </div>
 

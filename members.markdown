@@ -67,11 +67,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">王涛<span class="student-year"> · 2024</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：交通流预测 / 时空预测
@@ -87,11 +82,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">董顺喜<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：大语言模型 / 多模态
@@ -107,11 +97,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">周瑞臣<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：推荐系统 / 模型压缩
@@ -127,11 +112,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">马俊<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/Mason-bupt/" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：多模态学习 / 视觉语言模型
@@ -147,11 +127,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">丁靖宇<span class="student-year"> · 2027</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -182,11 +157,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">杨臻烨<span class="student-year"> · 2024</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/Alex-bupt/" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：生成式推荐 / 生成式大模型
@@ -202,11 +172,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">范静<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="https://acdc-lab.github.io/JingFan-bupt" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：会话推荐 / 多模态学习
@@ -222,11 +187,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">涂家睿<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：模型轻量化 / 推荐系统
@@ -242,11 +202,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">文志勇<span class="student-year"> · 2025</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：时序预测 / 大模型
@@ -262,11 +217,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">付文博<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：推荐系统 / 系统攻防
@@ -282,11 +232,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">李骏天<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：时序预测 / 互联网业务识别
@@ -302,11 +247,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">金国涛<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：大语言模型
@@ -322,11 +262,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">张宇贺<span class="student-year"> · 2026</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
 
           <div class="student-desc">
             研究方向：大语言模型
@@ -342,11 +277,6 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">姜一<span class="student-year"> · 2027</span></div>
 
-          <div class="student-contact-row">
-            <div class="student-home">
-              <a href="#" class="homepage-link">Homepage</a>
-            </div>
-          </div>
         </div>
       </div>
 
