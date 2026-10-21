@@ -331,6 +331,22 @@ permalink: /en/members/
         </div>
       </div>
 
+      <!-- Yi Jiang -->
+      <div class="student-card">
+        <div class="student-photo">
+          <img src="{{ '/assets/img/members/jiangyi.jpg' | relative_url }}" alt="Yi Jiang">
+        </div>
+        <div class="student-meta">
+          <div class="student-name">Yi Jiang<span class="student-year"> · 2027</span></div>
+
+          <div class="student-contact-row">
+            <div class="student-home">
+              <a href="#" class="homepage-link">Homepage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Add more student-cards here; they wrap automatically -->
     </div>
 
