@@ -104,11 +104,29 @@ permalink: /publications/
       </li>
 
       <li>
+        Zhengtian Wu, Jianyu Li, Yang Gao, Chuangyin Dang, Chao Tang, Yuansheng Li, Xinmiao Wang, Jinpeng Chen, Hongbo Gao, Xinyin Xu.
+        Cost-Optimal Building Energy System Scheduling Integrating Solar Irradiance Forecasting via LSTM-Attention-TCN Model.
+        <em>CAAI Trans. Intell. Technol.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1049/cit2.70128" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
         Jinpeng Chen, Wenbo Fu, Huachen Guan, Fan Zhang, Zhenye Yang, Jianxiang He, Hongbo Gao, Kaimin Wei.
         Frequency-Enhanced Heterogeneous Graph-Based Sequential Recommendation with Disentangled Methods.
         <em>Knowl. Inf. Syst.</em>
         <span class="pub-links">
           [<a href="https://doi.org/10.1007/s10115-026-02820-3" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
+      <li>
+        Mati Ullah, Hongbo Gao, Alam Nasir, Xinmiao Wang, Runda Niu, Muhammad Humayun, Chengbo Wang, Lin Zhou, Jianan Wang, Jinpeng Chen.
+        Neural-Enhanced Sliding-Mode Control for Quadrotor Helicopters Operating in Dynamic and Uncertain Environments.
+        <em>IEEE Trans. Syst. Man Cybern. Syst.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.1109/TSMC.2026.3688866" class="pub-link">PDF</a>]
         </span>
       </li>
 
