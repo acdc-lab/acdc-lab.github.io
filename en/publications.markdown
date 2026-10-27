@@ -139,6 +139,15 @@ permalink: /en/publications/
           [<a href="https://aclanthology.org/2026.acl-long.1087/" class="pub-link">PDF</a>]
         </span>
       </li>
+
+      <li>
+        Jun Ma, Zhenye Yang, Ruichen Zhou, Pei Zhang, Huan Li, Jinpeng Chen.
+        LISA: Language-guided Interference-aware Spatial-Frequency Attention for Driver Gaze Estimation.
+        <em>IJCAI 2026.</em>
+        <span class="pub-links">
+          [<a href="https://doi.org/10.24963/ijcai.2026/325" class="pub-link">PDF</a>]
+        </span>
+      </li>
     </ol>
   </div>
 
