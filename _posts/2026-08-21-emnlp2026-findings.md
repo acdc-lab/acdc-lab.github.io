@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "团队论文被 EMNLP 2026 Findings 接收"
+title: "实体对齐新工作被 EMNLP 2026 Findings 接收"
 categories: [news]
 thumb: /assets/img/news/emnlp2026.jpg
+venue: EMNLP 2026 · Findings
 ---
 
-我们欣喜地宣布：团队论文 **Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment** 被 **EMNLP 2026** 接收为 **Findings** 论文！
+实体对齐方向的新进展：**Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment** 被 EMNLP 2026 接收为 Findings 论文。
 
-本届 EMNLP 共收到 17669 篇投稿，其中 2719 篇作为主会议论文接收（录用率 15.4%），2533 篇作为 Findings 论文接收（录用率 14.3%）。
+这届 EMNLP 竞争相当激烈：共收到 17669 篇投稿，主会议录用 2719 篇（15.4%），Findings 录用 2533 篇（14.3%）。
 
-> 欢迎持续关注后续论文与代码资源更新！
+> 恭喜参与这项工作的各位同学，论文细节整理好后放出！
