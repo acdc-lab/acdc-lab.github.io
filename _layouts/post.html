@@ -3,31 +3,32 @@ layout: default
 ---
 
 <article class="wx-article">
-  <header class="wx-header">
-    {% if page.venue %}
-    <div class="wx-kicker">{{ page.venue }}</div>
-    {% endif %}
-    <h1 class="wx-title">{{ page.title }}</h1>
-    <div class="wx-meta">
-      {% if page.lang == 'en' %}
-        <time>{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% else %}
-        <time>{{ page.date | date: "%Y 年 %-m 月 %-d 日" }}</time>
-      {% endif %}
-      <span class="wx-meta-dot">·</span>
-      <span>ACDC Lab</span>
+  <div class="wx-inner">
+    <header class="wx-header">
+      <h1 class="wx-title">{{ page.title }}</h1>
+      <div class="wx-meta">
+        <span class="wx-source">ACDC Lab</span>
+        <span class="wx-date">
+          {% if page.lang == 'en' %}
+            {{ page.date | date: "%b %-d, %Y" }}
+          {% else %}
+            {{ page.date | date: "%Y 年 %-m 月 %-d 日" }}
+          {% endif %}
+        </span>
+      </div>
+      <div class="wx-divider"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
+    </header>
+
+    <div class="wx-body">
+      {{ content }}
     </div>
-  </header>
 
-  <div class="wx-body">
-    {{ content }}
+    <footer class="wx-footer">
+      {% if page.lang == 'en' %}
+        <a href="{{ '/en/news/' | relative_url }}">← Back to all news</a>
+      {% else %}
+        <a href="{{ '/news/' | relative_url }}">← 返回全部新闻</a>
+      {% endif %}
+    </footer>
   </div>
-
-  <footer class="wx-footer">
-    {% if page.lang == 'en' %}
-      <a href="{{ '/en/news/' | relative_url }}">← Back to all news</a>
-    {% else %}
-      <a href="{{ '/news/' | relative_url }}">← 返回全部新闻</a>
-    {% endif %}
-  </footer>
 </article>

@@ -2118,146 +2118,180 @@ a:hover {
 }
 
 /* =========================================================
-   新闻详情页 —— 居中公告卡
+   新闻详情页 —— 公众号文章式排版
    ========================================================= */
 .wx-article{
+  width: 100%;
+  background: #ffffff;
+  padding: 44px 0 72px;
+  text-align: left;
+}
+
+/* 阅读栏：居中，两侧留白 */
+.wx-inner{
   box-sizing: border-box;
   width: 100%;
   max-width: 760px;
   margin: 0 auto;
-  padding: 56px 64px 40px;
-  text-align: center;
-  background: rgba(255,255,255,.92);
-  border: 1px solid rgba(255,255,255,.9);
-  border-radius: 18px;
-  box-shadow: 0 12px 36px rgba(21,44,73,.07);
+  padding: 0 40px;
 }
 
-/* ---- 标题区 ---- */
-.wx-header{
-  text-align: center;
-  margin-bottom: 30px;
-}
-.wx-kicker{
-  display: inline-block;
-  margin-bottom: 16px;
-  padding: 5px 16px;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: .06em;
-  color: #576b95;
-  background: rgba(87,107,149,.08);
-  border-radius: 999px;
-}
+/* ---- 标题 ---- */
 .wx-title{
-  margin: 0 auto;
-  max-width: 20em;
-  font-size: clamp(22px, 2.6vw, 28px);
-  line-height: 1.5;
+  margin: 0 0 18px;
+  font-size: clamp(24px, 3vw, 31px);
+  line-height: 1.45;
   font-weight: 700;
-  letter-spacing: .3px;
-  color: #1a1a1a;
+  letter-spacing: .2px;
+  color: #111111;
+  text-align: left;
   word-break: break-word;
 }
+
+/* ---- 来源 / 时间 ---- */
 .wx-meta{
-  margin-top: 14px;
-  font-size: 13.5px;
-  color: #9aa0a6;
-  letter-spacing: .3px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  font-size: 15px;
+  line-height: 1.6;
 }
-.wx-meta-dot{ margin: 0 8px; color: #cfd4d9; }
+.wx-source{
+  color: #576b95;
+  font-weight: 500;
+}
+.wx-date{
+  color: #9aa0a6;
+}
+
+/* ---- 分隔线（中间一个点） ---- */
+.wx-divider{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 26px 0 32px;
+}
+.wx-divider .line{
+  flex: 1;
+  height: 1px;
+  background: #e9ecef;
+}
+.wx-divider .dot{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4a90d9;
+}
 
 /* ---- 正文 ---- */
 .wx-body{
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.95;
   letter-spacing: .3px;
-  color: #3f3f3f;
-  text-align: center;
+  color: #333333;
+  text-align: left;
   word-break: break-word;
 }
 .wx-body p{
-  margin: 0 0 18px;
+  margin: 0 0 26px;
 }
 .wx-body p:last-child{
   margin-bottom: 0;
 }
 .wx-body strong{
-  color: #1a1a1a;
+  color: #111111;
   font-weight: 600;
 }
 .wx-body a{
   color: #576b95;
   text-decoration: none;
-  border-bottom: 1px solid rgba(87,107,149,.3);
+  border-bottom: 1px solid rgba(87,107,149,.35);
 }
 .wx-body ul,
 .wx-body ol{
-  display: inline-block;
-  margin: 0 0 18px;
-  padding-left: 1.4em;
-  text-align: left;
+  margin: 0 0 26px;
+  padding-left: 1.5em;
 }
 .wx-body li{
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+}
+.wx-body img{
+  display: block;
+  max-width: 100%;
+  margin: 10px auto 28px;
+  border-radius: 6px;
 }
 
-/* 引用块：居中浅灰卡片 */
+/* 引用块 */
 .wx-body blockquote{
-  display: inline-block;
-  max-width: 100%;
-  margin: 26px auto 0;
-  padding: 14px 22px;
+  margin: 30px 0;
+  padding: 16px 20px;
   background: #f7f8fa;
-  border: 0;
-  border-radius: 10px;
+  border-left: 3px solid #4a90d9;
+  border-radius: 0 8px 8px 0;
   color: #6b7280;
-  font-size: 14.5px;
-  line-height: 1.8;
+  font-size: 15.5px;
+  line-height: 1.9;
   letter-spacing: .2px;
 }
 .wx-body blockquote p{
   margin: 0;
 }
 
+/* 正文小标题 */
+.wx-body h2,
+.wx-body h3{
+  margin: 38px 0 16px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #111111;
+}
+
 /* ---- 页脚 ---- */
 .wx-footer{
-  margin-top: 34px;
+  margin-top: 48px;
   padding-top: 22px;
   border-top: 1px solid #eef1f4;
-  text-align: center;
+  text-align: left;
 }
 .wx-footer a{
-  display: inline-block;
-  padding: 8px 20px;
-  font-size: 14px;
+  font-size: 15px;
   color: #576b95;
-  border: 1px solid rgba(87,107,149,.28);
-  border-radius: 999px;
   text-decoration: none;
-  transition: background-color .18s ease;
 }
 .wx-footer a:hover{
-  background: rgba(87,107,149,.08);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media (max-width: 680px){
   .wx-article{
-    padding: 34px 22px 28px;
-    border-radius: 14px;
+    padding: 30px 0 48px;
+  }
+  .wx-inner{
+    padding: 0 22px;
   }
   .wx-title{
-    font-size: 21px;
-    line-height: 1.55;
-  }
-  .wx-body{
-    font-size: 15.5px;
-    line-height: 1.9;
+    font-size: 22px;
+    line-height: 1.5;
   }
   .wx-meta{
-    font-size: 13px;
+    font-size: 14px;
   }
+  .wx-divider{
+    margin: 20px 0 24px;
+  }
+  .wx-body{
+    font-size: 16px;
+    line-height: 1.92;
+  }
+  .wx-body p{
+    margin-bottom: 22px;
+  }
+}
+
+/* 新闻详情页：整页白底，避免正文下方露出渐变 */
+.page-content.page-content--post{
+  background: #ffffff;
 }

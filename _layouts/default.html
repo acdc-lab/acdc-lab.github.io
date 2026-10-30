@@ -15,7 +15,7 @@
   {% include header.html %}
 
   <!-- Main content container -->
-  <main class="page-content">
+  <main class="page-content{% if page.layout == 'post' %} page-content--post{% endif %}">
     {{ content }}
   </main>
 
