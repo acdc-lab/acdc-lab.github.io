@@ -8,8 +8,8 @@ permalink: /en/news/2026/09/29/orangetree/
 thumb: /assets/img/news/neurips2026.jpg
 ---
 
-We are pleased to announce that our paper **OrangeTree: A Linear and Tree-based Time Series Forecasting Model Supporting Multiple Input and Output Lengths** has been accepted as a **Poster** at **NeurIPS 2026**!
+**OrangeTree: A Linear and Tree-based Time Series Forecasting Model Supporting Multiple Input and Output Lengths** has been accepted to **NeurIPS 2026** as a **Poster**.
 
 **Authors:** Yiqi Tang, Zhichen Lai, Yuxuan Yang, Dalin Zhang, Jinpeng Chen, Gang Chen, Huan Li
 
-> Stay tuned for the paper and code release!
+> The paper and code will be posted here once ready.
