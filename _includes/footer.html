@@ -4,12 +4,16 @@
     <p>Designed by Zhenye Yang & Jun Ma</p>
   </div>
 
-  {% if site.revolvermaps_id and site.revolvermaps_id != "" %}
-  <div class="visitor-globe">
-    <div class="visitor-globe-label">Visitor Map</div>
-    <script type="text/javascript"
-            src="//rf.revolvermaps.com/0/0/6.js?i={{ site.revolvermaps_id }}&amp;m=7&amp;s=220&amp;c=4a90d9&amp;cr1=ffffff&amp;f=arial&amp;l=0"
-            async="async"></script>
+  {% if site.flagcounter_src and site.flagcounter_src != "" %}
+  <div class="visitor-map">
+    <div class="visitor-map-label">Visitor Map</div>
+    {% if site.flagcounter_link and site.flagcounter_link != "" %}
+    <a href="{{ site.flagcounter_link }}" target="_blank" rel="noopener">
+      <img src="{{ site.flagcounter_src }}" alt="Visitor map" loading="lazy" border="0">
+    </a>
+    {% else %}
+    <img src="{{ site.flagcounter_src }}" alt="Visitor map" loading="lazy" border="0">
+    {% endif %}
   </div>
   {% endif %}
 </footer>

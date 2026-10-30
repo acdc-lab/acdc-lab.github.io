@@ -2296,14 +2296,13 @@ a:hover {
   background: #ffffff;
 }
 
-/* 访客地球挂件（RevolverMaps） */
-.visitor-globe{
+/* 访客地图挂件（FlagCounter） */
+.visitor-map{
   margin: 0 auto;
   padding: 18px 16px 24px;
-  max-width: 280px;
   text-align: center;
 }
-.visitor-globe-label{
+.visitor-map-label{
   margin-bottom: 8px;
   font-size: 11px;
   font-weight: 600;
@@ -2311,6 +2310,9 @@ a:hover {
   text-transform: uppercase;
   color: #9aa0a6;
 }
-.visitor-globe a{
+.visitor-map img{
   display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }

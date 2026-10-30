@@ -29,12 +29,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# 访客地球挂件（RevolverMaps）
+# 访客地图挂件（FlagCounter）
 # 使用步骤：
-#   1. 打开 https://www.revolvermaps.com/ ，选择样式并生成嵌入代码
-#   2. 在生成的代码里找到 i= 后面的一串字符（例如 i=5abc123def）
-#   3. 把它填到下面，留空则页面不显示地球
-revolvermaps_id: ""
+#   1. 打开 https://flagcounter.com/
+#   2. 选择 "Flag map"（世界地图样式），按喜好设置
+#   3. 点击生成，复制得到的嵌入代码
+#   4. 把 <img src="..."> 里的地址填到 flagcounter_src
+#      把 <a href="..."> 里的地址填到 flagcounter_link（可留空）
+# 两项都留空时页脚不显示地图
+flagcounter_src: ""
+flagcounter_link: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default.
