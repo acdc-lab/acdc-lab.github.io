@@ -2,17 +2,39 @@
 layout: default
 ---
 
-<article class="post-content">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.lang == 'en' %}
-      {% assign post_date_fmt = "%b %-d, %Y" %}
-    {% else %}
-      {% assign post_date_fmt = "%-m月 %-d, %Y" %}
+<article class="wx-article">
+  <header class="wx-header">
+    {% if page.venue %}
+    <div class="wx-kicker">{{ page.venue }}</div>
     {% endif %}
-    <time class="post-date">📅 {{ page.date | date: post_date_fmt }}</time>
+    <h1 class="wx-title">{{ page.title }}</h1>
+    <div class="wx-meta">
+      {% if page.lang == 'en' %}
+        <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% else %}
+        <time>{{ page.date | date: "%Y 年 %-m 月 %-d 日" }}</time>
+      {% endif %}
+      <span class="wx-meta-dot">·</span>
+      <span>ACDC Lab</span>
+    </div>
+    <div class="wx-rule"><span></span></div>
   </header>
-  <div class="post-body">
+
+  {% if page.thumb %}
+  <figure class="wx-hero">
+    <img src="{{ page.thumb | relative_url }}" alt="{{ page.title }}">
+  </figure>
+  {% endif %}
+
+  <div class="wx-body">
     {{ content }}
   </div>
+
+  <footer class="wx-footer">
+    {% if page.lang == 'en' %}
+      <a href="{{ '/en/news/' | relative_url }}">← Back to all news</a>
+    {% else %}
+      <a href="{{ '/news/' | relative_url }}">← 返回全部新闻</a>
+    {% endif %}
+  </footer>
 </article>

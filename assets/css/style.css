@@ -2116,3 +2116,223 @@ a:hover {
 @media (max-width: 560px) {
   .act-item { flex: 0 0 100%; }                      /* 单列 */
 }
+
+/* =========================================================
+   新闻详情页 —— 公众号文章风
+   ========================================================= */
+.wx-article{
+  max-width: 760px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px 20px 56px;
+  text-align: left;
+  background: transparent;
+}
+
+/* ---- 标题区 ---- */
+.wx-header{
+  text-align: center;
+  padding: 0 4px;
+  margin-bottom: 30px;
+}
+.wx-kicker{
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 5px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  color: #576b95;
+  background: rgba(87,107,149,.08);
+  border-radius: 999px;
+}
+.wx-title{
+  margin: 0 auto;
+  max-width: 20em;
+  font-size: clamp(24px, 3.4vw, 32px);
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: .3px;
+  color: #1a1a1a;
+  word-break: break-word;
+}
+.wx-meta{
+  margin-top: 16px;
+  font-size: 14px;
+  color: #9aa0a6;
+  letter-spacing: .3px;
+}
+.wx-meta-dot{ margin: 0 8px; color: #cfd4d9; }
+
+/* 标题下的短分隔线 */
+.wx-rule{
+  margin: 26px auto 0;
+  width: 100%;
+  max-width: 560px;
+  height: 1px;
+  background: #eceff2;
+  position: relative;
+}
+.wx-rule span{
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  width: 44px;
+  height: 3px;
+  margin-left: -22px;
+  border-radius: 2px;
+  background: #576b95;
+}
+
+/* ---- 头图 ---- */
+.wx-hero{
+  margin: 0 0 34px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(21,44,73,.08);
+}
+.wx-hero img{
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+}
+
+/* ---- 正文 ---- */
+.wx-body{
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: .4px;
+  color: #3f3f3f;
+  word-break: break-word;
+}
+.wx-body p{
+  margin: 0 0 26px;
+}
+.wx-body p:last-child{
+  margin-bottom: 0;
+}
+.wx-body strong{
+  color: #1a1a1a;
+  font-weight: 600;
+}
+.wx-body a{
+  color: #576b95;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(87,107,149,.3);
+}
+.wx-body a:hover{
+  border-bottom-color: #576b95;
+}
+.wx-body ul,
+.wx-body ol{
+  margin: 0 0 26px;
+  padding-left: 1.5em;
+}
+.wx-body li{
+  margin-bottom: 10px;
+  line-height: 1.9;
+}
+.wx-body img{
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 8px auto 26px;
+}
+
+/* 引用块：浅灰圆角卡片，公众号常见样式 */
+.wx-body blockquote{
+  margin: 30px 0;
+  padding: 20px 22px;
+  background: #f7f8fa;
+  border: 0;
+  border-radius: 10px;
+  color: #6b7280;
+  font-size: 15.5px;
+  line-height: 1.9;
+  letter-spacing: .2px;
+}
+.wx-body blockquote p:last-child{
+  margin-bottom: 0;
+}
+
+/* 正文小标题：左侧竖条 */
+.wx-body h2,
+.wx-body h3{
+  position: relative;
+  margin: 40px 0 18px;
+  padding-left: 14px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: .3px;
+}
+.wx-body h2::before,
+.wx-body h3::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .28em;
+  bottom: .28em;
+  width: 4px;
+  border-radius: 2px;
+  background: #576b95;
+}
+
+/* ---- 页脚 ---- */
+.wx-footer{
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #eceff2;
+  text-align: center;
+}
+.wx-footer a{
+  display: inline-block;
+  padding: 9px 22px;
+  font-size: 15px;
+  color: #576b95;
+  border: 1px solid rgba(87,107,149,.28);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color .18s ease;
+}
+.wx-footer a:hover{
+  background: rgba(87,107,149,.08);
+  text-decoration: none;
+}
+
+@media (max-width: 680px){
+  .wx-article{
+    padding: 0 16px 40px;
+  }
+  .wx-title{
+    font-size: 23px;
+    line-height: 1.55;
+  }
+  .wx-kicker{
+    margin-bottom: 14px;
+    font-size: 12px;
+  }
+  .wx-hero{
+    margin-bottom: 26px;
+    border-radius: 10px;
+  }
+  .wx-hero img{
+    max-height: 220px;
+  }
+  .wx-body{
+    font-size: 16px;
+    line-height: 1.95;
+    letter-spacing: .3px;
+  }
+  .wx-body p{
+    margin-bottom: 22px;
+  }
+  .wx-body blockquote{
+    margin: 24px 0;
+    padding: 16px 18px;
+    font-size: 15px;
+  }
+}
