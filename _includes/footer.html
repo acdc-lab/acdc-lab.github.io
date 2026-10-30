@@ -3,4 +3,13 @@
     <p>© {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     <p>Designed by Zhenye Yang & Jun Ma</p>
   </div>
+
+  {% if site.revolvermaps_id and site.revolvermaps_id != "" %}
+  <div class="visitor-globe">
+    <div class="visitor-globe-label">Visitor Map</div>
+    <script type="text/javascript"
+            src="//rf.revolvermaps.com/0/0/6.js?i={{ site.revolvermaps_id }}&amp;m=7&amp;s=220&amp;c=4a90d9&amp;cr1=ffffff&amp;f=arial&amp;l=0"
+            async="async"></script>
+  </div>
+  {% endif %}
 </footer>
