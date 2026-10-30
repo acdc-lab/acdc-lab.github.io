@@ -11,4 +11,4 @@ thumb: /assets/img/news/emnlp2026.jpg
 
 This year EMNLP received an unprecedented 17,669 submissions: 2,719 were accepted to the Main Conference (15.4%) and 2,533 to Findings (14.3%).
 
-> The paper and code will be posted here once ready.
+> Stay tuned for the paper and code release!

@@ -11,4 +11,4 @@ thumb: /assets/img/news/icdm2026.jpg
 
 **Authors:** Jing Fan, Zhenye Yang, Tao Wang, Kaimin Wei, Hongbo Gao, Peng Wang, Guomin Xiong, Jinpeng Chen
 
-> The paper and code will be posted here once ready.
+> Stay tuned for the paper and code release!

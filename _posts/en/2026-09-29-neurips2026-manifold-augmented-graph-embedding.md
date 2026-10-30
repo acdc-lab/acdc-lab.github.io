@@ -12,4 +12,4 @@ thumb: /assets/img/news/neurips2026.jpg
 
 **Authors:** Zhenye Yang, Jinpeng Chen, Wenbo Fu, Jun Ma, Huan Li, Qimin Zhou, Tao Wang, Li Sun, Senzhang Wang
 
-> The paper and code will be posted here once ready.
+> Stay tuned for the paper and code release!

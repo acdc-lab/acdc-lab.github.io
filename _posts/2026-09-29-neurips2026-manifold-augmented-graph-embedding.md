@@ -10,4 +10,4 @@ thumb: /assets/img/news/neurips2026.jpg
 
 **作者：** Zhenye Yang, Jinpeng Chen, Wenbo Fu, Jun Ma, Huan Li, Qimin Zhou, Tao Wang, Li Sun, Senzhang Wang
 
-> 论文与代码整理好后会在这里更新。
+> 欢迎持续关注后续论文与代码资源更新！

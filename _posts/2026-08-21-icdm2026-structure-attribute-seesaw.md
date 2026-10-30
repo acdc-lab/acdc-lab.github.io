@@ -9,4 +9,4 @@ thumb: /assets/img/news/icdm2026.jpg
 
 **作者：** Jing Fan, Zhenye Yang, Tao Wang, Kaimin Wei, Hongbo Gao, Peng Wang, Guomin Xiong, Jinpeng Chen
 
-> 论文与代码整理好后会在这里更新。
+> 欢迎持续关注后续论文与代码资源更新！

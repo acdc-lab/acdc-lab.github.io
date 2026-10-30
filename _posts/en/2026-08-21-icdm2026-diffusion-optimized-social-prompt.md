@@ -11,4 +11,4 @@ thumb: /assets/img/news/icdm2026.jpg
 
 **Authors:** Zhenyu Wu, Jiadong Sun, Cheng Wan, Kun Zheng, Jinpeng Chen, Liwei Huang
 
-> The paper and code will be posted here once ready.
+> Stay tuned for the paper and code release!

@@ -12,4 +12,4 @@ thumb: /assets/img/news/neurips2026.jpg
 
 **Authors:** Yiqi Tang, Zhichen Lai, Yuxuan Yang, Dalin Zhang, Jinpeng Chen, Gang Chen, Huan Li
 
-> The paper and code will be posted here once ready.
+> Stay tuned for the paper and code release!
