@@ -3,68 +3,16 @@ layout: default
 ---
 
 <article class="post-content">
-  {% if page.thumb %}
-  <div class="post-hero">
-    <img src="{{ page.thumb | relative_url }}" alt="{{ page.title }}">
-  </div>
-  {% endif %}
-
-  <div class="post-inner">
-    <header class="post-header">
-      <div class="post-meta-row">
-        {% if page.venue %}<span class="post-venue">{{ page.venue }}</span>{% endif %}
-        {% if page.lang == 'en' %}
-          {% assign post_date_fmt = "%b %-d, %Y" %}
-        {% else %}
-          {% assign post_date_fmt = "%Y 年 %-m 月 %-d 日" %}
-        {% endif %}
-        <span class="post-date">📅 {{ page.date | date: post_date_fmt }}</span>
-      </div>
-      <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-
-    <div class="post-body">
-      {{ content }}
-    </div>
-
-    {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news"' %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
     {% if page.lang == 'en' %}
-      {% assign lang_posts = news_posts | where:'lang','en' %}
+      {% assign post_date_fmt = "%b %-d, %Y" %}
     {% else %}
-      {% assign lang_posts = news_posts | where_exp:'p','p.lang != "en"' %}
+      {% assign post_date_fmt = "%-m月 %-d, %Y" %}
     {% endif %}
-    {% assign is_news = false %}
-    {% assign newer_post = nil %}
-    {% assign older_post = nil %}
-    {% for post in lang_posts %}
-      {% if post.url == page.url %}
-        {% assign is_news = true %}
-        {% unless forloop.first %}
-          {% assign newer_idx = forloop.index0 | minus: 1 %}
-          {% assign newer_post = lang_posts[newer_idx] %}
-        {% endunless %}
-        {% unless forloop.last %}
-          {% assign older_idx = forloop.index0 | plus: 1 %}
-          {% assign older_post = lang_posts[older_idx] %}
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
-
-    {% if is_news %}
-    <nav class="post-nav">
-      {% if page.lang == 'en' %}
-        <a class="post-back" href="{{ '/en/news/' | relative_url }}">← Back to News</a>
-      {% else %}
-        <a class="post-back" href="{{ '/news/' | relative_url }}">← 返回新闻列表</a>
-      {% endif %}
-      <span class="post-nav-grow"></span>
-      {% if newer_post %}
-        <a class="post-step post-newer" href="{{ newer_post.url | relative_url }}">← {{ newer_post.title | truncate: 28 }}</a>
-      {% endif %}
-      {% if older_post %}
-        <a class="post-step post-older" href="{{ older_post.url | relative_url }}">{{ older_post.title | truncate: 28 }} →</a>
-      {% endif %}
-    </nav>
-    {% endif %}
+    <time class="post-date">📅 {{ page.date | date: post_date_fmt }}</time>
+  </header>
+  <div class="post-body">
+    {{ content }}
   </div>
 </article>
