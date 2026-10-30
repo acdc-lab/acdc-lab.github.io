@@ -127,6 +127,9 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">丁靖宇<span class="student-year"> · 2027</span></div>
 
+          <div class="student-desc">
+            研究方向：世界模型
+          </div>
         </div>
       </div>
 
@@ -277,6 +280,9 @@ permalink: /members/
         <div class="student-meta">
           <div class="student-name">姜一<span class="student-year"> · 2027</span></div>
 
+          <div class="student-desc">
+            研究方向：模型轻量化
+          </div>
         </div>
       </div>
 

@@ -125,6 +125,9 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Jingyu Ding<span class="student-year"> · 2027</span></div>
 
+          <div class="student-desc">
+            Research: world models
+          </div>
         </div>
       </div>
 
@@ -274,6 +277,9 @@ permalink: /en/members/
         <div class="student-meta">
           <div class="student-name">Yi Jiang<span class="student-year"> · 2027</span></div>
 
+          <div class="student-desc">
+            Research: model lightweighting
+          </div>
         </div>
       </div>
 
