@@ -37,8 +37,8 @@ plugins:
 #   4. 把 <img src="..."> 里的地址填到 flagcounter_src
 #      把 <a href="..."> 里的地址填到 flagcounter_link（可留空）
 # 两项都留空时页脚不显示地图
-flagcounter_src: ""
-flagcounter_link: ""
+flagcounter_src: "https://s05.flagcounter.com/map/Trya/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
+flagcounter_link: "https://info.flagcounter.com/Trya"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
