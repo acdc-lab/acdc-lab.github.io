@@ -13,7 +13,7 @@ permalink: /en/
     <div class="acdc-hero-simple-inner">
       <h1>ACDC Lab</h1>
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
-      <p class="acdc-hero-lead">Cross-media Data Computing · Explore Intelligence, Connect the World</p>
+      <p class="acdc-hero-lead">Cross-media Data Computing · <span class="acdc-hero-lead-accent">Explore Intelligence, Connect the World</span></p>
       <p class="acdc-hero-desc">
         Focusing on social media & data mining, AI applications, multimodal learning and large models,
         we are dedicated to data-driven intelligent computing and applied innovation.

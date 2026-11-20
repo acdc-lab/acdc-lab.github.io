@@ -11,7 +11,7 @@ title: 首页
     <div class="acdc-hero-simple-inner">
       <h1>ACDC Lab</h1>
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
-      <p class="acdc-hero-lead">跨媒体数据计算 · 探索智能，连接世界</p>
+      <p class="acdc-hero-lead">跨媒体数据计算 · <span class="acdc-hero-lead-accent">探索智能，连接世界</span></p>
       <p class="acdc-hero-desc">
         聚焦社交媒体与数据挖掘、人工智能应用、多模态学习与大模型等前沿方向，
         致力于数据驱动的智能计算与应用创新。

@@ -145,17 +145,28 @@
 }
 
 .acdc-home-scheme-a .acdc-hero-simple h1 {
-  margin: 0 0 16px;
-  color: #141f2e;
+  width: fit-content;
+  margin: 0 auto 16px;
+  color: #17457a;
   font-size: 82px;
   line-height: .98;
   letter-spacing: 0;
   font-weight: 760;
 }
 
+@supports (background-clip: text) {
+  @media (forced-colors: none) {
+    .acdc-home-scheme-a .acdc-hero-simple h1 {
+      color: transparent;
+      background: linear-gradient(105deg, #142d4e 5%, #205b9b 54%, #16756f 100%);
+      background-clip: text;
+    }
+  }
+}
+
 .acdc-home-scheme-a .acdc-hero-subtitle-en {
   margin: 0;
-  color: #40546a;
+  color: #53677d;
   font-size: 23px;
   font-weight: 440;
   letter-spacing: 0;
@@ -164,17 +175,21 @@
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-lead {
   margin: 20px 0 0;
-  color: #22384c;
+  color: #274664;
   font-size: 32px;
   line-height: 1.22;
   font-weight: 680;
   letter-spacing: 0;
 }
 
+.acdc-hero-lead-accent {
+  color: #176961;
+}
+
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-desc {
   max-width: 720px;
   margin: 22px auto 0;
-  color: #3e5367;
+  color: #425367;
   font-size: 16px;
   line-height: 1.85;
 }
