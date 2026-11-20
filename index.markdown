@@ -7,6 +7,7 @@ title: 首页
 
   <!-- Hero / restrained immersive background + pure typography -->
   <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
+    {% include hero-particles.html %}
     <div class="acdc-hero-simple-inner">
       <h1>ACDC Lab</h1>
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>

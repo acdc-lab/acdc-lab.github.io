@@ -1,10 +1,4 @@
-/* =========================================================
-   Final restrained homepage style + improved bottom fog transition
-   - Immersive floating glass navigation
-   - Softer hero typography
-   - Bottom mist layer crosses hero boundary
-   - Intro card floats into the mist
-   ========================================================= */
+/* Floating glass navigation and homepage sections. */
 
 /* ---------- Global homepage canvas ---------- */
 .page-content {
@@ -99,60 +93,45 @@
   text-align: center;
 }
 
-/*
-  Background layer:
-  The photo itself starts fading into the page color near the bottom,
-  but not too early, so rocks/water remain visible.
-*/
-.acdc-home-scheme-a .acdc-hero-simple::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -3;
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(255,255,255,.28) 0%,
-      rgba(255,255,255,.10) 16%,
-      rgba(255,255,255,0) 34%
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(7, 19, 34, .10) 0%,
-      rgba(7, 19, 34, .20) 46%,
-      rgba(238,244,250,.10) 68%,
-      rgba(238,244,250,.38) 84%,
-      rgba(238,244,250,.70) 94%,
-      #eef4fa 100%
-    ),
-    url('../img/hero-bg.jpg') center 44% / cover no-repeat;
+.acdc-home-scheme-a .acdc-hero-simple::before,
+.acdc-home-scheme-a .acdc-hero-simple::after {
+  content: none;
 }
 
-/*
-  Independent mist layer:
-  This layer extends beyond the hero boundary, covering the seam between
-  the image and the next section. This is the key to removing the hard cut.
-*/
-.acdc-home-scheme-a .acdc-hero-simple::after {
-  content: "";
+.acdc-hero-particles {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -104px;
-  height: 300px;
-  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
   pointer-events: none;
-  background:
-    radial-gradient(ellipse at 50% 8%, rgba(255,255,255,.26) 0%, rgba(255,255,255,0) 56%),
-    linear-gradient(
-      to bottom,
-      rgba(238,244,250,0) 0%,
-      rgba(238,244,250,.12) 20%,
-      rgba(238,244,250,.44) 48%,
-      rgba(238,244,250,.82) 74%,
-      #eef4fa 92%,
-      #eef4fa 100%
-    );
+  mask-image: linear-gradient(transparent, #000 16%, #000 77%, transparent);
+}
+
+.acdc-motion-toggle {
+  position: absolute;
+  right: 24px;
+  bottom: 74px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #8199ad;
+  border-radius: 6px;
+  color: #294b60;
+  background: #f6fafe;
+  cursor: pointer;
+}
+
+.acdc-motion-toggle:hover {
+  background: #daeaf5;
+}
+
+.acdc-motion-toggle[hidden],
+.acdc-motion-toggle:not(.is-paused) .acdc-play-icon,
+.acdc-motion-toggle.is-paused .acdc-pause-icon {
+  display: none;
 }
 
 .acdc-home-scheme-a .acdc-hero-simple-inner {
@@ -165,62 +144,39 @@
   backdrop-filter: none;
 }
 
-/* Very soft local readability glow, not a visible card. */
-.acdc-home-scheme-a .acdc-hero-simple-inner::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: min(760px, 86vw);
-  height: 300px;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  pointer-events: none;
-  background: radial-gradient(
-    ellipse,
-    rgba(0, 0, 0, .16) 0%,
-    rgba(0, 0, 0, .08) 42%,
-    rgba(0, 0, 0, 0) 76%
-  );
-}
-
 .acdc-home-scheme-a .acdc-hero-simple h1 {
   margin: 0 0 16px;
-  color: #fff;
-  font-size: clamp(56px, 6.2vw, 92px);
+  color: #141f2e;
+  font-size: 82px;
   line-height: .98;
-  letter-spacing: .035em;
+  letter-spacing: 0;
   font-weight: 760;
-  text-shadow: 0 4px 24px rgba(0,0,0,.46);
 }
 
 .acdc-home-scheme-a .acdc-hero-subtitle-en {
   margin: 0;
-  color: rgba(255,255,255,.91);
-  font-size: clamp(18px, 1.75vw, 24px);
+  color: #40546a;
+  font-size: 23px;
   font-weight: 440;
-  letter-spacing: .025em;
+  letter-spacing: 0;
   font-family: "Georgia", "Times New Roman", serif;
-  text-shadow: 0 2px 14px rgba(0,0,0,.44);
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-lead {
   margin: 20px 0 0;
-  color: rgba(255,255,255,.96);
-  font-size: clamp(23px, 2.35vw, 34px);
+  color: #22384c;
+  font-size: 32px;
   line-height: 1.22;
   font-weight: 680;
-  letter-spacing: .01em;
-  text-shadow: 0 3px 18px rgba(0,0,0,.46);
+  letter-spacing: 0;
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-desc {
   max-width: 720px;
   margin: 22px auto 0;
-  color: rgba(255,255,255,.86);
+  color: #3e5367;
   font-size: 16px;
   line-height: 1.85;
-  text-shadow: 0 2px 12px rgba(0,0,0,.42);
 }
 
 .acdc-home-scheme-a .acdc-hero-simple .acdc-hero-actions {
@@ -261,6 +217,16 @@
   border: 1px solid rgba(255,255,255,.62);
   box-shadow: none;
   backdrop-filter: blur(8px);
+}
+
+.acdc-hero-simple .acdc-btn-secondary {
+  color: #254b6e;
+  background: #f7fbff;
+  border-color: #9bb4ca;
+}
+
+.acdc-hero-simple .acdc-btn-secondary:hover {
+  background: #e3eff9;
 }
 
 /* ---------- Shared section rhythm ---------- */
@@ -314,7 +280,7 @@
   margin-left: 0;
 }
 
-/* ---------- Intro card: floats into the mist ---------- */
+/* ---------- Team introduction ---------- */
 .acdc-intro-section {
   position: relative;
   z-index: 3;
@@ -681,18 +647,24 @@
     font-size: 12px;
   }
 
+  body:has(.acdc-hero-particles) .header-nav {
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    overflow: visible;
+  }
+
   .acdc-home-scheme-a .acdc-hero-simple {
     min-height: 82vh;
     padding: 132px 18px 106px;
   }
 
-  .acdc-home-scheme-a .acdc-hero-simple::after {
-    bottom: -84px;
-    height: 250px;
+  .acdc-motion-toggle {
+    right: 16px;
+    bottom: 58px;
   }
 
   .acdc-home-scheme-a .acdc-hero-simple h1 {
-    font-size: clamp(48px, 16vw, 72px);
+    font-size: 48px;
   }
 
   .acdc-home-scheme-a .acdc-hero-subtitle-en {
