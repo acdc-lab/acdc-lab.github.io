@@ -14,7 +14,7 @@ async function start() {
   const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 10);
   camera.position.z = 4;
 
-  const count = 14000;
+  const count = 18000;
   const seeds = new Float32Array(count * 3);
   const noise = new Float32Array(count);
   for (let i = 0; i < count; i += 1) {
@@ -148,7 +148,7 @@ async function start() {
     camera.updateProjectionMatrix();
     renderer.setPixelRatio(dpr);
     renderer.setSize(width, height, false);
-    geometry.setDrawRange(0, width < 680 ? 8500 : count);
+    geometry.setDrawRange(0, width < 680 ? 10000 : count);
     render();
   }
 
