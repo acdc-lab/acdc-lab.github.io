@@ -14,7 +14,7 @@ async function start() {
   const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 10);
   camera.position.z = 4;
 
-  const count = 18000;
+  const count = 24000;
   const seeds = new Float32Array(count * 3);
   const noise = new Float32Array(count);
   for (let i = 0; i < count; i += 1) {
@@ -59,10 +59,10 @@ async function start() {
         );
         p += vec2(position.z - .5, aNoise - .5) * (.065 + .21 * pow(abs(v), 4.0));
 
-        // A sparse field frames the ribbon without competing with the title.
-        bool drifting = aNoise > .90;
+        // Bias the drifting field toward the upper half of the hero.
+        bool drifting = aNoise > .78;
         if (drifting) {
-          p = vec2((u * 2.0 - 1.0) * uAspect, v);
+          p = vec2((u * 2.0 - 1.0) * uAspect, .91 - 1.84 * pow(position.y, 1.6));
           p += vec2(cos(phase), sin(phase)) * .045;
           depth *= .4;
         }
@@ -79,7 +79,7 @@ async function start() {
         vColor = mix(vColor, amber, smoothstep(.64, .88, u + v * .18) * .93);
         float twinkle = .77 + .23 * sin(uTime * 1.1 + aNoise * 24.0);
         float focus = smoothstep(.16, .66, length(vec2(p.x / uAspect, p.y + .04)));
-        vAlpha = (drifting ? .32 : .71) * twinkle * mix(.18, 1.0, focus);
+        vAlpha = (drifting ? .38 : .71) * twinkle * mix(.18, 1.0, focus);
         gl_PointSize = uDpr * (1.1 + position.z * 1.6 + depth * .28);
         gl_Position = projectionMatrix * modelViewMatrix * vec4(p, depth * .5, 1.0);
       }
@@ -148,7 +148,7 @@ async function start() {
     camera.updateProjectionMatrix();
     renderer.setPixelRatio(dpr);
     renderer.setSize(width, height, false);
-    geometry.setDrawRange(0, width < 680 ? 10000 : count);
+    geometry.setDrawRange(0, width < 680 ? 13000 : count);
     render();
   }
 
