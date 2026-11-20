@@ -9,7 +9,7 @@ title: 首页
   <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
     {% include hero-particles.html %}
     <div class="acdc-hero-simple-inner">
-      <h1>ACDC Lab</h1>
+      {% include hero-wordmark.html %}
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
       <p class="acdc-hero-lead">跨媒体数据计算 · <span class="acdc-hero-lead-accent">探索智能，连接世界</span></p>
       <p class="acdc-hero-desc">

@@ -11,7 +11,7 @@ permalink: /en/
   <section class="acdc-hero acdc-hero-simple" aria-label="ACDC Lab">
     {% include hero-particles.html %}
     <div class="acdc-hero-simple-inner">
-      <h1>ACDC Lab</h1>
+      {% include hero-wordmark.html %}
       <p class="acdc-hero-subtitle-en">Advanced Cross-media Data Computing Group</p>
       <p class="acdc-hero-lead">Cross-media Data Computing · <span class="acdc-hero-lead-accent">Explore Intelligence, Connect the World</span></p>
       <p class="acdc-hero-desc">
