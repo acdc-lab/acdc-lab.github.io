@@ -2054,13 +2054,14 @@ a:hover {
 .act-date { font-size: 14px; font-weight: 500; color: #8a959e; margin-left: 12px; }
 /* flex 而非 grid：一行不满时（如只有 2 张）能整体居中，尺寸与三列时一致 */
 .act-grid {
+  --act-desktop-photo-width: calc((100% - 28px) / 3);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
 }
 .act-item {
-  flex: 0 0 calc((100% - 28px) / 3);   /* 28px = 两个 gap */
+  flex: 0 0 var(--act-desktop-photo-width);
   box-sizing: border-box;
   margin: 0;
   cursor: zoom-in;
@@ -2120,6 +2121,13 @@ a:hover {
 .act-grid:has(> .act-item:nth-child(4):last-child) > .act-item {
   flex: 0 0 calc((100% - 14px) / 2);
   min-width: 0;
+}
+
+@media (width > 900px) {
+  .act-grid:has(> .act-item:nth-child(4):last-child) {
+    display: grid;
+    grid-template-columns: repeat(2, var(--act-desktop-photo-width));
+  }
 }
 
 /* =========================================================
