@@ -5,7 +5,7 @@ lang: en
 permalink: /en/research/
 ---
 
-  <section class="page-section">
+  <section class="page-section page-section--research">
 
     {% include page-heading.html %}
 

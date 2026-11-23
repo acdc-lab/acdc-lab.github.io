@@ -1165,6 +1165,10 @@ a:hover {
 
 
 /* ===== Research (namespaced) ===== */
+.page-section--research {
+  max-width: 960px;
+  padding-inline: 36px;
+}
 .rsx-section{background:#f5f8f7;max-width:1200px;margin:0 auto;padding:56px 16px 80px;color:#1a1a1a;}
 .rsx-header{text-align:center;margin-bottom:28px;}
 .rsx-title{font-size:36px;font-weight:700;color:#1f252b;}
@@ -1179,14 +1183,13 @@ a:hover {
 
 .rsx-content {
   display: grid;
-  grid-template-columns: minmax(0, 28%) minmax(0, 1fr);
+  grid-template-columns: minmax(0, min(27%, 224px)) minmax(0, 1fr);
   align-items: start;
-  gap: 28px;
+  gap: 32px;
 }
 .rsx-figure img {
   display: block;
   width: 100%;
-  max-width: 280px;
   aspect-ratio: 16 / 9;
   object-fit: contain;
   border-radius: 8px;
@@ -1197,11 +1200,12 @@ a:hover {
 .rsx-bullets li{margin-bottom:6px;}
 
 @media (max-width:680px){
+  .page-section--research{padding-inline:24px;}
   .rsx-section{padding:40px 14px 64px;}
   .rsx-title{font-size:32px;}
   .rsx-subtitle{font-size:22px;}
   .rsx-content{grid-template-columns:minmax(0, 1fr);gap:16px;}
-  .rsx-figure img{max-width:240px;}
+  .rsx-figure img{max-width:200px;}
 }
 
 

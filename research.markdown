@@ -4,7 +4,7 @@ title: 研究
 permalink: /research/
 ---
 
-  <section class="page-section">
+  <section class="page-section page-section--research">
 
     {% include page-heading.html title="研究方向" subtitle="Research" %}
 
