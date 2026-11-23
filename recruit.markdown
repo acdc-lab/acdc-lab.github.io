@@ -6,11 +6,7 @@ permalink: /recruit/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">JOIN US</div>
-    <div class="page-header-cn">招生要求</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html title="招生要求" subtitle="Join Us" %}
 
   <div class="recruit-body">
 

@@ -7,10 +7,7 @@ permalink: /en/recruit/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">JOIN US</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html %}
 
   <div class="recruit-body">
 

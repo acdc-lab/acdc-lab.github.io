@@ -7,11 +7,7 @@ permalink: /en/publications/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">PUBLICATIONS</div>
-    <div class="page-header-cn">Research Output</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html %}
 
   <p class="pub-source-note">
     <br>

@@ -7,10 +7,7 @@ permalink: /en/news/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">NEWS</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html %}
 
   <ul class="news-list">
     {% assign news_posts = site.posts | where_exp:'p','p.lang == "en"' %}

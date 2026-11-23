@@ -7,10 +7,7 @@ permalink: /en/research/
 
   <section class="page-section">
 
-    <div class="page-header">
-      <div class="page-header-en">RESEARCH</div>
-      <div class="page-header-divider"><span class="line"></span></div>
-    </div>
+    {% include page-heading.html %}
 
     <!-- Direction 1: Recommender Systems -->
     <div class="rsx-block">

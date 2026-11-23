@@ -7,10 +7,7 @@ permalink: /en/members/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">PEOPLE</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html %}
 
   <!-- Faculty -->
   <div class="people-block">

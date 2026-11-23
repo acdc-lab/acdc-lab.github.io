@@ -6,11 +6,7 @@ permalink: /activities/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">ACTIVITIES</div>
-    <div class="page-header-cn">活动</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html title="活动" subtitle="Activities" %}
 
   {% assign activities = site.data.activities | default: empty %}
   {% if activities and activities.size > 0 %}

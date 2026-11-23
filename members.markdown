@@ -6,11 +6,7 @@ permalink: /members/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">PEOPLE</div>
-    <div class="page-header-cn">团队成员</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html title="团队成员" subtitle="People" %}
 
   <!-- 指导教师 / FACULTY -->
   <div class="people-block">

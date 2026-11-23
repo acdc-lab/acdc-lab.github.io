@@ -6,11 +6,7 @@ permalink: /publications/
 
 <section class="page-section">
 
-  <div class="page-header">
-    <div class="page-header-en">PUBLICATIONS</div>
-    <div class="page-header-cn">相关成果</div>
-    <div class="page-header-divider"><span class="line"></span></div>
-  </div>
+  {% include page-heading.html title="相关成果" subtitle="Publications" %}
 
   <p class="pub-source-note">
     收录 2023 年以来正式发表的同行评审期刊与会议论文，不收录 arXiv/CoRR 预印本。文献信息参照 <a href="https://dblp.org/pid/91/10208-1.html">DBLP</a> 或出版社的正式记录。<br>

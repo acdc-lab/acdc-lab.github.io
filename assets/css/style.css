@@ -1057,31 +1057,26 @@ a:hover {
 /* ===== 统一页面标题组件 ===== */
 .page-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }
-.page-header-en {
-  font-size: 16px;
+.page-header-title {
+  margin: 0;
+  font-size: 34px;
   font-weight: 600;
-  color: #5a6168;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 4px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  color: #253b4f;
 }
-.page-header-cn {
-  font-size: 36px;
-  font-weight: 600;
-  color: #1f252b;
-  margin-bottom: 12px;
+.page-header-subtitle {
+  margin: 6px 0 0;
+  color: #546a80;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
 }
-.page-header-divider {
-  display: flex;
-  justify-content: center;
-}
-.page-header-divider .line {
-  width: 100px;
-  height: 3px;
-  background-color: #1f252b;
-  border-radius: 2px;
+@media (max-width: 680px) {
+  .page-header { margin-bottom: 22px; }
+  .page-header-title { font-size: 30px; }
 }
 
 /* ===== 统一子页面内容区宽度 ===== */

@@ -6,11 +6,7 @@ permalink: /research/
 
   <section class="page-section">
 
-    <div class="page-header">
-      <div class="page-header-en">RESEARCH</div>
-      <div class="page-header-cn">研究方向</div>
-      <div class="page-header-divider"><span class="line"></span></div>
-    </div>
+    {% include page-heading.html title="研究方向" subtitle="Research" %}
 
     <!-- 方向 1：推荐系统 -->
     <div class="rsx-block">
