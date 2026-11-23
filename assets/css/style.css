@@ -2236,6 +2236,34 @@ a:hover {
   border-radius: 6px;
 }
 
+.wx-figure {
+  margin: 0 0 26px;
+}
+.wx-figure img {
+  margin: 0 auto;
+}
+.wx-figure figcaption {
+  margin-top: 8px;
+  color: #4a5560;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+.wx-photo-pair {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 541px) {
+  .wx-photo-pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wx-photo-pair img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+  }
+}
+
 /* 引用块 */
 .wx-body blockquote{
   margin: 30px 0;

@@ -1,0 +1,4 @@
+<figure class="wx-figure">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption | escape }}" loading="lazy" decoding="async">
+  <figcaption>{{ include.caption | escape }}</figcaption>
+</figure>
