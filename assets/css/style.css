@@ -1057,35 +1057,36 @@ a:hover {
 /* ===== 统一页面标题组件 ===== */
 .page-header {
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 .page-header-title {
   margin: 0;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0;
   color: #253b4f;
 }
 .page-header-subtitle {
-  margin: 6px 0 0;
+  margin: 3px 0 0;
   color: #546a80;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
 }
-@media (max-width: 680px) {
-  .page-header { margin-bottom: 22px; }
-  .page-header-title { font-size: 30px; }
-}
-
 /* ===== 统一子页面内容区宽度 ===== */
 .page-section {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 60px 16px 80px;
+  padding: 16px 16px 80px;
   color: #1a1a1a;
   line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .page-section { padding-top: 30px; }
+  .page-header { margin-bottom: 16px; }
+  .page-header-title { font-size: 28px; }
 }
 
 /* ===== News / 新闻 ===== */
