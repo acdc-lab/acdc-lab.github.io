@@ -17,7 +17,7 @@ permalink: /research/
       <h2 class="rsx-subtitle">推荐系统</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/recommender.webp' | relative_url }}" alt="推荐系统">
         </div>
@@ -41,7 +41,7 @@ permalink: /research/
       <h2 class="rsx-subtitle">多模态学习</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/multimodal.webp' | relative_url }}" alt="多模态学习">
         </div>
@@ -65,7 +65,7 @@ permalink: /research/
       <h2 class="rsx-subtitle">多智能体学习</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/agent.webp' | relative_url }}" alt="多智能体学习">
         </div>

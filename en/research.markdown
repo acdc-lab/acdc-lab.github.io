@@ -17,7 +17,7 @@ permalink: /en/research/
       <h2 class="rsx-subtitle">Recommender Systems</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/recommender.webp' | relative_url }}" alt="Recommender Systems">
         </div>
@@ -46,7 +46,7 @@ permalink: /en/research/
       <h2 class="rsx-subtitle">Multimodal Learning</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/multimodal.webp' | relative_url }}" alt="Multimodal Learning">
         </div>
@@ -72,7 +72,7 @@ permalink: /en/research/
       <h2 class="rsx-subtitle">Multi-Agent Learning</h2>
       <div class="rsx-sub-underline"></div>
 
-      <div class="rsx-card">
+      <div class="rsx-content">
         <div class="rsx-figure">
           <img src="{{ '/assets/img/research/agent.webp' | relative_url }}" alt="Multi-Agent Learning">
         </div>
