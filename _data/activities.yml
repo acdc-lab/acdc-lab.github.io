@@ -12,6 +12,23 @@
 #
 # 加新活动：把照片放进 assets/img/activities/<活动名>/，照着下面复制一段改就行。
 
+- title: ICDM26·中国沈阳
+  title_en: ICDM26 · Shenyang, China
+  date: "2026-11-12"
+  photos:
+    - img: /assets/img/activities/2026-11-icdm/photo4.jpg
+      caption: 范静同学参会并作报告
+      caption_en: Jing Fan attended the conference and gave a presentation.
+    - img: /assets/img/activities/2026-11-icdm/photo1.jpg
+      caption: 范静同学参会并作报告
+      caption_en: Jing Fan attended the conference and gave a presentation.
+    - img: /assets/img/activities/2026-11-icdm/photo2.jpg
+      caption: 范静同学参会并作报告
+      caption_en: Jing Fan attended the conference and gave a presentation.
+    - img: /assets/img/activities/2026-11-icdm/photo3.jpg
+      caption: 范静同学参会并作报告
+      caption_en: Jing Fan attended the conference and gave a presentation.
+
 - title: 2026 毕业聚餐
   title_en: 2026 Graduation Dinner
   date: "2026-06-01"   # 日不确定，填的 01；显示只到「年月」
