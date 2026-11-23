@@ -14,7 +14,7 @@ async function start() {
   const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 10);
   camera.position.z = 4;
 
-  const count = 24000;
+  const count = 32000;
   const seeds = new Float32Array(count * 3);
   const noise = new Float32Array(count);
   for (let i = 0; i < count; i += 1) {
@@ -49,18 +49,21 @@ async function start() {
       void main() {
         float u = position.x;
         float v = position.y * 2.0 - 1.0;
-        float phase = u * 9.4 - uTime * .34;
-        float fold = u * 8.1 + uTime * .23;
-        float width = sin(u * 3.14159) * .28 + .075;
-        float depth = sin(fold) * v;
+        bool drifting = aNoise > .84;
+        float strand = aNoise < .42 ? 1.0 : -1.0;
+        float phase = u * 6.1 - uTime * .27 + .65;
+        float fold = u * 8.1 + uTime * .23 + strand * .7;
+        float width = .10 + .13 * sin(u * 3.14159);
+        // The strands pass over and under each other as the crossing travels.
+        float depth = strand * cos(phase) * .65 + sin(fold) * v * .35;
+        float spine = .19 - .33 * u + .06 * cos(u * 5.0);
         vec2 p = vec2(
           (u * 2.6 - 1.28) * uAspect + depth * .16,
-          -.61 + .57 * u + sin(phase) * .29 + cos(fold) * v * width
+          spine + strand * sin(phase) * .46 + (.65 + .35 * cos(fold)) * v * width
         );
-        p += vec2(position.z - .5, aNoise - .5) * (.065 + .21 * pow(abs(v), 4.0));
+        p += vec2(position.z - .5, fract(aNoise * 17.0) - .5) * (.055 + .13 * pow(abs(v), 4.0));
 
         // Bias the drifting field toward the upper half of the hero.
-        bool drifting = aNoise > .78;
         if (drifting) {
           p = vec2((u * 2.0 - 1.0) * uAspect, .91 - 1.84 * pow(position.y, 1.6));
           p += vec2(cos(phase), sin(phase)) * .045;
@@ -75,11 +78,13 @@ async function start() {
         vec3 teal = vec3(.06, .42, .42);
         vec3 blue = vec3(.20, .51, .73);
         vec3 amber = vec3(.71, .42, .14);
-        vColor = mix(teal, blue, position.z);
-        vColor = mix(vColor, amber, smoothstep(.64, .88, u + v * .18) * .93);
+        vColor = mix(teal, blue, strand > 0.0 ? .68 + position.z * .32 : position.z * .55);
+        float warm = smoothstep(.68, .94, u + v * .15);
+        vColor = mix(vColor, amber, warm * (strand > 0.0 && !drifting ? .12 : .85));
         float twinkle = .77 + .23 * sin(uTime * 1.1 + aNoise * 24.0);
         float focus = smoothstep(.16, .66, length(vec2(p.x / uAspect, p.y + .04)));
-        vAlpha = (drifting ? .38 : .71) * twinkle * mix(.18, 1.0, focus);
+        float layer = .78 + .22 * smoothstep(-.7, .7, depth);
+        vAlpha = (drifting ? .35 : .76 * layer) * twinkle * mix(.18, 1.0, focus);
         gl_PointSize = uDpr * (1.1 + position.z * 1.6 + depth * .28);
         gl_Position = projectionMatrix * modelViewMatrix * vec4(p, depth * .5, 1.0);
       }
@@ -148,7 +153,7 @@ async function start() {
     camera.updateProjectionMatrix();
     renderer.setPixelRatio(dpr);
     renderer.setSize(width, height, false);
-    geometry.setDrawRange(0, width < 680 ? 13000 : count);
+    geometry.setDrawRange(0, width < 680 ? 16000 : count);
     render();
   }
 
