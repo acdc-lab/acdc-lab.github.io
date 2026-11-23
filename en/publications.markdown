@@ -15,7 +15,7 @@ permalink: /en/publications/
 
   <p class="pub-source-note">
     <br>
-    Peer-reviewed journal and conference papers from 2023 onward. Preprints (arXiv/CoRR) are excluded; records are verified against DBLP.
+    Peer-reviewed journal and conference papers from 2023 onward, checked against <a href="https://dblp.org/pid/91/10208-1.html">DBLP</a> or the publisher's record. Preprints (arXiv/CoRR) are excluded.
   </p>
 
   <!-- Year: 2026 -->
@@ -23,6 +23,15 @@ permalink: /en/publications/
     <div class="pub-year">2026</div>
 
     <ol class="pub-list">
+      <li>
+        Xiongnan Jin, Jianming Lin, Tiantian Mei, Tiantian Zhu, Changxin Huang, Jinpeng Chen, Chaoqun Hong, Jianqiang Li.
+        Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment.
+        <em>Findings of EMNLP 2026.</em>
+        <span class="pub-links">
+          [<a href="https://aclanthology.org/2026.findings-emnlp.202/" class="pub-link">PDF</a>]
+        </span>
+      </li>
+
       <li>
         Jinpeng Chen, Huachen Guan, Hongbo Gao, Huan Li, Zhenye Yang, Fan Zhang, Kaimin Wei, Feifei Kou, Xindong Wu.
         Enhancing Explainable Sequential Recommendation With Disentangled Representations and Auxiliary Review Explanations.
