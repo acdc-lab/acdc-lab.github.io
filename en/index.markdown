@@ -1,5 +1,6 @@
 ---
 layout: default
+show_visitor_map: true
 title: Home
 lang: en
 permalink: /en/
