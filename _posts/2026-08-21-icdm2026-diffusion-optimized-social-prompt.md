@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 IEEE ICDM 2026 接收"
+title: "扩散优化社交提示：让预训练推荐模型适应冷启动用户"
+venue: "ICDM 2026"
 categories: [news]
 thumb: /assets/img/news/icdm2026.jpg
 ---

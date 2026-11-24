@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 NeurIPS 2026 接收"
+title: "流形增强图嵌入：让多模态推荐连接相似性孤岛"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:04:00 +0800
 thumb: /assets/img/news/neurips2026.jpg

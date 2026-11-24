@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Group Paper Accepted at NeurIPS 2026"
+title: "AgentTailor: Dual-gate reranking for long-tail recommendation"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:03:00 +0800
 lang: en

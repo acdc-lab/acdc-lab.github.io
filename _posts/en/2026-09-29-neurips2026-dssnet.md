@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Group Paper Accepted at NeurIPS 2026"
+title: "DSSNet: Spectral structure modeling for traffic flow prediction"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:02:00 +0800
 lang: en

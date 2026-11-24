@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Group Paper Accepted at EMNLP 2026 Findings"
+title: "Bridging reasoning and retrieval for multimodal entity alignment"
+venue: "EMNLP 2026 Findings"
 categories: [news]
 lang: en
 permalink: /en/news/2026/08/21/emnlp2026-findings/

@@ -1,0 +1,28 @@
+{% if page.lang == 'en' %}
+  {% assign news_date_format = '%b %-d, %Y' %}
+{% else %}
+  {% assign news_date_format = '%Y年%-m月%-d日' %}
+{% endif %}
+<ul class="news-list" role="list">
+  {% for post in include.posts %}
+  <li class="news-item">
+    {% if post.thumb and post.venue == nil %}
+    <a class="news-thumb" href="{{ post.url | relative_url }}">
+      <img src="{{ post.thumb | relative_url }}" alt="{{ post.title | escape }}" loading="lazy" decoding="async">
+    </a>
+    {% endif %}
+    <div class="news-meta">
+      <h2 class="news-title-link">
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      <div class="news-byline">
+        {% if post.venue %}<span class="news-venue">{{ post.venue | escape }}</span>{% endif %}
+        <time class="news-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: news_date_format }}</time>
+      </div>
+      {% if post.excerpt %}
+      <p class="news-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 150 }}</p>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Group Paper Accepted at NeurIPS 2026"
+title: "OrangeTree: Time-series forecasting with flexible input and output lengths"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:01:00 +0800
 lang: en

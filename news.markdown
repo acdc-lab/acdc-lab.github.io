@@ -4,34 +4,12 @@ title: 新闻
 permalink: /news/
 ---
 
-<section class="page-section">
+<section class="page-section page-section--news">
 
   {% include page-heading.html title="新闻" subtitle="News" %}
 
-  <ul class="news-list">
-    {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news"' | where_exp:'p','p.lang != "en"' %}
-    {% for post in news_posts %}
-    <li class="news-item">
-      <a class="news-thumb" href="{{ post.url | relative_url }}">
-        {% if post.thumb %}
-          <img src="{{ post.thumb | relative_url }}" alt="{{ post.title }}">
-        {% else %}
-          <div class="news-thumb ph">NEWS</div>
-        {% endif %}
-      </a>
-
-      <div class="news-meta">
-        <h3 class="news-title-link">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h3>
-        <div class="news-date">📅 {{ post.date | date: "%-m月 %-d, %Y" }}</div>
-        {% if post.excerpt %}
-          <p class="news-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-        {% endif %}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+  {% assign news_posts = site.posts | where_exp:'p','p.categories contains "news"' | where_exp:'p','p.lang != "en"' %}
+  {% include news-list.html posts=news_posts %}
 
   <!-- 以后需要分页时，这里可以放一个简单的分页条（现在先省略） -->
 

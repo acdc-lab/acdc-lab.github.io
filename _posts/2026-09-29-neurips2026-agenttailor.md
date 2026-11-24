@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 NeurIPS 2026 接收"
+title: "AgentTailor：面向长尾推荐的双门控重排序"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:03:00 +0800
 thumb: /assets/img/news/neurips2026.jpg

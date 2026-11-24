@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 IEEE ICDM 2026 接收"
+title: "Structure Attribute Seesaw：化解属性图聚类中的结构与属性冲突"
+venue: "ICDM 2026"
 categories: [news]
 thumb: /assets/img/news/icdm2026.jpg
 ---

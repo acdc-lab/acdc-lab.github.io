@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Group Paper Accepted at IEEE ICDM 2026"
+title: "Structure Attribute Seesaw: Reconciling structure and attributes in graph clustering"
+venue: "ICDM 2026"
 categories: [news]
 lang: en
 permalink: /en/news/2026/08/21/icdm2026-structure-attribute-seesaw/

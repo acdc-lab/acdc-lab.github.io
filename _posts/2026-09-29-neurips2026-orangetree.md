@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 NeurIPS 2026 接收"
+title: "OrangeTree：支持多种输入与输出长度的时序预测"
+venue: "NeurIPS 2026"
 categories: [news]
 date: 2026-09-29 12:01:00 +0800
 thumb: /assets/img/news/neurips2026.jpg

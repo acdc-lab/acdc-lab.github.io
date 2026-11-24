@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "团队论文被 EMNLP 2026 Findings 接收"
+title: "推理与检索协同：面向多模态实体对齐的大小模型协作"
+venue: "EMNLP 2026 Findings"
 categories: [news]
 thumb: /assets/img/news/emnlp2026.jpg
 ---
