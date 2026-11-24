@@ -932,65 +932,93 @@ a:hover {
   border-radius: 2px;
 }
 
-/* 年份标题，比如 2025 */
+.page-section.page-section--publications {
+  max-width: 920px;
+  padding-inline: 24px;
+}
+
 .pub-source-note {
-  max-width: 820px;
-  margin: -16px auto 36px;
-  color: #5c6864;
-  font-size: 15px;
-  line-height: 1.7;
+  max-width: 660px;
+  margin: 0 auto 14px;
+  color: #4e6072;
+  font-size: 14px;
   text-align: center;
 }
 
+.pub-year-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 22px;
+  margin-bottom: 28px;
+}
+
+.pub-year-nav a {
+  display: inline-grid;
+  place-items: center;
+  min-height: 32px;
+  min-width: 40px;
+  color: #235c8a;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .pub-year-block {
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 .pub-year {
-  font-size: 18px;
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #b9cadb;
+  color: #253b4f;
+  font-size: 24px;
   font-weight: 600;
-  color: #444;
-  margin-bottom: 12px;
+  scroll-margin-top: 132px;
 }
 
-/* 论文列表 */
 .pub-list {
-  list-style-position: outside;
-  margin: 0 0 0 1.5em;   /* 给序号留位置 */
+  list-style: none;
+  margin: 0;
   padding: 0;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #1a1a1a;
 }
-.pub-list li {
-  margin-bottom: 16px;
-  text-align: left;
+.pub-entry {
+  padding: 14px 0;
 }
-
-/* 期刊/会议斜体部分 */
-.pub-list em {
-  font-style: normal;
-  font-weight: 500;
-  color: #000;
+.pub-entry + .pub-entry {
+  border-top: 1px solid #cfdae5;
 }
-
-/* 右侧小链接 [pdf code bibtex] */
-.pub-links {
-  font-size: 16px;
+.pub-title {
+  margin: 0;
+  color: #172e43;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 1.4;
-  margin-left: 6px;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+}
+.pub-authors,
+.pub-meta {
+  margin: 5px 0 0;
+  color: #4a5d70;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+}
+.pub-venue {
+  font-style: italic;
 }
 .pub-link {
-  color: #007acc;
+  color: #235c8a;
   text-decoration: none;
 }
-.pub-link:hover {
+.pub-link:hover,
+.pub-link:focus-visible {
   text-decoration: underline;
-}
-
-/* 让 &nbsp; 型小空格的感觉更接近截图 */
-.pub-links a + a {
-  margin-left: 4px;
 }
 
 /* ===== 统一页面标题组件 ===== */
@@ -1919,19 +1947,6 @@ a:hover {
     inset 0 1px 0 rgba(255,255,255,.9);
 }
 
-/* 论文年份块 */
-.pub-year-block {
-  background: rgba(255,255,255,.50);
-  border: 1px solid rgba(255,255,255,.42);
-  border-radius: 20px;
-  padding: 24px 26px;
-  backdrop-filter: blur(14px) saturate(150%);
-  -webkit-backdrop-filter: blur(14px) saturate(150%);
-  box-shadow:
-    0 14px 40px rgba(21,44,73,.07),
-    inset 0 1px 0 rgba(255,255,255,.9);
-}
-
 /* 招生页正文面板 */
 .recruit-body {
   background: rgba(255,255,255,.50);
@@ -1963,7 +1978,6 @@ a:hover {
 
 /* 小屏适配：面板内边距收窄 */
 @media (max-width: 680px) {
-  .pub-year-block { padding: 16px 12px; }
   .recruit-body { padding: 20px 16px; }
   .post-content { padding: 22px 18px; }
 }

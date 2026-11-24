@@ -1,0 +1,234 @@
+# Shared publication list for the Chinese and English pages.
+- year: 2026
+  papers:
+  - title: 'Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework
+      for Multimodal Entity Alignment.'
+    authors: Xiongnan Jin, Jianming Lin, Tiantian Mei, Tiantian Zhu, Changxin Huang,
+      Jinpeng Chen, Chaoqun Hong, Jianqiang Li.
+    venue: Findings of EMNLP 2026.
+    url: https://aclanthology.org/2026.findings-emnlp.202/
+  - title: Enhancing Explainable Sequential Recommendation With Disentangled Representations
+      and Auxiliary Review Explanations.
+    authors: Jinpeng Chen, Huachen Guan, Hongbo Gao, Huan Li, Zhenye Yang, Fan Zhang,
+      Kaimin Wei, Feifei Kou, Xindong Wu.
+    venue: IEEE Trans. Comput. Soc. Syst.
+    url: https://doi.org/10.1109/TCSS.2025.3603087
+  - title: 'Medical Image Privacy in Federated Learning: Segmentation-Reorganization
+      and Sparsified Gradient Matching Attacks.'
+    authors: Kaimin Wei, Jin Qian, Chengkun Jia, Jinpeng Chen, Jilian Zhang, Yongdong
+      Wu, Jinyu Zhu, Yuhan Guo.
+    venue: IEEE J. Biomed. Health Informatics.
+    url: https://doi.org/10.1109/JBHI.2025.3593631
+  - title: 'Adapt-MDRL: An Adaptive Multiagent Deep Reinforcement Learning Framework
+      for Dynamic UAV Crowdsensing.'
+    authors: Xiaohui Chen, Kaimin Wei, Jinpeng Chen.
+    venue: IEEE Trans. Aerosp. Electron. Syst.
+    url: https://doi.org/10.1109/TAES.2026.3679857
+  - title: 'M4Rec: Multi-Modal Knowledge Graph Modeling of Multi-Dimensional User
+      Preferences for Next-POI Recommendation.'
+    authors: Jinpeng Chen, Fan Zhang, Huan Li, Hua Lu, Kaimin Wei, Senzhang Wang,
+      Christian S. Jensen.
+    venue: IEEE Trans. Knowl. Data Eng.
+    url: https://doi.org/10.1109/TKDE.2026.3677245
+  - title: 'DiMA: Distinguishing Resident and Tourist Preferences via Multi-Modal
+      LLM Alignment for Out-of-Town Cross-Domain Recommendation.'
+    authors: Fan Zhang, Jinpeng Chen, Tao Wang, Huan Li, Senzhang Wang, Feifei Kou,
+      Ye Ji, Kaimin Wei, Zhenye Yang.
+    venue: AAAI 2026.
+    url: https://doi.org/10.1609/aaai.v40i19.38663
+  - title: 'Same Last-Item Confusion Unveiled: A Unified Mitigation Framework for
+      Graph Learning in Session-Based Recommendation.'
+    authors: Jinpeng Chen, Jianxiang He, Yuan Cao, Huan Li, Zhenye Yang, Kaimin Wei,
+      Xiongnan Jin, Senzhang Wang, Weiping Tu.
+    venue: WWW 2026.
+    url: https://doi.org/10.1145/3774904.3792356
+  - title: 'E2E-PP: End-to-End Privacy Protection via Compressive Sensing and Personalized
+      Differential Privacy for Mobile Crowdsensing.'
+    authors: Xingyu Zheng, Kaimin Wei, Zhiquan Liu, Jinpeng Chen, Chengkun Jia, Jilian
+      Zhang.
+    venue: Comput. Secur.
+    url: https://doi.org/10.1016/j.cose.2026.104962
+  - title: 'Towards Dynamic Cooperative Scheduling in Multi-UAV Urban Sensing: A Hierarchical
+      Reinforcement Learning Approach.'
+    authors: Mengge Jiao, Kaimin Wei, Zhiquan Liu, Jinpeng Chen, Chengkun Jia, Yan
+      Li, Tingrui Pei.
+    venue: Internet Things.
+    url: https://doi.org/10.1016/j.iot.2026.101985
+  - title: 'STA-MS: A Many-to-Many Stable Task Allocation Based on Multi-Round Selection
+      in Mobile Crowdsensing.'
+    authors: Shiting Zhao, Kaimin Wei, Zhiquan Liu, Jinpeng Chen.
+    venue: J. Netw. Comput. Appl.
+    url: https://doi.org/10.1016/j.jnca.2026.104491
+  - title: Cost-Optimal Building Energy System Scheduling Integrating Solar Irradiance
+      Forecasting via LSTM-Attention-TCN Model.
+    authors: Zhengtian Wu, Jianyu Li, Yang Gao, Chuangyin Dang, Chao Tang, Yuansheng
+      Li, Xinmiao Wang, Jinpeng Chen, Hongbo Gao, Xinyin Xu.
+    venue: CAAI Trans. Intell. Technol.
+    url: https://doi.org/10.1049/cit2.70128
+  - title: Frequency-Enhanced Heterogeneous Graph-Based Sequential Recommendation
+      with Disentangled Methods.
+    authors: Jinpeng Chen, Wenbo Fu, Huachen Guan, Fan Zhang, Zhenye Yang, Jianxiang
+      He, Hongbo Gao, Kaimin Wei.
+    venue: Knowl. Inf. Syst.
+    url: https://doi.org/10.1007/s10115-026-02820-3
+  - title: Neural-Enhanced Sliding-Mode Control for Quadrotor Helicopters Operating
+      in Dynamic and Uncertain Environments.
+    authors: Mati Ullah, Hongbo Gao, Alam Nasir, Xinmiao Wang, Runda Niu, Muhammad
+      Humayun, Chengbo Wang, Lin Zhou, Jianan Wang, Jinpeng Chen.
+    venue: IEEE Trans. Syst. Man Cybern. Syst.
+    url: https://doi.org/10.1109/TSMC.2026.3688866
+  - title: 'See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic
+      Guidance for Efficient Inference of Video LLMs.'
+    authors: Yicheng Ji, Jun Zhang, Jinpeng Chen, Cong Wang, Lidan Shou, Gang Chen,
+      Huan Li.
+    venue: ACL 2026.
+    url: https://aclanthology.org/2026.acl-long.1087/
+  - title: 'LISA: Language-guided Interference-aware Spatial-Frequency Attention for
+      Driver Gaze Estimation.'
+    authors: Jun Ma, Zhenye Yang, Ruichen Zhou, Pei Zhang, Huan Li, Jinpeng Chen.
+    venue: IJCAI 2026.
+    url: https://doi.org/10.24963/ijcai.2026/325
+- year: 2025
+  papers:
+  - title: 'Adaptive Graph Diffusion Networks: Compact and Expressive GNNs with Large
+      Receptive Fields.'
+    authors: Chuxiong Sun, Muhan Zhang, Jie Hu, Hongming Gu, Jinpeng Chen, Mingchuan
+      Yang.
+    venue: Artif. Intell. Rev.
+    url: https://doi.org/10.1007/s10462-025-11114-z
+  - title: 'IDBR: Interaction-Aware Dual-Granularity Learning for Bundle Recommendation.'
+    authors: Jinqing Wang, Yuan Cao, Fan Zhang, Feifei Kou, Kaimin Wei, Jinghui Zhang,
+      Jinpeng Chen.
+    venue: Big Data Min. Anal.
+    url: https://doi.org/10.26599/bdma.2025.9020016
+  - title: Dual-view Collaboration Fusion on Diffusion Learning for Bundle Recommendation.
+    authors: Jinpeng Chen, Jinqing Wang, Fan Zhang, Yuan Cao, Kaimin Wei, Liwei Huang,
+      Haoran Zhu, Feifei Kou, Hongben Huang.
+    venue: Inf. Fusion.
+    url: https://doi.org/10.1016/j.inffus.2025.103154
+  - title: 'PD-DRL: Towards Privacy-Preserving and Energy-Sustainable UAV Crowdsensing.'
+    authors: Xiaohui Chen, Kaimin Wei, Jinpeng Chen, Yongdong Wu.
+    venue: Internet Things.
+    url: https://doi.org/10.1016/j.iot.2025.101520
+  - title: 'Privacy-Preserving Multitask Online Matching in Mobile Crowdsensing: A
+      Snapshot-Based Approach.'
+    authors: Kaimin Wei, Shiting Zhao, Jinpeng Chen, Tingrui Pei, Dezhi Sun.
+    venue: IEEE Internet Things J.
+    url: https://doi.org/10.1109/JIOT.2025.3571185
+  - title: Scalable and Adaptive Graph Neural Networks with Self-Label-Enhanced Training.
+    authors: Chuxiong Sun, Jie Hu, Hongming Gu, Jinpeng Chen, Wei Liang, Mingchuan
+      Yang.
+    venue: Pattern Recognit.
+    url: https://doi.org/10.1016/j.patcog.2024.111210
+  - title: Driving Risk Assessment for Intelligent Vehicles Based on Entropy-Informed
+      Graph Neural Networks and Gaussian Distributions.
+    authors: Hongbo Gao, Chengbo Wang, Runda Niu, Xiaozhao Fang, Jinpeng Chen, Yining
+      Sun, Huiqing Jin, Danwei Wang.
+    venue: IEEE Trans. Neural Networks Learn. Syst.
+    url: https://doi.org/10.1109/TNNLS.2025.3569826
+  - title: 'HLMEA: Unsupervised Entity Alignment Based on Hybrid Language Models.'
+    authors: Xiongnan Jin, Zhilin Wang, Jinpeng Chen, Liu Yang, Byungkook Oh, Seung-won
+      Hwang, Jianqiang Li.
+    venue: AAAI 2025.
+    url: https://doi.org/10.1609/aaai.v39i11.33294
+  - title: 'Leveraging the Dual Capabilities of LLM: LLM-Enhanced Text Mapping Model
+      for Personality Detection.'
+    authors: Weihong Bi, Feifei Kou, Lei Shi, Yawen Li, Haisheng Li, Jinpeng Chen,
+      Mingying Xu.
+    venue: AAAI 2025.
+    url: https://doi.org/10.1609/aaai.v39i22.34517
+  - title: Hierarchical Intent-guided Optimization with Pluggable LLM-Driven Semantics
+      for Session-based Recommendation.
+    authors: Jinpeng Chen, Jianxiang He, Huan Li, Senzhang Wang, Yuan Cao, Kaimin
+      Wei, Zhenye Yang, Ye Ji.
+    venue: SIGIR 2025.
+    url: https://doi.org/10.1145/3726302.3729994
+  - title: Heterogeneous Graph-based Sequential Recommendation with Disentangled Methods.
+    authors: Jinpeng Chen, Huachen Guan, Fan Zhang, Zhenye Yang, Jianxiang He, Hongbo
+      Gao, Kaimin Wei.
+    venue: ICDM 2025.
+    url: https://doi.org/10.1109/ICDM65498.2025.00021
+  - title: 'STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational
+      Recommendation.'
+    authors: Zhenye Yang, Jinpeng Chen, Huan Li, Xiongnan Jin, Xuanyang Li, Junwei
+      Zhang, Hongbo Gao, Kaimin Wei, Senzhang Wang.
+    venue: CIKM 2025.
+    url: https://doi.org/10.1145/3746252.3761186
+  - title: Leveraging Multimodal Data and Side Users for Diffusion Cross-Domain Recommendation.
+    authors: Fan Zhang, Jinpeng Chen, Huan Li, Senzhang Wang, Yuan Cao, Kaimin Wei,
+      Jianxiang He, Feifei Kou, Jinqing Wang.
+    venue: ACM MM 2025.
+    url: https://doi.org/10.1145/3746027.3754555
+  - title: 'Stable Task Allocation in Mobile Crowdsensing: An Interruption-Driven
+      Approach.'
+    authors: Kaimin Wei, Guozi Qi, Lin Cui, Jinpeng Chen, Xiaohui Chen, Ke Xu.
+    venue: IEEE Trans. Netw. Serv. Manag.
+    url: https://doi.org/10.1109/TNSM.2025.3598025
+  - title: 'SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided
+      Token Pruning.'
+    authors: Yicheng Ji, Jun Zhang, Heming Xia, Jinpeng Chen, Lidan Shou, Gang Chen,
+      Huan Li.
+    venue: EMNLP 2025.
+    url: https://doi.org/10.18653/v1/2025.emnlp-main.366
+  - title: 'CoIDO: Efficient Data Selection for Visual Instruction Tuning via Coupled
+      Importance-Diversity Optimization.'
+    authors: Yichen Yan, Ming Zhong, Qi Zhu, Xiaoling Gu, Jinpeng Chen, Huan Li.
+    venue: NeurIPS 2025.
+    url: https://papers.nips.cc/paper_files/paper/2025/hash/f3f2ff9579ba6deeb89caa2fe1f0b99c-Abstract-Conference.html
+- year: 2024
+  papers:
+  - title: Aggregation-based Dual Heterogeneous Task Allocation in Spatial Crowdsourcing.
+    authors: Xiaochuan Lin, Kaimin Wei, Zhetao Li, Jinpeng Chen, Tingrui Pei.
+    venue: Frontiers Comput. Sci.
+    url: https://doi.org/10.1007/s11704-023-3133-6
+  - title: 'SR-HetGNN: Session-Based Recommendation with Heterogeneous Graph Neural
+      Network.'
+    authors: Jinpeng Chen, Haiyang Li, Xudong Zhang, Fan Zhang, Senzhang Wang, Kaimin
+      Wei, Jiaqi Ji.
+    venue: Knowl. Inf. Syst.
+    url: https://doi.org/10.1007/s10115-023-01986-4
+  - title: 'CRAS: Cross-Domain Recommendation via Aspect-Level Sentiment Extraction.'
+    authors: Fan Zhang, Yaoyao Zhou, Pengfei Sun, Yi Xu, Wanjiang Han, Hongben Huang,
+      Jinpeng Chen.
+    venue: Knowl. Inf. Syst.
+    url: https://doi.org/10.1007/s10115-024-02130-6
+  - title: 'Group Task Recommendation in Mobile Crowdsensing: An Attention-Based Neural
+      Collaborative Approach.'
+    authors: Kaimin Wei, Guozi Qi, Zhetao Li, Song Guo, Jinpeng Chen.
+    venue: IEEE Trans. Mob. Comput.
+    url: https://doi.org/10.1109/TMC.2023.3345865
+  - title: 'EMPNet: An Extract-Map-Predict Neural Network Architecture for Cross-Domain
+      Recommendation.'
+    authors: Jinpeng Chen, Fan Zhang, Huan Li, Hua Lu, Xiongnan Jin, Kuien Liu, Hongjun
+      Li, Yongheng Wang.
+    venue: World Wide Web.
+    url: https://doi.org/10.1007/s11280-024-01240-z
+  - title: 'From Black-box to Label-only: A Plug-and-Play Attack Network for Model
+      Inversion.'
+    authors: Huan Bao, Kaimin Wei, Yao Chen, Hanting Hou, Jinpeng Chen, Yongdong Wu.
+    venue: BMVC 2024.
+    url: https://bmvc2024.org/proceedings/205/
+  - title: 'PACIFIC: Enhancing Sequential Recommendation via Preference-aware Causal
+      Intervention and Counterfactual Data Augmentation.'
+    authors: Jinpeng Chen, Huachen Guan, Huan Li, Fan Zhang, Liwei Huang, Guangyao
+      Pang, Xiongnan Jin.
+    venue: CIKM 2024.
+    url: https://doi.org/10.1145/3627673.3679803
+  - title: 'GI-SMN: Gradient Inversion Attack Against Federated Learning Without Prior
+      Knowledge.'
+    authors: Jin Qian, Kaimin Wei, Yongdong Wu, Jilian Zhang, Jinpeng Chen, Huan Bao.
+    venue: ICIC 2024.
+    url: https://doi.org/10.1007/978-981-97-5603-2_36
+- year: 2023
+  papers:
+  - title: 'FePN: A Robust Feature Purification Network to Defend Against Adversarial
+      Examples.'
+    authors: Dongliang Cao, Kaimin Wei, Yongdong Wu, Jilian Zhang, Bingwen Feng, Jinpeng
+      Chen.
+    venue: Comput. Secur.
+    url: https://doi.org/10.1016/j.cose.2023.103427
+  - title: 'Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding
+      for Next-POI Recommendation.'
+    authors: Xiaoqian Liu, Xiuyun Li, Yuan Cao, Fan Zhang, Xiongnan Jin, Jinpeng Chen.
+    venue: ICME 2023.
+    url: https://doi.org/10.1109/ICME55011.2023.00264

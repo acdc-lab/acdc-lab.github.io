@@ -1,0 +1,30 @@
+{% if page.lang == 'en' %}
+  {% assign year_label = 'Jump to publication year' %}
+  {% assign paper_label = 'Paper' %}
+{% else %}
+  {% assign year_label = '跳转到发表年份' %}
+  {% assign paper_label = '论文页面' %}
+{% endif %}
+<nav class="pub-year-nav" aria-label="{{ year_label }}">
+  {% for group in site.data.publications %}
+  <a href="#year-{{ group.year }}">{{ group.year }}</a>
+  {% endfor %}
+</nav>
+
+{% for group in site.data.publications %}
+<section class="pub-year-block" aria-labelledby="year-{{ group.year }}">
+  <h2 class="pub-year" id="year-{{ group.year }}" tabindex="-1">{{ group.year }}</h2>
+  <ul class="pub-list" role="list">
+    {% for paper in group.papers %}
+    <li class="pub-entry">
+      <h3 class="pub-title">{{ paper.title | escape }}</h3>
+      <p class="pub-authors">{{ paper.authors | escape }}</p>
+      <p class="pub-meta">
+        <cite class="pub-venue">{{ paper.venue | escape }}</cite>
+        <a href="{{ paper.url | escape }}" class="pub-link" aria-label="{{ paper_label }}: {{ paper.title | escape }}">{{ paper_label }}</a>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
