@@ -539,51 +539,20 @@ a:hover {
 }
 
 .people-block {
-  margin-bottom: 64px;
+  padding: 24px 0 32px;
+}
+
+.people-block + .people-block {
+  border-top: 1px solid #cfdce7;
 }
 
 .people-block-head {
   text-align: center;
-  margin-bottom: 32px;
-}
-
-.people-block-head-en {
-  font-size: 16px;
+  margin: 0 0 22px;
+  color: #253b4f;
+  font-size: 22px;
   font-weight: 600;
-  color: #5a6168;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 4px;
-}
-
-.people-block-head-cn {
-  font-size: 32px;
-  font-weight: 600;
-  color: #1f252b;
-  margin-bottom: 8px;
-}
-
-.people-block-head-divider {
-  text-align: center;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: inherit;
-}
-
-.people-block-head-divider .dots {
-  font-size: 20px;
-  line-height: 1;
-  color: #1f252b;
-  margin-bottom: 4px;
-  letter-spacing: 0.2em;
-}
-
-.people-block-head-divider .line {
-  width: 140px;
-  height: 4px;
-  background-color: #1f252b;
-  border-radius: 2px;
+  line-height: 1.35;
 }
 
 /* =========================
@@ -606,22 +575,14 @@ a:hover {
 
 /* 左边导师照片块 */
 .faculty-photo {
-  width: 260px;          /* 可以按你图片的宽度来，220~280 都可以 */
+  width: 176px;
   flex-shrink: 0;
-}
-.faculty-photo img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border: 1px solid #d9dfdd;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
 }
 
 /* 右边导师信息块 */
 .faculty-info {
   max-width: 520px;
-  min-width: 260px;
+  min-width: 0;
 
   display: flex;
   flex-direction: column;
@@ -669,14 +630,15 @@ a:hover {
 /* =========================
    PHD STUDENT 网格
    ========================= */
-.student-grid {
-  max-width: 1200px;
+.student-grid,
+.alumni-grid {
+  --people-columns: 4;
+  --people-column-gap: 24px;
+  max-width: 960px;
   margin: 0 auto;
   display: grid;
-  /* 这行定义列数：按截图大约一行4列，如果屏幕不够宽会自动缩成3/2列 */
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  column-gap: 24px;
-  row-gap: 40px;
+  grid-template-columns: repeat(var(--people-columns), minmax(0, 1fr));
+  gap: 28px var(--people-column-gap);
   align-items: start;
 }
 
@@ -685,39 +647,30 @@ a:hover {
   font-size: 15px;
   color: #1a1a1a;
   line-height: 1.5;
-  max-width: 220px;
 
   display: flex;
   flex-direction: column;
 }
 
-/* 固定一个统一的头像展示框，这里是 220 x 260 左右的比例 */
-.student-photo {
-  width: 220px;
-  height: 260px;                 /* 关键！所有人头像区域高度一致 */
-  border: 1px solid #d9dfdd;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+.student-photo,
+.alumni-photo {
   margin-bottom: 12px;
 }
 
-/* 照片丢进固定框里，自适应缩放 */
-.student-photo img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;              /* 如果你想确保人脸尽量铺满，用 cover */
-  /* 如果你不想裁切任何部分，想完整显示整张图，可以把 cover 改成 contain */
+.faculty-photo img,
+.student-photo img,
+.alumni-photo img {
   display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 24%;
+  border-radius: 8px;
+  background: #e4ebf1;
 }
 
 /* 下面文字区域 */
 .student-meta {
-  max-width: 220px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;                   /* 让信息块也能撑开，便于对齐 */
@@ -764,21 +717,8 @@ a:hover {
 /* =========================
    ALUMNI / 毕业生
    ========================= */
-/* 毕业生整体网格 */
-.alumni-grid {
-  max-width: 1800px;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  column-gap: 48px;     /* 拉开列间距一点，和你截图里差不多 */
-  row-gap: 64px;        /* 行距更大一点，让每行看起来像独立小卡片 */
-  align-items: start;
-}
-
 /* 单个毕业生卡片 */
 .alumni-card {
-  max-width: 260px;
   display: flex;
   flex-direction: column;
   color: #1a1a1a;
@@ -786,32 +726,14 @@ a:hover {
   font-size: 15px;
 }
 
-/* 统一的头像框：固定宽高，所有图片都塞进来并居中裁切 */
-.alumni-photo {
-  width: 260px;
-  height: 300px;        /* << 关键：统一高度，按你的图大致就是 280~320 之间的感觉 */
-  border: 1px solid #d9dfdd;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-  background-color: #fff;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-bottom: 16px;
-}
-
-/* 让不同比例的原图自适应放进同一个框 */
-.alumni-photo img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;     /* 填满框；可能裁掉一点边缘，但观感最整齐 */
-  display: block;
+.alumni-card:only-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: calc((100% - (var(--people-columns) - 1) * var(--people-column-gap)) / var(--people-columns));
 }
 
 /* 下方文本区域 */
 .alumni-meta {
-  max-width: 260px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;          /* 允许这个块向下撑开，便于footer信息齐平 */
@@ -842,6 +764,23 @@ a:hover {
   /* 如果你想让“毕业去向”永远在卡片最底部，并且所有卡片底线对齐，
      打开下面这一行 */
   /* margin-top: auto; */
+}
+
+@media (max-width: 900px) {
+  .student-grid,
+  .alumni-grid { --people-columns: 3; }
+}
+
+@media (max-width: 620px) {
+  .student-grid,
+  .alumni-grid {
+    --people-columns: 2;
+    --people-column-gap: 14px;
+    row-gap: 20px;
+  }
+  .faculty-photo { width: 112px; }
+  .faculty-row { column-gap: 16px; }
+  .people-block-head { font-size: 20px; }
 }
 
 
@@ -1980,19 +1919,6 @@ a:hover {
     inset 0 1px 0 rgba(255,255,255,.9);
 }
 
-/* 成员页分组面板（指导教师/博士/硕士/毕业生/本科生） */
-.people-block {
-  background: rgba(255,255,255,.50);
-  border: 1px solid rgba(255,255,255,.42);
-  border-radius: 24px;
-  padding: 28px 24px;
-  backdrop-filter: blur(16px) saturate(150%);
-  -webkit-backdrop-filter: blur(16px) saturate(150%);
-  box-shadow:
-    0 18px 48px rgba(21,44,73,.08),
-    inset 0 1px 0 rgba(255,255,255,.9);
-}
-
 /* 论文年份块 */
 .pub-year-block {
   background: rgba(255,255,255,.50);
@@ -2037,7 +1963,6 @@ a:hover {
 
 /* 小屏适配：面板内边距收窄 */
 @media (max-width: 680px) {
-  .people-block { padding: 18px 12px; }
   .pub-year-block { padding: 16px 12px; }
   .recruit-body { padding: 20px 16px; }
   .post-content { padding: 22px 18px; }

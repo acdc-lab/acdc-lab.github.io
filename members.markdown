@@ -11,14 +11,7 @@ permalink: /members/
   <!-- 指导教师 / FACULTY -->
   <div class="people-block">
 
-  <div class="people-block-head">
-    <div class="people-block-head-en">FACULTY</div>
-    <div class="people-block-head-cn">指导教师</div>
-    <div class="people-block-head-divider">
-      <span class="dots">...</span>
-      <span class="line"></span>
-    </div>
-  </div>
+  <h2 class="people-block-head">指导教师</h2>
 
   <div class="faculty-row">
 
@@ -44,14 +37,7 @@ permalink: /members/
   <!-- 博士研究生 / PH.D. STUDENT -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">PH.D. STUDENT</div>
-      <div class="people-block-head-cn">博士研究生</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">博士研究生</h2>
 
     <div class="student-grid">
 
@@ -137,14 +123,7 @@ permalink: /members/
   <!-- 硕士研究生 / Graduate Student -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">Graduate Student</div>
-      <div class="people-block-head-cn">硕士研究生</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">硕士研究生</h2>
 
     <div class="student-grid">
 
@@ -290,14 +269,7 @@ permalink: /members/
   <!-- 博士毕业生 / PH.D. ALUMNI -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">PH.D. ALUMNI</div>
-      <div class="people-block-head-cn">博士毕业生</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">博士毕业生</h2>
 
     <div class="alumni-grid">
 
@@ -323,14 +295,7 @@ permalink: /members/
   <!-- 硕士毕业生 / M.S. ALUMNI -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">M.S. ALUMNI</div>
-      <div class="people-block-head-cn">硕士毕业生</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">硕士毕业生</h2>
 
     <div class="alumni-grid">
 
@@ -601,14 +566,7 @@ permalink: /members/
 
    <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">B.S. STUDENT</div>
-      <div class="people-block-head-cn">本科生（科研助手）</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">本科生（科研助手）</h2>
 
     <div class="alumni-grid">
 

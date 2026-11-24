@@ -12,13 +12,7 @@ permalink: /en/members/
   <!-- Faculty -->
   <div class="people-block">
 
-  <div class="people-block-head">
-    <div class="people-block-head-en">FACULTY</div>
-    <div class="people-block-head-divider">
-      <span class="dots">...</span>
-      <span class="line"></span>
-    </div>
-  </div>
+  <h2 class="people-block-head">Faculty</h2>
 
   <div class="faculty-row">
 
@@ -44,13 +38,7 @@ permalink: /en/members/
   <!-- Ph.D. Students -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">PH.D. STUDENT</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">PhD Students</h2>
 
     <div class="student-grid">
 
@@ -136,13 +124,7 @@ permalink: /en/members/
   <!-- Master's Students -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">Graduate Student</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">Master's Students</h2>
 
     <div class="student-grid">
 
@@ -288,13 +270,7 @@ permalink: /en/members/
   <!-- Ph.D. Alumni -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">PH.D. ALUMNI</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">PhD Alumni</h2>
 
     <div class="alumni-grid">
 
@@ -320,13 +296,7 @@ permalink: /en/members/
   <!-- M.S. Alumni -->
   <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">M.S. ALUMNI</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">Master's Alumni</h2>
 
     <div class="alumni-grid">
 
@@ -597,13 +567,7 @@ permalink: /en/members/
 
    <div class="people-block">
 
-    <div class="people-block-head">
-      <div class="people-block-head-en">B.S. STUDENT</div>
-      <div class="people-block-head-divider">
-        <span class="dots">...</span>
-        <span class="line"></span>
-      </div>
-    </div>
+    <h2 class="people-block-head">Undergraduate Research Assistants</h2>
 
     <div class="alumni-grid">
 
